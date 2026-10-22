@@ -1,0 +1,5 @@
+modus,jumlah_bu_fraud,recall_top200_internal,recall_top200_lengkap
+PDUK,69,0.2319,0.942
+UNDER_UPAH,85,0.6588,0.7882
+MISKLASIFIKASI,53,0.7547,1.0
+MUTASI,44,0.5909,0.8409

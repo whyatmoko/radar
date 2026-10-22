@@ -1,0 +1,633 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Jejak Skor RADAR: dari data sintetis sampai skor risiko, langkah demi langkah. Tim SMILE, Healthkathon 2026.">
+<title>Jejak Skor RADAR</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@600;700&family=Source+Sans+3:wght@400;600;700&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+/* Layout: sticky stepper on top, seven stacked stages; each stage = narrow explanation column + wide evidence column. Navy + green follow the Healthkathon final template. */
+:root{
+  --bg:#F4F7F6; --surface:#FFFFFF; --sunk:#EAF0EE; --ink:#172440; --muted:#596A7D; --line:#D6DFDC;
+  --accent:#1E9A57; --accent-soft:#DDF1E6; --navy:#172440; --on-navy:#FFFFFF;
+  --hi:#C4453B; --mid:#D08E22; --lo:#5C7F95; --hi-soft:#F8E1DE; --mid-soft:#F8ECD6; --lo-soft:#E2ECF2;
+  --ext:#2E6FB0; --int:#1E9A57;
+  --f-display:"Noto Serif",Georgia,"Times New Roman",serif;
+  --f-body:"Source Sans 3","Segoe UI",system-ui,sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,"SFMono-Regular",Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0F1828; --surface:#172338; --sunk:#1D2B44; --ink:#E7EDF5; --muted:#9DAEC2; --line:#2B3B57;
+  --accent:#3CC27A; --accent-soft:#18392C; --navy:#0B1220; --on-navy:#E7EDF5;
+  --hi:#EF6F63; --mid:#E8AE4A; --lo:#86A9C0; --hi-soft:#3A2024; --mid-soft:#3A2F1A; --lo-soft:#1F2F40;
+  --ext:#6AA6E8; --int:#3CC27A; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0F1828; --surface:#172338; --sunk:#1D2B44; --ink:#E7EDF5; --muted:#9DAEC2; --line:#2B3B57;
+  --accent:#3CC27A; --accent-soft:#18392C; --navy:#0B1220; --on-navy:#E7EDF5;
+  --hi:#EF6F63; --mid:#E8AE4A; --lo:#86A9C0; --hi-soft:#3A2024; --mid-soft:#3A2F1A; --lo-soft:#1F2F40;
+  --ext:#6AA6E8; --int:#3CC27A; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.55}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:30;background:var(--navy)}
+.wrap{max-width:1160px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0;line-height:1.2}
+.num,.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--accent)}
+.muted{color:var(--muted)}
+button{font:inherit;cursor:pointer}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-radius:6px}
+
+/* hero */
+.hero{background:var(--navy);color:var(--on-navy)}
+.hero .wrap{padding-block:36px 28px;display:grid;gap:18px}
+.hero h1{font-size:clamp(30px,4.6vw,48px)}
+.hero p{max-width:68ch;margin:0;opacity:.88;font-size:17px}
+.tagrow{display:flex;flex-wrap:wrap;gap:8px}
+.tag{font-size:12.5px;font-weight:600;padding:4px 10px;border-radius:99px;border:1px solid rgba(255,255,255,.28)}
+.tag.warn{background:#D08E22;border-color:#D08E22;color:#1B1405}
+.flow{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:4px}
+.flow span{font-size:13px;padding:5px 10px;border-radius:6px;background:rgba(255,255,255,.08)}
+.flow b{color:#3CC27A;font-weight:700}
+.flow i{font-style:normal;opacity:.5}
+
+/* sticky bar */
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--surface);border-bottom:1px solid var(--line);box-shadow:0 2px 10px rgba(10,20,40,.06)}
+.bar .wrap{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;padding-block:10px}
+.steps{display:flex;gap:4px;flex-wrap:wrap}
+.steps button{border:1px solid var(--line);background:var(--surface);color:var(--muted);border-radius:8px;padding:5px 9px;font-size:13px;font-weight:600;display:flex;gap:6px;align-items:center}
+.steps button .n{font-family:var(--f-mono);font-size:12px;width:20px;height:20px;border-radius:50%;display:grid;place-items:center;background:var(--sunk);color:var(--ink)}
+.steps button.on{border-color:var(--accent);color:var(--ink)}
+.steps button.on .n{background:var(--accent);color:#fff}
+.steps button.done .n{background:var(--accent-soft);color:var(--accent)}
+.ctl{display:flex;gap:6px;margin-left:auto;align-items:center;flex-wrap:wrap}
+.btn{border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:8px;padding:6px 12px;font-weight:600;font-size:14px}
+.btn.pri{background:var(--accent);border-color:var(--accent);color:#fff}
+.btn:disabled{opacity:.4;cursor:default}
+.picker{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.picker label{font-size:13px;color:var(--muted);font-weight:600}
+.chip{border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:99px;padding:4px 10px 4px 6px;font-size:13px;display:flex;gap:6px;align-items:center}
+.chip .lv{font-size:11px;font-weight:700;padding:1px 7px;border-radius:99px}
+.chip[aria-pressed="true"]{border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.lv.Tinggi{background:var(--hi-soft);color:var(--hi)} .lv.Sedang{background:var(--mid-soft);color:var(--mid)} .lv.Rendah{background:var(--lo-soft);color:var(--lo)}
+
+/* stages */
+main .wrap{display:grid;gap:22px;padding-block:26px 60px}
+.stage{display:grid;grid-template-columns:minmax(0,330px) minmax(0,1fr);gap:26px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:26px;scroll-margin-top:120px;transition:border-color .3s,box-shadow .3s}
+.stage.on{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+.stage .side{display:grid;gap:12px;align-content:start;min-width:0}
+.stage .side h2{font-size:24px}
+.stage .side p{margin:0;color:var(--muted)}
+.stage .side .key{background:var(--sunk);border-radius:10px;padding:12px 14px;font-size:14.5px;color:var(--ink)}
+.stage .side .key b{color:var(--accent)}
+.snum{display:flex;align-items:center;gap:10px}
+.snum .n{width:38px;height:38px;border-radius:9px;background:var(--accent);color:#fff;display:grid;place-items:center;font-family:var(--f-display);font-size:20px;font-weight:700}
+.body{min-width:0;display:grid;gap:16px;align-content:start}
+.body>*,.side>*,.two>*{min-width:0}
+@media (max-width:860px){.stage{grid-template-columns:1fr;padding:18px;gap:16px}.ctl{margin-left:0}}
+
+/* stage 1 */
+.layers{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.layer{border-radius:10px;padding:14px;border:1px solid var(--line);display:grid;gap:8px;align-content:start}
+.layer h3{font-family:var(--f-body);font-size:14px;font-weight:700}
+.layer .tiny{font-size:12.5px;color:var(--muted)}
+.layer.truth{background:var(--navy);color:var(--on-navy);border-color:var(--navy)}
+.layer.truth .tiny{color:inherit;opacity:.75}
+.layer .big{font-family:var(--f-mono);font-size:26px;font-weight:700;line-height:1.1}
+.layer .row{display:flex;justify-content:space-between;gap:8px;font-size:14px;border-top:1px dashed var(--line);padding-top:6px}
+.layer.truth .row{border-color:rgba(255,255,255,.2)}
+.gapnote{font-size:14px;padding:10px 14px;border-radius:10px;background:var(--hi-soft);color:var(--ink)}
+.gapnote.ok{background:var(--lo-soft)}
+.modi{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.modus{border:1px solid var(--line);border-radius:10px;padding:12px;font-size:13.5px;display:grid;gap:4px;align-content:start}
+.modus b{font-size:14px}
+.modus .cnt{font-family:var(--f-mono);font-size:20px;font-weight:700;color:var(--hi)}
+.modus.hit{border-color:var(--hi);background:var(--hi-soft)}
+.tables{width:100%;border-collapse:collapse;font-size:13.5px}
+.tables td,.tables th{padding:6px 8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+.tables th{font-size:12px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+.tables td.r{text-align:right}
+.src{font-size:11.5px;font-weight:700;padding:1px 7px;border-radius:99px;white-space:nowrap}
+.src.internal{background:var(--accent-soft);color:var(--int)} .src.eksternal{background:var(--lo-soft);color:var(--ext)} .src.kunci{background:var(--hi-soft);color:var(--hi)}
+.scroll{overflow-x:auto}
+.h4{font-weight:700;font-size:14.5px;margin:0}
+@media (max-width:860px){.layers{grid-template-columns:1fr}.modi{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* stage 2+3 strips */
+.ind{width:100%;border-collapse:collapse;font-size:14px}
+.ind td,.ind th{padding:7px 8px;border-bottom:1px solid var(--line);vertical-align:middle}
+.ind th{font-size:12px;color:var(--muted);letter-spacing:.05em;text-transform:uppercase;text-align:left;font-weight:700}
+.ind td.v{font-family:var(--f-mono);font-variant-numeric:tabular-nums;white-space:nowrap;text-align:right}
+.ind tr.off td{opacity:.5}
+.ind .nm{font-weight:600}
+.ind .rm{font-size:12.5px;color:var(--muted)}
+.strip{position:relative;height:30px;min-width:220px}
+.strip .ax{position:absolute;left:0;right:0;top:15px;height:1px;background:var(--line)}
+.strip .zone{position:absolute;top:4px;bottom:4px;background:var(--hi-soft);border-radius:4px}
+.strip .tick{position:absolute;top:3px;bottom:3px;width:1px;background:var(--muted);opacity:.6}
+.strip .d{position:absolute;top:11px;width:8px;height:8px;margin-left:-4px;border-radius:50%;background:var(--lo);opacity:.55;transition:left .9s cubic-bezier(.2,.8,.2,1)}
+.strip .d.me{width:14px;height:14px;margin-left:-7px;top:8px;opacity:1;background:var(--ink);border:2px solid var(--surface);box-shadow:0 0 0 2px var(--ink);z-index:2}
+.strip .d.me.risk{background:var(--hi);box-shadow:0 0 0 2px var(--hi)}
+.zval{font-family:var(--f-mono);font-weight:700;text-align:right;white-space:nowrap}
+.zval.risk{color:var(--hi)}
+.axlbl{display:flex;justify-content:space-between;font-size:11.5px;color:var(--muted);position:relative;height:16px}
+.axlbl span{position:absolute;transform:translateX(-50%);white-space:nowrap}
+.formula{font-family:var(--f-mono);font-size:14px;background:var(--sunk);border-radius:10px;padding:12px 14px;line-height:1.7;overflow-x:auto}
+.formula b{color:var(--accent)}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:13px;color:var(--muted);align-items:center}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px;vertical-align:-1px}
+
+/* stage 4 rules */
+.rules{display:grid;gap:8px}
+.rule{display:grid;grid-template-columns:44px minmax(0,1fr) auto;gap:12px;align-items:center;border:1px solid var(--line);border-radius:10px;padding:10px 12px;transition:background .35s,border-color .35s}
+.rule .id{font-family:var(--f-mono);font-weight:700;font-size:15px}
+.rule .t{font-weight:600;font-size:14.5px}
+.rule .b{font-size:12.5px;color:var(--muted)}
+.rule .st{font-size:12.5px;font-weight:700;padding:3px 9px;border-radius:99px;white-space:nowrap;background:var(--sunk);color:var(--muted)}
+.rule.fire{border-color:var(--hi);background:var(--hi-soft)}
+.rule.fire .st{background:var(--hi);color:#fff}
+.tally{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:15px}
+.tally .pill{font-family:var(--f-mono);font-weight:700;padding:4px 10px;border-radius:8px;background:var(--sunk)}
+.tally .pill.tot{background:var(--ink);color:var(--surface)}
+
+/* stage 5 */
+.cv{width:100%;height:auto;display:block;border:1px solid var(--line);border-radius:10px;background:var(--surface);max-width:100%}
+.pctbar{position:relative;height:16px;border-radius:99px;background:linear-gradient(90deg,var(--lo-soft),var(--mid-soft) 70%,var(--hi-soft));border:1px solid var(--line)}
+.pctbar .m{position:absolute;top:-6px;width:4px;height:26px;margin-left:-2px;background:var(--ink);border-radius:2px;transition:left 1s cubic-bezier(.2,.8,.2,1)}
+.two{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:16px;align-items:start}
+@media (max-width:860px){.two{grid-template-columns:1fr}}
+.facts{display:grid;gap:8px;font-size:14.5px}
+.facts div{display:flex;justify-content:space-between;gap:10px;border-bottom:1px dashed var(--line);padding-bottom:6px}
+.facts b{font-family:var(--f-mono)}
+
+/* stage 6 */
+.calc{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;align-items:stretch}
+.calc>div{border:1px solid var(--line);border-radius:10px;padding:14px;display:grid;gap:4px;align-content:start}
+.calc .lbl{font-size:12.5px;color:var(--muted);font-weight:600}
+.calc .val{font-family:var(--f-mono);font-size:28px;font-weight:700;line-height:1.1}
+.calc .sub{font-size:12.5px;color:var(--muted)}
+.calc .res{background:var(--navy);color:var(--on-navy);border-color:var(--navy)}
+.calc .res .lbl,.calc .res .sub{color:inherit;opacity:.8}
+@media (max-width:640px){.calc{grid-template-columns:1fr}}
+.gauge{position:relative;height:38px;border-radius:8px;overflow:hidden;display:flex;border:1px solid var(--line)}
+.gauge div{display:flex;align-items:center;justify-content:center;font-size:12.5px;font-weight:700}
+.gauge .g1{flex:50;background:var(--lo-soft);color:var(--lo)} .gauge .g2{flex:20;background:var(--mid-soft);color:var(--mid)} .gauge .g3{flex:30;background:var(--hi-soft);color:var(--hi)}
+.gwrap{position:relative;padding-top:26px}
+.gwrap .pin{position:absolute;top:0;transform:translateX(-50%);font-family:var(--f-mono);font-weight:700;font-size:13px;background:var(--ink);color:var(--surface);padding:2px 7px;border-radius:6px;transition:left 1s cubic-bezier(.2,.8,.2,1);white-space:nowrap}
+.gwrap .pin::after{content:"";position:absolute;left:50%;bottom:-5px;margin-left:-5px;border:5px solid transparent;border-bottom:0;border-top-color:var(--ink)}
+.gwrap .scale{position:relative;height:18px;font-size:11.5px;color:var(--muted);font-family:var(--f-mono)}
+.gwrap .scale span{position:absolute;transform:translateX(-50%);top:3px}
+.reasons{display:grid;gap:8px;margin:0;padding:0;list-style:none}
+.reasons li{border-left:4px solid var(--hi);background:var(--sunk);padding:9px 12px;border-radius:0 8px 8px 0;font-size:14.5px}
+.reasons li.none{border-left-color:var(--lo)}
+.logic{display:grid;gap:6px;font-size:14px}
+.logic div{display:grid;grid-template-columns:110px minmax(0,1fr);gap:10px;align-items:start}
+.logic .lv{font-size:12px;font-weight:700;padding:2px 8px;border-radius:99px;justify-self:start}
+
+/* stage 7 */
+.bars{display:grid;gap:10px}
+.barrow{display:grid;grid-template-columns:170px minmax(0,1fr) 64px;gap:10px;align-items:center;font-size:14px}
+.barrow .track{height:22px;background:var(--sunk);border-radius:6px;overflow:hidden}
+.barrow .fill{height:100%;border-radius:6px;transition:width 1.1s cubic-bezier(.2,.8,.2,1)}
+.barrow .pv{font-family:var(--f-mono);font-weight:700;text-align:right}
+@media (max-width:640px){.barrow{grid-template-columns:110px minmax(0,1fr) 54px}}
+.reveal{border-radius:12px;padding:14px 16px;display:grid;gap:6px;border:1px dashed var(--line)}
+.reveal .lab{font-family:var(--f-mono);font-size:18px;font-weight:700}
+.caveat{font-size:13.5px;color:var(--muted);border-top:1px solid var(--line);padding-top:10px}
+
+.fade-in{animation:fi .5s ease both}
+@keyframes fi{from{opacity:.0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(196,69,59,.45)}100%{box-shadow:0 0 0 14px rgba(196,69,59,0)}}
+.pulse{animation:pulse 1.2s ease-out 2}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+.sitenav{display:flex;flex-wrap:wrap;gap:6px;font-size:14px;font-weight:600}.sitenav a{color:#E7EDF5;text-decoration:none;padding:5px 12px;border-radius:99px;border:1px solid rgba(255,255,255,.28)}.sitenav a[aria-current]{background:#1E9A57;border-color:#1E9A57}
+footer .wrap{padding-block:0 40px;font-size:13px;color:var(--muted)}
+</style>
+<style>[hidden]{display:none!important}body{margin:0}img{max-width:100%}</style>
+</head>
+<body>
+
+
+<header class="hero">
+  <div class="wrap">
+    <nav class="sitenav" aria-label="Halaman"><a href="index.html">Dasbor RADAR</a><a href="jejak.html" aria-current="page">Jejak Skor</a><a href="data.html">Data sintetis</a></nav>
+    <div class="eyebrow" style="color:#3CC27A">RADAR · Tim SMILE · Healthkathon 2026</div>
+    <h1>Jejak Skor RADAR</h1>
+    <p>Satu halaman yang menelusuri bagaimana data sintetis dibuat, diolah menjadi indikator, dibandingkan dengan usaha sejenis, lalu dihitung menjadi skor risiko. Pilih satu badan usaha di bawah dan ikuti angkanya dari awal sampai akhir.</p>
+    <div class="flow" aria-label="Ringkasan alur">
+      <span><b>1</b> Sintesis data</span><i>→</i><span><b>2</b> 11 indikator</span><i>→</i><span><b>3</b> Pembanding sejenis</span><i>→</i><span><b>4</b> 8 aturan</span><i>→</i><span><b>5</b> AI anomali</span><i>→</i><span><b>6</b> Skor &amp; level</span><i>→</i><span><b>7</b> Uji kunci jawaban</span>
+    </div>
+    <div class="tagrow"><span class="tag warn">Seluruh data fiktif (sintetis)</span><span class="tag">Seed 2026 · hasil selalu sama</span><span class="tag">1.200 badan usaha · 12 kab/kota Jateng–DIY</span></div>
+  </div>
+</header>
+
+<div class="bar">
+  <div class="wrap">
+    <div class="picker" role="group" aria-label="Contoh badan usaha">
+      <label>Contoh:</label>
+      <span id="chips" style="display:contents"></span>
+    </div>
+    <div class="ctl">
+      <button class="btn" id="prev" type="button">‹ Sebelumnya</button>
+      <button class="btn pri" id="next" type="button">Mulai ›</button>
+      <button class="btn" id="auto" type="button">Putar otomatis</button>
+    </div>
+    <div class="steps" id="steps" aria-label="Tahap"></div>
+  </div>
+</div>
+
+<main><div class="wrap">
+
+<section class="stage" id="s1" data-i="1">
+  <div class="side">
+    <div class="snum"><span class="n">1</span><span class="eyebrow">Sintesis data</span></div>
+    <h2>Membangun dunia buatan yang punya kunci jawaban</h2>
+    <p>Generator membuat 1.200 badan usaha fiktif. Untuk tiap usaha, generator lebih dulu membuat <b>kenyataan</b> (berapa pekerjanya, berapa upahnya). Setelah itu baru dibuat <b>laporan ke JKN</b>, dan pada sebagian usaha laporan itu sengaja dimanipulasi.</p>
+    <p>Sumber eksternal (data hubungan kerja, PPh 21, izin usaha OSS) dibuat dari kenyataan dengan sedikit gangguan acak, seperti data asli yang tidak pernah sempurna.</p>
+    <div class="key">Kunci jawaban (siapa yang curang dan modusnya) disimpan di tabel terpisah. <b>Model tidak pernah melihatnya</b>; kunci hanya dibuka di tahap 7 untuk menguji hasil.</div>
+  </div>
+  <div class="body">
+    <div>
+      <p class="h4" id="s1title"></p>
+      <p class="muted" style="margin:2px 0 10px;font-size:14px" id="s1sub"></p>
+      <div class="layers" id="layers"></div>
+    </div>
+    <div id="gapnote"></div>
+    <div>
+      <p class="h4">Empat modus yang disisipkan generator (212 dari 1.200 usaha = 17,7%)</p>
+      <p class="muted" style="margin:2px 0 10px;font-size:14px">Usaha normal juga diberi "noise" wajar: 2% pekerja memang belum terdaftar, 3% upah sedikit lebih rendah, 5% bulan bayar terlambat, dan usaha kecil memang banyak yang menggaji setara UMK. Tanpa noise ini, data akan terlalu mudah ditebak.</p>
+      <div class="modi" id="modi"></div>
+    </div>
+    <div>
+      <p class="h4">Tabel yang dihasilkan</p>
+      <div class="scroll"><table class="tables" id="tbls"></table></div>
+    </div>
+  </div>
+</section>
+
+<section class="stage" id="s2" data-i="2">
+  <div class="side">
+    <div class="snum"><span class="n">2</span><span class="eyebrow">Indikator</span></div>
+    <h2>Tabel diringkas menjadi 11 angka per usaha</h2>
+    <p>Puluhan ribu baris peserta, mutasi, dan iuran dirangkum menjadi 11 indikator per badan usaha. Lima berasal dari data internal JKN, enam dari pencocokan dengan sumber eksternal.</p>
+    <div class="key">Setiap indikator dibalik arahnya bila perlu, supaya aturannya seragam: <b>makin besar = makin berisiko</b>. Contoh: "rasio PPU terhadap PPh 21" yang kecil itu berisiko, jadi tandanya dibalik.</div>
+  </div>
+  <div class="body">
+    <div class="scroll"><table class="ind" id="indTbl"></table></div>
+  </div>
+</section>
+
+<section class="stage" id="s3" data-i="3">
+  <div class="side">
+    <div class="snum"><span class="n">3</span><span class="eyebrow">Pembanding usaha sejenis</span></div>
+    <h2>Wajar atau tidak, diukur dari tetangganya sendiri</h2>
+    <p>Usaha tekstil besar di Jawa Tengah tidak adil dibandingkan dengan warung kecil di DIY. RADAR mengelompokkan usaha menurut <b>sektor × skala × provinsi</b>, lalu mengukur seberapa jauh tiap usaha menyimpang dari kelompoknya.</p>
+    <div class="formula">z = (nilai − <b>median</b> kelompok)<br>&nbsp;&nbsp;&nbsp;÷ (<b>MAD</b> × 1,4826)</div>
+    <p style="font-size:14.5px">Median dan MAD (median simpangan absolut) dipakai, bukan rata-rata dan simpangan baku, karena tidak ikut tertarik oleh segelintir pelanggar ekstrem. Angka 1,4826 membuat skalanya setara simpangan baku. Nilai z dipotong di −5 sampai 10.</p>
+    <div class="key">Batas <b>z ≥ 2</b> berarti "jauh di luar kebiasaan kelompok". Hanya simpangan ke <b>arah berisiko</b> yang dihitung; usaha yang lebih patuh dari kelompoknya tidak diberi nilai negatif.</div>
+  </div>
+  <div class="body">
+    <div>
+      <p class="h4" id="s3title"></p>
+      <p class="muted" style="margin:2px 0 8px;font-size:14px">Tiap titik abu-abu = satu usaha di kelompok yang sama. Titik besar = usaha yang dipilih. Area merah = z ≥ 2.</p>
+      <div class="legend"><span><i style="background:var(--lo);opacity:.6"></i>usaha sejenis</span><span><i style="background:var(--ink)"></i>usaha dipilih (wajar)</span><span><i style="background:var(--hi)"></i>usaha dipilih (z ≥ 2)</span><span>garis tegak = median kelompok (z = 0)</span></div>
+    </div>
+    <div class="scroll"><table class="ind" id="zTbl"></table></div>
+  </div>
+</section>
+
+<section class="stage" id="s4" data-i="4">
+  <div class="side">
+    <div class="snum"><span class="n">4</span><span class="eyebrow">Aturan transparan</span></div>
+    <h2>Delapan aturan yang bisa dibaca petugas</h2>
+    <p>Aturan menerjemahkan modus yang sudah dikenal menjadi syarat yang jelas. Tiap aturan punya bobot; bobot dijumlahkan lalu dibatasi maksimal 1.</p>
+    <div class="formula">skor aturan = min(1, Σ bobot aturan yang terpicu)</div>
+    <div class="key">Ambang di sini adalah <b>heuristik awal</b> dari pola modus dan kewajiban lapor. Semuanya dikalibrasi bersama mentor dan hasil pemeriksaan saat pilot. Tunggakan (R4) hanya sinyal pendukung, bobotnya paling kecil.</div>
+  </div>
+  <div class="body">
+    <div class="rules" id="rules"></div>
+    <div class="tally" id="tally"></div>
+  </div>
+</section>
+
+<section class="stage" id="s5" data-i="5">
+  <div class="side">
+    <div class="snum"><span class="n">5</span><span class="eyebrow">Analisis AI</span></div>
+    <h2>AI mencari pola yang tidak tertulis di aturan</h2>
+    <p><b>Isolation Forest</b> menerima 10 nilai z per usaha (tunggakan tidak ikut). Model membangun 300 pohon acak yang terus memotong data. Usaha yang <b>cepat terisolasi</b> berarti kombinasi angkanya jarang ditemui, jadi dianggap anomali.</p>
+    <p>Model dilatih tanpa label: ia tidak tahu siapa yang curang. Hasilnya diubah menjadi <b>persentil anomali</b> 0–1 (0,99 = lebih aneh dari 99% usaha lain).</p>
+    <div class="key">AI menangkap kombinasi yang lolos dari aturan tunggal. Uji di proposal: saat aturan mutasi dihapus, aturan lain hanya menemukan <b>39%</b> kasus mutasi, sedangkan AI tetap <b>100%</b>.</div>
+  </div>
+  <div class="body">
+    <div class="two">
+      <div>
+        <canvas id="sc" class="cv" width="640" height="440" role="img" aria-label="Sebaran 1.200 usaha menurut dua indikator, diwarnai persentil anomali"></canvas>
+        <p class="muted" style="font-size:13px;margin:6px 0 0">Sebaran 1.200 usaha pada 2 dari 10 dimensi yang dilihat AI. Sumbu X: z upah ≈ UMK. Sumbu Y: z kekurangan PPU dibanding PPh 21. Warna makin merah = persentil anomali makin tinggi. Sebagian besar usaha menumpuk di kiri bawah (wajar).</p>
+      </div>
+      <div style="display:grid;gap:14px;align-content:start">
+        <p class="h4" id="s5title"></p>
+        <div class="facts" id="s5facts"></div>
+        <div>
+          <div class="pctbar"><div class="m" id="pctm"></div></div>
+          <div class="axlbl" style="margin-top:4px"><span style="left:0;transform:none">0 (paling wajar)</span><span style="left:100%;transform:translateX(-100%)">1 (paling aneh)</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="stage" id="s6" data-i="6">
+  <div class="side">
+    <div class="snum"><span class="n">6</span><span class="eyebrow">Skor &amp; level</span></div>
+    <h2>Aturan dan AI digabung setara</h2>
+    <div class="formula">Skor = 100 × (<b>0,5</b> × skor aturan<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ <b>0,5</b> × persentil AI)</div>
+    <p style="font-size:14.5px">Bobot setara: aturan memberi kepastian yang bisa dijelaskan, AI memberi kepekaan pada pola baru. Konsekuensinya membuat batas level punya arti yang jelas:</p>
+    <div class="logic">
+      <div><span class="lv Rendah">Rendah ≤ 50</span><span>Tanpa satu aturan pun terpicu, skor paling tinggi 50. Jadi usaha yang hanya "aneh menurut AI" tidak langsung diperiksa.</span></div>
+      <div><span class="lv Sedang">Sedang 50–70</span><span>Ada aturan terpicu tetapi sinyalnya terbatas. Cukup diverifikasi dari meja.</span></div>
+      <div><span class="lv Tinggi">Tinggi &gt; 70</span><span>Butuh skor aturan di atas 0,4, artinya minimal satu aturan utama (bukan sekadar tunggakan) <b>dan</b> pola yang tidak wajar menurut AI.</span></div>
+    </div>
+  </div>
+  <div class="body">
+    <p class="h4" id="s6title"></p>
+    <div class="calc" id="calc"></div>
+    <div class="gwrap">
+      <div class="pin" id="gpin">0</div>
+      <div class="gauge"><div class="g1">Rendah</div><div class="g2">Sedang</div><div class="g3">Tinggi</div></div>
+      <div class="scale"><span style="left:0;transform:none">0</span><span style="left:50%">50</span><span style="left:70%">70</span><span style="left:100%;transform:translateX(-100%)">100</span></div>
+    </div>
+    <div>
+      <p class="h4" style="margin-bottom:8px">Alasan yang ditampilkan ke petugas (maks. 3 indikator dengan z ≥ 2, lengkap dengan pembanding)</p>
+      <ul class="reasons" id="reasons"></ul>
+    </div>
+    <div>
+      <p class="h4" style="margin-bottom:6px">Sebaran skor 1.200 usaha</p>
+      <canvas id="hist" class="cv" width="760" height="230" role="img" aria-label="Histogram skor 1.200 usaha dengan batas 50 dan 70"></canvas>
+    </div>
+  </div>
+</section>
+
+<section class="stage" id="s7" data-i="7">
+  <div class="side">
+    <div class="snum"><span class="n">7</span><span class="eyebrow">Uji dengan kunci jawaban</span></div>
+    <h2>Kunci jawaban baru dibuka di akhir</h2>
+    <p>Setelah semua skor jadi, barulah tabel kunci jawaban dicocokkan. Ukuran utamanya <b>presisi 200 teratas</b>: dari 200 usaha yang akan diperiksa, berapa yang memang bermasalah.</p>
+    <div class="key">Karena data dibuat sendiri, angka ini adalah <b>batas atas</b>. Di data nyata hasilnya hampir pasti lebih rendah; justru itu yang akan diukur saat pilot.</div>
+  </div>
+  <div class="body">
+    <div>
+      <p class="h4" style="margin-bottom:10px">Presisi 200 usaha teratas</p>
+      <div class="bars" id="bars"></div>
+    </div>
+    <div class="facts" id="evfacts"></div>
+    <div class="reveal" id="reveal"></div>
+    <p class="caveat">Sumber angka: skrip <span class="mono">generate_data_sintetis.py</span> dan <span class="mono">radar_model.py</span> (seed 2026), dijalankan ulang untuk halaman ini. UMK yang dipakai bersifat ilustratif. Tidak ada data peserta JKN riil yang digunakan.</p>
+  </div>
+</section>
+
+</div></main>
+<footer><div class="wrap">Jejak Skor RADAR · Tim SMILE · Healthkathon 2026 · Kategori Efisiensi Risiko pada Pemberi Kerja</div></footer>
+
+<script>
+const D = __DATA__;
+const EX = ["BU00365","BU00849","BU00986","BU00610"];
+const nf = (v,d=0)=> v==null||isNaN(v) ? "–" : Number(v).toLocaleString("id-ID",{minimumFractionDigits:d,maximumFractionDigits:d});
+const pc = (v,d=0)=> v==null ? "–" : nf(v*100,d)+"%";
+const rp = v => "Rp" + nf(Math.round(v/1000)*1000);
+const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+const $ = s=>document.querySelector(s);
+let cur = EX[0], active = 0;
+
+const IND = {
+ upah_menumpuk_umk:   {nm:"Porsi pekerja dengan upah ≈ UMK", f:v=>pc(v), rm:"pekerja PPU aktif yang upahnya ≤ 1,03 × UMK", m:"Upah"},
+ upah_rendah_vs_umk:  {nm:"Rata-rata upah ÷ UMK", f:v=>nf(v,2)+"×", rm:"makin kecil makin berisiko (dibalik)", m:"Upah"},
+ alih_ke_mandiri:     {nm:"Porsi PPU → PBPU/PBI ≤ 60 hari", f:v=>pc(v,1), rm:"dinonaktifkan lalu muncul di segmen mandiri", m:"Misklasifikasi"},
+ backdate_nonaktif:   {nm:"Jeda input nonaktif (median)", f:v=>nf(v)+" hari", rm:"tanggal input − tanggal efektif nonaktif", m:"Mutasi"},
+ tunggakan:           {nm:"Bulan iuran tidak tepat waktu", f:v=>nf(v)+" bln", rm:"dari 12 bulan; hanya dipakai aturan R4", m:"Tunggakan"},
+ kurang_vs_oss:       {nm:"PPU aktif ÷ estimasi pekerja OSS", f:v=>pc(v), rm:"makin kecil makin berisiko (dibalik)", m:"PDUK"},
+ kurang_vs_pph21:     {nm:"PPU aktif ÷ pekerja di PPh 21", f:v=>pc(v), rm:"makin kecil makin berisiko (dibalik)", m:"PDUK"},
+ upah_kurang_vs_pph21:{nm:"Upah lapor ÷ penghasilan PPh 21", f:v=>pc(v), rm:"makin kecil makin berisiko (dibalik)", m:"Upah"},
+ pekerja_tak_terdaftar:{nm:"Pekerja eksternal yang terdaftar PPU", f:v=>pc(v), rm:"makin kecil makin berisiko (dibalik)", m:"PDUK"},
+ pekerja_jadi_mandiri:{nm:"Pekerja aktif eksternal tercatat PBPU/PBI", f:v=>pc(v), rm:"masih bekerja tetapi iuran mandiri", m:"Misklasifikasi"},
+ jeda_daftar:         {nm:"Jeda mulai kerja → didaftarkan (median)", f:v=>nf(v)+" hari", rm:"dari data hubungan kerja eksternal", m:"Mutasi"},
+};
+const RULES = [
+ ["R1_upah_umk","R1","Upah menumpuk di UMK","≥ 70% pekerja diupah ≈ UMK dan z ≥ 2 terhadap kelompok",.5],
+ ["R2_alih_mandiri","R2","Alih ke segmen mandiri","≥ 3 pekerja PPU dinonaktifkan lalu terdaftar PBPU/PBI ≤ 60 hari",.5],
+ ["R3_backdate","R3","Nonaktif dimundurkan","Median jeda input nonaktif > 14 hari (2× toleransi kewajiban lapor 7 hari)",.5],
+ ["R4_tunggakan","R4","Pola tunggakan","≥ 4 dari 12 bulan iuran tidak tepat waktu (sinyal pendukung)",.2],
+ ["R5_kurang_pph21","R5","Pekerja kurang dari data pajak","PPU aktif < 80% pekerja PPh 21 dan selisih ≥ 3 orang",.6],
+ ["R6_upah_pph21","R6","Upah kurang dari data pajak","Rata-rata upah dilaporkan < 90% penghasilan PPh 21",.5],
+ ["R7_jadi_mandiri","R7","Pekerja aktif berstatus mandiri","≥ 10% pekerja aktif (data eksternal) tercatat PBPU/PBI",.6],
+ ["R8_jeda_daftar","R8","Pendaftaran terlambat","Median jeda mulai kerja → didaftarkan > 60 hari",.5],
+];
+const MODI = [
+ ["PDUK","Pekerja tidak didaftarkan","35–70% pekerja riil tidak didaftarkan; sebagian muncul sebagai PBPU/PBI."],
+ ["UNDER_UPAH","Under-reporting upah","60–95% pekerja bergaji di atas UMK dilaporkan 1,00–1,03 × UMK."],
+ ["MISKLASIFIKASI","Misklasifikasi hubungan kerja","30–60% pekerja dikeluarkan dari PPU lalu didorong menjadi PBPU."],
+ ["MUTASI","Manipulasi data mutasi","Pendaftaran ditunda 60–200 hari; 70% nonaktif dimundurkan 20–90 hari."],
+];
+const MLABEL = {NORMAL:"Normal",UNDER_UPAH:"Under-reporting upah",PDUK:"PDUK",MISKLASIFIKASI:"Misklasifikasi",MUTASI:"Mutasi"};
+const TBL = [
+ ["01_ref_wilayah","12 kab/kota dan UMK ilustratif","internal"],
+ ["02_badan_usaha","Profil usaha + estimasi pekerja OSS","internal"],
+ ["03_peserta","Kepesertaan per pekerja (PPU, PBPU, PBI)","internal"],
+ ["04_mutasi","Daftar baru & nonaktif + tanggal input","internal"],
+ ["05_iuran_bulanan","Tagihan & pembayaran 12 bulan","internal"],
+ ["06_ext_hubungan_kerja","Hubungan kerja per pekerja (cakupan 90%)","eksternal"],
+ ["07_ext_pph21_bu","Jumlah pekerja & penghasilan PPh 21 (±5%)","eksternal"],
+ ["99_kunci_jawaban","Label modus per usaha, disembunyikan dari model","kunci"],
+];
+const tag = s => `<span class="src ${s}">${s==="kunci"?"kunci jawaban":s}</span>`;
+
+/* chips + steps */
+$("#chips").innerHTML = EX.map(b=>{const e=D.ex[b];return `<button type="button" class="chip" data-b="${b}" aria-pressed="${b===cur}"><span class="lv ${e.lv}">${e.lv}</span>${b}</button>`}).join("");
+document.querySelectorAll(".chip").forEach(c=>c.onclick=()=>{cur=c.dataset.b;document.querySelectorAll(".chip").forEach(x=>x.setAttribute("aria-pressed",x===c));renderAll(false); if(active) animate(active)});
+const SN = ["Sintesis","Indikator","Pembanding","Aturan","AI","Skor","Uji"];
+$("#steps").innerHTML = SN.map((s,i)=>`<button type="button" data-i="${i+1}"><span class="n">${i+1}</span>${s}</button>`).join("");
+document.querySelectorAll("#steps button").forEach(b=>b.onclick=()=>go(+b.dataset.i));
+
+/* stage 1 */
+function r1(anim){
+  const e=D.ex[cur];
+  $("#s1title").textContent = `${cur} · ${e.nm} (fiktif)`;
+  $("#s1sub").textContent = `${e.sek} · skala ${e.sk} · ${e.kab} · UMK ilustratif ${rp(e.umk)}`;
+  $("#layers").innerHTML = `
+   <div class="layer truth"><h3>Kenyataan (disembunyikan)</h3><span class="tiny">dibuat generator lebih dulu</span>
+     <div><div class="big" data-c="${e.H_aktif}">${nf(e.H_aktif)}</div><span class="tiny">pekerja aktif riil</span></div>
+     <div class="row"><span>Rata-rata upah riil</span><b class="mono">${rp(e.upah_riil)}</b></div></div>
+   <div class="layer"><h3>Laporan ke JKN</h3><span class="tiny">yang dilihat data internal</span>
+     <div><div class="big" data-c="${e.n_ppu}">${nf(e.n_ppu)}</div><span class="tiny">pekerja PPU aktif</span></div>
+     <div class="row"><span>Rata-rata upah dilaporkan</span><b class="mono">${rp(e.upah_lapor)}</b></div></div>
+   <div class="layer"><h3>Data eksternal</h3><span class="tiny">PPh 21 dan OSS, dengan gangguan</span>
+     <div><div class="big" data-c="${e.pph_n}">${nf(e.pph_n)}</div><span class="tiny">pekerja di PPh 21 (OSS: ${nf(e.oss)})</span></div>
+     <div class="row"><span>Rata-rata penghasilan PPh 21</span><b class="mono">${rp(e.pph_upah)}</b></div></div>`;
+  const fr = e.label!=="NORMAL", gapN=e.H_aktif-e.n_ppu, gapU=e.upah_riil-e.upah_lapor;
+  $("#gapnote").innerHTML = fr
+   ? `<div class="gapnote">Generator menyisipkan modus <b>${e.label.split("|").map(x=>MLABEL[x]).join(" + ")}</b> pada usaha ini. Hasilnya, ${nf(gapN)} pekerja tidak muncul sebagai PPU dan rata-rata upah dilaporkan ${rp(Math.max(0,gapU))} lebih rendah dari kenyataan. Data eksternal masih "melihat" kenyataan, dan selisih inilah yang nanti dicari RADAR.</div>`
+   : `<div class="gapnote ok">Usaha ini <b>normal</b> menurut kunci jawaban. Laporan ke JKN hampir sama dengan kenyataan; selisih ${nf(Math.max(0,gapN))} pekerja berasal dari noise wajar (pekerja baru, belum sempat didaftarkan).</div>`;
+  $("#modi").innerHTML = MODI.map(([k,t,d])=>`<div class="modus ${e.label.includes(k)?"hit":""}"><span class="cnt">${nf(D.modus[k])}</span><b>${t}</b><span class="muted">${d}</span></div>`).join("");
+  $("#tbls").innerHTML = `<tr><th>Tabel</th><th>Isi</th><th>Sumber</th><th style="text-align:right">Baris</th></tr>` +
+    TBL.map(([k,d,s])=>`<tr><td class="mono">${k}</td><td>${d}</td><td>${tag(s)}</td><td class="r mono">${nf(D.tables[k][0])}</td></tr>`).join("");
+  if(anim) countUp("#layers .big");
+}
+/* stage 2 */
+function r2(anim){
+  const e=D.ex[cur];
+  $("#indTbl").innerHTML = `<tr><th>#</th><th>Indikator</th><th>Sumber</th><th style="text-align:right">${cur}</th><th style="text-align:right">Median sejenis</th></tr>` +
+   D.ind.map((d,i)=>{const m=IND[d.k];return `<tr class="${anim?"fade-in":""}" style="animation-delay:${i*70}ms"><td class="mono muted">${i+1}</td><td><div class="nm">${m.nm}</div><div class="rm">${m.rm}</div></td><td>${tag(d.src)}</td><td class="v">${m.f(e.raw[d.k])}</td><td class="v muted">${m.f(d.med)}</td></tr>`}).join("");
+}
+/* stage 3 */
+const ZMIN=-3, ZMAX=10, zx = z => (Math.max(ZMIN,Math.min(ZMAX,z))-ZMIN)/(ZMAX-ZMIN)*100;
+function r3(anim){
+  const e=D.ex[cur];
+  $("#s3title").textContent = `Kelompok ${D.grp} · ${D.ngrp} usaha`;
+  const head = `<tr><th>Indikator</th><th style="text-align:right">Nilai</th><th style="min-width:240px">Posisi terhadap kelompok (z)</th><th style="text-align:right">z</th></tr>`;
+  const axis = `<tr><td></td><td></td><td><div class="axlbl">${[-3,0,2,5,10].map(t=>`<span style="left:${zx(t)}%">${t}</span>`).join("")}</div></td><td></td></tr>`;
+  $("#zTbl").innerHTML = head + D.ind.map(d=>{
+    const m=IND[d.k], z=e.z[d.k], risk=z>=2, off=d.k==="tunggakan";
+    const dots = d.peer.filter(p=>p[0]!==cur).map(p=>`<span class="d" data-z="${p[2]}" style="left:${anim?zx(0):zx(p[2])}%"></span>`).join("");
+    return `<tr class="${off?"off":""}"><td><div class="nm">${m.nm}</div><div class="rm">${off?"tidak masuk AI, hanya untuk R4":"median "+m.f(d.med)}</div></td>
+     <td class="v">${m.f(e.raw[d.k])}</td>
+     <td><div class="strip"><div class="zone" style="left:${zx(2)}%;right:0"></div><div class="ax"></div><div class="tick" style="left:${zx(0)}%"></div>${dots}<span class="d me ${risk?"risk":""}" data-z="${z}" style="left:${anim?zx(0):zx(z)}%"></span></div></td>
+     <td class="zval ${risk?"risk":""}">${z>=0?"+":""}${nf(z,1)}</td></tr>`}).join("") + axis;
+  if(anim) requestAnimationFrame(()=>requestAnimationFrame(()=>document.querySelectorAll("#zTbl .d").forEach(el=>el.style.left=zx(+el.dataset.z)+"%")));
+}
+/* stage 4 */
+let ruleTimer=[];
+function r4(anim){
+  const e=D.ex[cur]; ruleTimer.forEach(clearTimeout); ruleTimer=[];
+  $("#rules").innerHTML = RULES.map(([k,id,t,b,w])=>`<div class="rule" data-k="${k}"><span class="id">${id}</span><div><div class="t">${t} <span class="muted mono" style="font-size:12.5px;font-weight:500">· bobot ${nf(w,1)}</span></div><div class="b">${b}</div></div><span class="st">tidak terpicu</span></div>`).join("");
+  const fired = RULES.filter(r=>e.rules[r[0]]);
+  const set = el=>{el.classList.add("fire");el.querySelector(".st").textContent="terpicu"};
+  const tally = n=>{const f=fired.slice(0,n), sum=f.reduce((a,r)=>a+r[4],0);
+    $("#tally").innerHTML = (f.length?f.map(r=>`<span class="pill">${r[1]} ${nf(r[4],1)}</span>`).join("<span>+</span>"):`<span class="pill">tidak ada aturan terpicu</span>`)+
+      `<span>=</span><span class="pill">${nf(sum,1)}</span><span>→ dibatasi maks. 1 →</span><span class="pill tot">skor aturan ${nf(Math.min(1,sum),2)}</span>`};
+  if(!anim){ fired.forEach(r=>set(document.querySelector(`.rule[data-k="${r[0]}"]`))); tally(fired.length); return; }
+  tally(0);
+  RULES.forEach(([k],i)=>ruleTimer.push(setTimeout(()=>{const el=document.querySelector(`.rule[data-k="${k}"]`); if(e.rules[k]){set(el); tally(fired.findIndex(r=>r[0]===k)+1)}},350+i*320)));
+}
+/* stage 5 */
+function r5(anim){
+  const e=D.ex[cur];
+  $("#s5title").textContent = `${cur} di mata AI`;
+  const zs = D.ind.filter(d=>d.k!=="tunggakan").map(d=>Math.max(0,e.z[d.k]));
+  const n2 = zs.filter(z=>z>=2).length;
+  $("#s5facts").innerHTML = `<div><span>Dimensi yang menyimpang (z ≥ 2)</span><b>${n2} dari 10</b></div>
+    <div><span>Skor isolasi mentah</span><b>${nf(e.anom,3)}</b></div>
+    <div><span>Persentil anomali</span><b>${nf(e.pct,3)}</b></div>
+    <div><span>Artinya</span><b style="font-family:var(--f-body)">lebih aneh dari ${pc(e.pct,1)} usaha</b></div>`;
+  const m=$("#pctm"); if(anim){m.style.left="0%"; requestAnimationFrame(()=>requestAnimationFrame(()=>m.style.left=(e.pct*100)+"%"))} else m.style.left=(e.pct*100)+"%";
+  drawScatter(anim);
+}
+function css(v){return getComputedStyle(document.documentElement).getPropertyValue(v).trim()}
+function mix(a,b,t){const p=h=>[1,3,5].map(i=>parseInt(h.slice(i,i+2),16));const A=p(a),B=p(b);return `rgb(${A.map((x,i)=>Math.round(x+(B[i]-x)*t)).join(",")})`}
+let scRaf=0;
+function drawScatter(anim){
+  const cv=$("#sc"), g=cv.getContext("2d"), W=cv.width, H=cv.height, P={l:50,r:16,t:16,b:40};
+  const X=v=>P.l+Math.min(v,10)/10*(W-P.l-P.r), Y=v=>H-P.b-Math.min(v,10)/10*(H-P.t-P.b);
+  const lo=css("--lo"), hi=css("--hi"), ink=css("--ink"), line=css("--line"), mut=css("--muted"), surf=css("--surface");
+  const e=D.ex[cur], me=[Math.max(0,e.z.upah_menumpuk_umk),Math.max(0,e.z.kurang_vs_pph21)];
+  // deterministic jitter
+  let s=7; const rnd=()=>{s=(s*16807)%2147483647;return (s/2147483647-.5)*.28};
+  const pts=D.pts.map(p=>[p[0]+rnd(),p[1]+rnd(),p[3]]).sort((a,b)=>a[2]-b[2]);
+  cancelAnimationFrame(scRaf);
+  const frame=k=>{
+    g.clearRect(0,0,W,H); g.fillStyle=surf; g.fillRect(0,0,W,H);
+    g.strokeStyle=line; g.lineWidth=1; g.font="15px "+css("--f-mono"); g.fillStyle=mut;
+    [0,2,5,10].forEach(t=>{g.beginPath();g.moveTo(X(t),P.t);g.lineTo(X(t),H-P.b);g.stroke();g.fillText(t,X(t)-5,H-P.b+20);
+      g.beginPath();g.moveTo(P.l,Y(t));g.lineTo(W-P.r,Y(t));g.stroke();g.fillText(t,P.l-26,Y(t)+5)});
+    g.font="15px "+css("--f-body"); g.fillText("z upah ≈ UMK →",W-P.r-118,H-4); g.save();g.translate(16,P.t+190);g.rotate(-Math.PI/2);g.fillText("z kurang vs PPh 21 →",0,0);g.restore();
+    const n=Math.floor(pts.length*k);
+    for(let i=0;i<n;i++){const p=pts[i]; g.globalAlpha=.35+.6*p[2]; g.fillStyle=mix(lo,hi,Math.pow(p[2],3)); g.beginPath(); g.arc(X(Math.max(0,p[0])),Y(Math.max(0,p[1])),3.6,0,7); g.fill()}
+    g.globalAlpha=1;
+    if(k>=1){g.strokeStyle=ink;g.lineWidth=2.5;g.beginPath();g.arc(X(me[0]),Y(me[1]),9,0,7);g.stroke();
+      g.fillStyle=ink;g.font="bold 16px "+css("--f-mono");const tx=X(me[0])>W-130?X(me[0])-92:X(me[0])+14;const ty=Y(me[1])<40?Y(me[1])+28:Y(me[1])-12;g.fillText(cur,tx,ty)}
+  };
+  if(!anim||reduce){frame(1);return}
+  const t0=performance.now(); const step=t=>{const k=Math.min(1,(t-t0)/1400); frame(k); if(k<1) scRaf=requestAnimationFrame(step)}; scRaf=requestAnimationFrame(step);
+}
+/* stage 6 */
+function r6(anim){
+  const e=D.ex[cur];
+  $("#s6title").textContent = `Perhitungan ${cur}`;
+  $("#calc").innerHTML = `<div><span class="lbl">Skor aturan (tahap 4)</span><span class="val">${nf(e.rule,2)}</span><span class="sub">× 0,5 = ${nf(e.rule*.5,3)}</span></div>
+    <div><span class="lbl">Persentil AI (tahap 5)</span><span class="val">${nf(e.pct,3)}</span><span class="sub">× 0,5 = ${nf(e.pct*.5,3)}</span></div>
+    <div class="res"><span class="lbl">Skor RADAR</span><span class="val" data-c="${e.skor}" data-d="1">${nf(e.skor,1)}</span><span class="sub">100 × ${nf(e.rule*.5+e.pct*.5,3)} · level ${e.lv}</span></div>`;
+  const pin=$("#gpin"); pin.textContent=nf(e.skor,1)+" · "+e.lv;
+  const pos=Math.min(100,Math.max(0,e.skor)); pin.style.transform=`translateX(${pos>85?-92:pos<15?-8:-50}%)`;
+  if(anim){pin.style.left="0%";requestAnimationFrame(()=>requestAnimationFrame(()=>pin.style.left=pos+"%"));countUp("#calc .res .val")} else pin.style.left=pos+"%";
+  $("#reasons").innerHTML = e.alasan.length ? e.alasan.map(a=>`<li>${a.replace("; usaha sejenis:"," · <span class='muted'>usaha sejenis:")}</span></li>`).join("")
+    : `<li class="none">Tidak ada indikator dengan z ≥ 2. Usaha ini tidak menonjol dibanding kelompoknya.</li>`;
+  drawHist();
+}
+function drawHist(){
+  const cv=$("#hist"), g=cv.getContext("2d"), W=cv.width, H=cv.height, P={l:36,r:30,t:22,b:30};
+  const bins=new Array(20).fill(0); D.pts.forEach(p=>bins[Math.min(19,Math.floor(p[4]/5))]++);
+  const mx=Math.max(...bins), bw=(W-P.l-P.r)/20, col=i=>i*5>=70?css("--hi"):i*5>=50?css("--mid"):css("--lo");
+  g.clearRect(0,0,W,H); g.fillStyle=css("--surface"); g.fillRect(0,0,W,H);
+  g.font="11px "+css("--f-mono");
+  bins.forEach((c,i)=>{const h=c/mx*(H-P.t-P.b); g.fillStyle=col(i); g.globalAlpha=.85; g.fillRect(P.l+i*bw+1,H-P.b-h,bw-2,h); g.globalAlpha=1;
+    if(c){g.fillStyle=css("--muted"); g.fillText(c,P.l+i*bw+bw/2-(String(c).length*3.3),H-P.b-h-4)}});
+  g.fillStyle=css("--muted"); [0,50,70,100].forEach(t=>g.fillText(t,P.l+t/100*(W-P.l-P.r)-6,H-P.b+15));
+  g.strokeStyle=css("--ink"); g.setLineDash([4,4]); [50,70].forEach(t=>{const x=P.l+t/100*(W-P.l-P.r);g.beginPath();g.moveTo(x,P.t-8);g.lineTo(x,H-P.b);g.stroke()}); g.setLineDash([]);
+  g.font="12px "+css("--f-body"); g.fillStyle=css("--ink");
+  g.fillText(`Rendah ${nf(D.lv.Rendah)}`,P.l+4,P.t-8); g.fillText(`Sedang ${nf(D.lv.Sedang)}`,P.l+.5*(W-P.l-P.r)+5,P.t-8); g.fillText(`Tinggi ${nf(D.lv.Tinggi)}`,P.l+.7*(W-P.l-P.r)+5,P.t-8);
+  const e=D.ex[cur], x=P.l+Math.min(99.5,e.skor)/100*(W-P.l-P.r);
+  g.fillStyle=css("--ink"); g.beginPath(); g.moveTo(x,H-P.b+2); g.lineTo(x-6,H-P.b+12); g.lineTo(x+6,H-P.b+12); g.fill();
+  g.font="bold 11px "+css("--f-mono"); g.fillText(cur, Math.min(W-60,Math.max(2,x-24)), H-2);
+}
+/* stage 7 */
+function r7(anim){
+  const e=D.ex[cur], ev=D.ev;
+  const rows=[["Pilih acak",ev["Baseline acak (proporsi fraud)"][0],"var(--lo)"],["RADAR, internal saja",ev["Presisi@200"][0],"var(--mid)"],["RADAR, internal + eksternal",ev["Presisi@200"][1],"var(--accent)"]];
+  $("#bars").innerHTML = rows.map(([l,v,c])=>`<div class="barrow"><span>${l}</span><div class="track"><div class="fill" data-w="${v*100}" style="width:${anim?0:v*100}%;background:${c}"></div></div><span class="pv">${pc(v,1)}</span></div>`).join("");
+  if(anim) requestAnimationFrame(()=>requestAnimationFrame(()=>document.querySelectorAll("#bars .fill").forEach(f=>f.style.width=f.dataset.w+"%")));
+  $("#evfacts").innerHTML = `<div><span>AUC-ROC (internal → lengkap)</span><b>${nf(ev["AUC-ROC"][0],3)} → ${nf(ev["AUC-ROC"][1],3)}</b></div>
+   <div><span>Usaha bermasalah yang tertangkap di 20% teratas</span><b>${pc(ev["Recall di 20% teratas"][1],1)}</b></div>
+   <div><span>Jumlah usaha bermasalah di data</span><b>${nf(D.nfraud)} dari 1.200</b></div>`;
+  const fr=e.label!=="NORMAL", flag=e.lv!=="Rendah";
+  const verdict = fr&&flag ? ["Tepat sasaran","RADAR menandai usaha ini dan kunci jawaban membenarkan.","var(--accent)"]
+    : !fr&&!flag ? ["Benar dilewati","Usaha normal, dan RADAR tidak menyibukkan petugas dengannya.","var(--accent)"]
+    : !fr&&flag ? ["Alarm keliru","Usaha ini normal, tetapi masuk level "+e.lv+" karena satu aturan terpicu. Di lapangan, petugas cukup verifikasi dari meja lalu memilih \"Tidak ada masalah\"; keputusan itu menjadi umpan balik untuk kalibrasi.","var(--mid)"]
+    : ["Terlewat","Usaha bermasalah yang belum tertangkap.","var(--hi)"];
+  $("#reveal").innerHTML = `<span class="eyebrow">Kunci jawaban ${cur}</span><span class="lab">${e.label.split("|").map(x=>MLABEL[x]).join(" + ")}</span>
+    <span>Skor ${nf(e.skor,1)} · level ${e.lv} → <b style="color:${verdict[2]}">${verdict[0]}</b>. ${verdict[1]}</span>`;
+}
+
+function countUp(sel){
+  if(reduce) return;
+  document.querySelectorAll(sel).forEach(el=>{const to=+el.dataset.c, d=+(el.dataset.d||0), t0=performance.now();
+    const f=t=>{const k=Math.min(1,(t-t0)/900), v=to*(1-Math.pow(1-k,3)); el.textContent=nf(v,d); if(k<1) requestAnimationFrame(f)}; requestAnimationFrame(f)});
+}
+const R=[null,r1,r2,r3,r4,r5,r6,r7];
+function renderAll(anim){for(let i=1;i<=7;i++) R[i](anim&&i===active)}
+function animate(i){R[i](true)}
+function go(i){
+  active=i;
+  document.querySelectorAll(".stage").forEach(s=>s.classList.toggle("on",+s.dataset.i===i));
+  document.querySelectorAll("#steps button").forEach(b=>{const n=+b.dataset.i;b.classList.toggle("on",n===i);b.classList.toggle("done",n<i)});
+  $("#prev").disabled = i<=1; $("#next").textContent = i>=7 ? "Selesai" : (i===0?"Mulai ›":"Lanjut ›"); $("#next").disabled = i>=7;
+  document.getElementById("s"+i).scrollIntoView({behavior:reduce?"auto":"smooth",block:"start"});
+  setTimeout(()=>animate(i), reduce?0:380);
+}
+$("#next").onclick=()=>{stopAuto(); go(Math.min(7,active+1))};
+$("#prev").onclick=()=>{stopAuto(); go(Math.max(1,active-1))};
+let autoT=null;
+function stopAuto(){if(autoT){clearInterval(autoT);autoT=null;$("#auto").textContent="Putar otomatis"}}
+$("#auto").onclick=()=>{ if(autoT){stopAuto();return}
+  $("#auto").textContent="Hentikan"; go(active>=7||active<1?1:active+1);
+  autoT=setInterval(()=>{ if(active>=7){stopAuto();return} go(active+1)},7000)};
+document.addEventListener("keydown",ev=>{ if(ev.target.closest("input,textarea")) return;
+  if(ev.key==="ArrowRight"||ev.key==="PageDown"){ev.preventDefault();stopAuto();go(Math.min(7,active+1))}
+  if(ev.key==="ArrowLeft"||ev.key==="PageUp"){ev.preventDefault();stopAuto();go(Math.max(1,active-1))}});
+matchMedia("(prefers-color-scheme: dark)").addEventListener?.("change",()=>{drawScatter(false);drawHist()});
+new MutationObserver(()=>{drawScatter(false);drawHist()}).observe(document.documentElement,{attributes:true,attributeFilter:["data-theme"]});
+renderAll(false); $("#prev").disabled=true;
+document.fonts?.ready.then(()=>{drawScatter(false);drawHist()});
+</script>
+
+</body>
+</html>

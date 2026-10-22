@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Data Sintetis RADAR</title>
+<meta name="description" content="Data sintetis prototype RADAR: 1.200 badan usaha fiktif, tabel internal dan eksternal, kunci jawaban, dan hasil model. Tim SMILE, Healthkathon 2026.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Source+Sans+3:wght@400;600;700&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+:root{--bg:#F4F7F6;--surface:#FFFFFF;--sunk:#EAF0EE;--ink:#172440;--muted:#596A7D;--line:#D6DFDC;--accent:#1E9A57;--accent-soft:#DDF1E6;--navy:#172440;--on-navy:#FFFFFF;--ext:#2E6FB0;--ext-soft:#E2ECF5;--key:#C4453B;--key-soft:#F8E1DE;
+  --f-display:"Noto Serif",Georgia,serif;--f-body:"Source Sans 3","Segoe UI",system-ui,sans-serif;--f-mono:"JetBrains Mono",ui-monospace,Consolas,monospace}
+@media (prefers-color-scheme:dark){:root{--bg:#0F1828;--surface:#172338;--sunk:#1D2B44;--ink:#E7EDF5;--muted:#9DAEC2;--line:#2B3B57;--accent:#3CC27A;--accent-soft:#18392C;--navy:#0B1220;--on-navy:#E7EDF5;--ext:#6AA6E8;--ext-soft:#1F2F40;--key:#EF6F63;--key-soft:#3A2024;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.55}
+.wrap{max-width:1100px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--f-display);margin:0;line-height:1.2;text-wrap:balance}
+a{color:var(--accent)}
+.hero{background:var(--navy);color:var(--on-navy)}
+.hero .wrap{padding-block:22px 34px;display:grid;gap:16px}
+.hero h1{font-size:clamp(30px,4.4vw,44px)}
+.hero p{margin:0;max-width:70ch;opacity:.9;font-size:17px}
+.hero a{color:#3CC27A}
+.sitenav{display:flex;flex-wrap:wrap;gap:6px;font-size:14px;font-weight:600}
+.sitenav a{color:#E7EDF5;text-decoration:none;padding:5px 12px;border-radius:99px;border:1px solid rgba(255,255,255,.28)}
+.sitenav a[aria-current]{background:#1E9A57;border-color:#1E9A57}
+.warn{display:inline-block;background:#D08E22;color:#1B1405;font-weight:700;font-size:13px;padding:4px 10px;border-radius:99px;justify-self:start}
+main .wrap{display:grid;grid-template-columns:minmax(0,1fr);gap:28px;padding-block:28px 56px}
+.eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--accent);margin:0 0 6px}
+.grid{display:grid;gap:14px;grid-template-columns:minmax(0,1fr)}
+main .wrap>*{min-width:0}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px 20px;display:grid;gap:6px;min-width:0;align-content:start}
+.card p{margin:0}
+.ch{display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap}
+.ch h3{font-family:var(--f-mono);font-size:16px;font-weight:500}
+.meta{color:var(--muted);font-size:13.5px}
+.src{font-size:12px;font-weight:700;padding:2px 9px;border-radius:99px;background:var(--accent-soft);color:var(--accent)}
+.src.ext{background:var(--ext-soft);color:var(--ext)} .src.key{background:var(--key-soft);color:var(--key)}
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:8px;margin-top:6px}
+table{border-collapse:collapse;font-size:12.5px;font-family:var(--f-mono);white-space:nowrap;width:100%}
+th,td{padding:5px 9px;border-bottom:1px solid var(--line);text-align:left}
+th{background:var(--sunk);font-weight:500;color:var(--muted)}
+tr:last-child td{border-bottom:0}
+.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+@media (max-width:760px){.two{grid-template-columns:1fr}}
+ul.files{margin:0;padding-left:18px;display:grid;gap:10px;overflow-wrap:anywhere}
+pre{background:var(--navy);color:#E7EDF5;padding:14px 16px;border-radius:10px;overflow-x:auto;font-family:var(--f-mono);font-size:13.5px;margin:0}
+footer .wrap{padding-block:0 36px;font-size:13px;color:var(--muted)}
+</style>
+</head>
+<body>
+<header class="hero">
+ <div class="wrap">
+  <nav class="sitenav" aria-label="Halaman"><a href="index.html">Dasbor RADAR</a><a href="jejak.html">Jejak Skor</a><a href="data.html" aria-current="page">Data sintetis</a></nav>
+  <h1>Data Sintetis RADAR</h1>
+  <p>Seluruh data di prototype ini dibuat oleh skrip, bukan diambil dari data peserta JKN atau perusahaan mana pun. Generator lebih dulu membuat <b>kenyataan</b> (pekerja dan upah riil) untuk 1.200 badan usaha fiktif, lalu membuat <b>laporan ke JKN</b> yang pada 17,7% usaha sengaja dimanipulasi dengan empat modus. Sumber eksternal disimulasikan dari kenyataan dengan sedikit gangguan acak. Cara data diolah sampai menjadi skor bisa diikuti di <a href="jejak.html">Jejak Skor</a>.</p>
+  <span class="warn">Data fiktif · seed 2026 · hasil selalu sama setiap dijalankan</span>
+ </div>
+</header>
+<main><div class="wrap">
+ <section>
+  <p class="eyebrow">Tabel data sintetis</p>
+  <h2 style="font-size:26px;margin-bottom:12px">Delapan tabel, satu klik untuk mengunduh</h2>
+  <div class="grid">
+<section class="card"><div class="ch"><h3><a href="data/csv/01_ref_wilayah.csv" download>01_ref_wilayah.csv</a></h3><span class="src int">internal</span></div>
+<p>Referensi 12 kab/kota Jateng–DIY dan UMK ilustratif.</p><p class="meta">12 baris · 3 kolom · 1 KB</p><div class="scroll"><table><thead><tr><th>kab_kota</th><th>provinsi</th><th>umk_ilustratif</th></tr></thead><tbody><tr><td>Kota Semarang</td><td>Jawa Tengah</td><td>3454000</td></tr><tr><td>Kab. Kendal</td><td>Jawa Tengah</td><td>2830000</td></tr><tr><td>Kab. Demak</td><td>Jawa Tengah</td><td>2938000</td></tr><tr><td>Kab. Kudus</td><td>Jawa Tengah</td><td>2680000</td></tr><tr><td>Kab. Jepara</td><td>Jawa Tengah</td><td>2610000</td></tr></tbody></table></div></section>
+<section class="card"><div class="ch"><h3><a href="data/csv/02_badan_usaha.csv" download>02_badan_usaha.csv</a></h3><span class="src int">internal</span></div>
+<p>Profil 1.200 badan usaha fiktif: sektor, wilayah, tanggal daftar, skala dan estimasi pekerja menurut izin usaha (OSS).</p><p class="meta">1.200 baris · 9 kolom · 117 KB</p><div class="scroll"><table><thead><tr><th>id_bu</th><th>nama_bu</th><th>bentuk_usaha</th><th>sektor</th><th>kab_kota</th><th>provinsi</th><th>tgl_daftar_jkn</th><th>skala_usaha_oss</th><th>estimasi_tk_oss</th></tr></thead><tbody><tr><td>BU00001</td><td>CV Abadi Bersama Agung</td><td>CV</td><td>Akomodasi &amp; Makan Minum</td><td>Kab. Sleman</td><td>DI Yogyakarta</td><td>2021-12-07</td><td>Kecil</td><td>7</td></tr><tr><td>BU00002</td><td>CV Agung Kayu Abadi</td><td>CV</td><td>Akomodasi &amp; Makan Minum</td><td>Kab. Demak</td><td>Jawa Tengah</td><td>2024-08-21</td><td>Kecil</td><td>7</td></tr><tr><td>BU00003</td><td>CV Karya Logam Logam</td><td>CV</td><td>Perdagangan</td><td>Kab. Banyumas</td><td>Jawa Tengah</td><td>2016-12-24</td><td>Kecil</td><td>15</td></tr><tr><td>BU00004</td><td>PT Tekstil Lestari Sinar</td><td>PT</td><td>Industri Pengolahan</td><td>Kab. Banyumas</td><td>Jawa Tengah</td><td>2018-01-07</td><td>Kecil</td><td>14</td></tr><tr><td>BU00005</td><td>PT Garmen Tekstil Harapan</td><td>PT</td><td>Jasa Perusahaan</td><td>Kab. Bantul</td><td>DI Yogyakarta</td><td>2022-09-29</td><td>Menengah</td><td>48</td></tr></tbody></table></div></section>
+<section class="card"><div class="ch"><h3><a href="data/csv/03_peserta.csv" download>03_peserta.csv</a></h3><span class="src int">internal</span></div>
+<p>Kepesertaan per pekerja: segmen (PPU/PBPU/PBI), tanggal mulai dan nonaktif, upah yang dilaporkan, status hubungan kerja.</p><p class="meta">57.009 baris · 9 kolom · 4.2 MB</p><div class="scroll"><table><thead><tr><th>id_peserta</th><th>nik_samaran</th><th>segmen</th><th>id_bu</th><th>kab_kota</th><th>tgl_mulai_segmen</th><th>tgl_nonaktif</th><th>upah_dilaporkan</th><th>status_hubungan_kerja_dilaporkan</th></tr></thead><tbody><tr><td>P0000004</td><td>S077399041092</td><td>PPU</td><td>BU00001</td><td>Kab. Sleman</td><td>2018-08-18</td><td></td><td>2528000.0</td><td>Tetap</td></tr><tr><td>P0000007</td><td>S089399807812</td><td>PPU</td><td>BU00001</td><td>Kab. Sleman</td><td>2022-01-15</td><td></td><td>2466000.0</td><td>Kontrak</td></tr><tr><td>P0000006</td><td>S337496525096</td><td>PPU</td><td>BU00001</td><td>Kab. Sleman</td><td>2019-08-08</td><td></td><td>2526000.0</td><td>Kontrak</td></tr><tr><td>P0000002</td><td>S637415021558</td><td>PPU</td><td>BU00001</td><td>Kab. Sleman</td><td>2025-03-11</td><td></td><td>2626000.0</td><td>Kontrak</td></tr><tr><td>P0000001</td><td>S816593715833</td><td>PPU</td><td>BU00001</td><td>Kab. Sleman</td><td>2020-06-08</td><td></td><td>2466000.0</td><td>Kontrak</td></tr></tbody></table></div></section>
+<section class="card"><div class="ch"><h3><a href="data/csv/04_mutasi.csv" download>04_mutasi.csv</a></h3><span class="src int">internal</span></div>
+<p>Mutasi daftar baru dan nonaktif, lengkap dengan tanggal efektif dan tanggal input.</p><p class="meta">14.934 baris · 6 kolom · 929 KB</p><div class="scroll"><table><thead><tr><th>id_mutasi</th><th>nik_samaran</th><th>id_bu</th><th>jenis_mutasi</th><th>tgl_efektif</th><th>tgl_input</th></tr></thead><tbody><tr><td>M0005691</td><td>S247812442647</td><td>BU00497</td><td>DAFTAR_BARU</td><td>2025-10-01</td><td>2025-10-01</td></tr><tr><td>M0010375</td><td>S815727414036</td><td>BU00839</td><td>DAFTAR_BARU</td><td>2025-09-29</td><td>2025-10-01</td></tr><tr><td>M0007946</td><td>S992175715320</td><td>BU00669</td><td>DAFTAR_BARU</td><td>2025-09-28</td><td>2025-10-01</td></tr><tr><td>M0011709</td><td>S215717951583</td><td>BU00947</td><td>DAFTAR_BARU</td><td>2025-10-01</td><td>2025-10-01</td></tr><tr><td>M0001271</td><td>S711430679918</td><td>BU00107</td><td>DAFTAR_BARU</td><td>2025-09-30</td><td>2025-10-01</td></tr></tbody></table></div></section>
+<section class="card"><div class="ch"><h3><a href="data/csv/05_iuran_bulanan.csv" download>05_iuran_bulanan.csv</a></h3><span class="src int">internal</span></div>
+<p>Tagihan dan pembayaran iuran 12 bulan (Okt 2025–Sep 2026) per badan usaha.</p><p class="meta">14.396 baris · 11 kolom · 1.2 MB</p><div class="scroll"><table><thead><tr><th>id_bu</th><th>periode</th><th>jumlah_tk_ditagih</th><th>total_upah_dilaporkan</th><th>iuran_tagihan</th><th>iuran_pemberi_kerja_4pct</th><th>iuran_pekerja_1pct</th><th>tgl_jatuh_tempo</th><th>tgl_bayar</th><th>hari_terlambat</th><th>status_bayar</th></tr></thead><tbody><tr><td>BU00001</td><td>2025-10</td><td>6</td><td>15078000</td><td>753900</td><td>603120</td><td>150780</td><td>2025-10-10</td><td>2025-10-01</td><td>0.0</td><td>TEPAT WAKTU</td></tr><tr><td>BU00001</td><td>2025-11</td><td>6</td><td>15078000</td><td>753900</td><td>603120</td><td>150780</td><td>2025-11-10</td><td>2025-11-18</td><td>8.0</td><td>TERLAMBAT</td></tr><tr><td>BU00001</td><td>2025-12</td><td>6</td><td>15078000</td><td>753900</td><td>603120</td><td>150780</td><td>2025-12-10</td><td>2025-12-01</td><td>0.0</td><td>TEPAT WAKTU</td></tr><tr><td>BU00001</td><td>2026-01</td><td>6</td><td>15078000</td><td>753900</td><td>603120</td><td>150780</td><td>2026-01-10</td><td>2026-01-02</td><td>0.0</td><td>TEPAT WAKTU</td></tr><tr><td>BU00001</td><td>2026-02</td><td>6</td><td>15078000</td><td>753900</td><td>603120</td><td>150780</td><td>2026-02-10</td><td>2026-02-01</td><td>0.0</td><td>TEPAT WAKTU</td></tr></tbody></table></div></section>
+<section class="card"><div class="ch"><h3><a href="data/csv/06_ext_hubungan_kerja.csv" download>06_ext_hubungan_kerja.csv</a></h3><span class="src ext">eksternal</span></div>
+<p>Simulasi data hubungan kerja per pekerja dari sumber eksternal (cakupan 90%).</p><p class="meta">51.927 baris · 4 kolom · 1.7 MB</p><div class="scroll"><table><thead><tr><th>nik_samaran</th><th>id_bu</th><th>tgl_mulai_kerja</th><th>tgl_selesai_kerja</th></tr></thead><tbody><tr><td>S077399041092</td><td>BU00001</td><td>2018-08-11</td><td></td></tr><tr><td>S089399807812</td><td>BU00001</td><td>2021-11-19</td><td></td></tr><tr><td>S337496525096</td><td>BU00001</td><td>2019-08-08</td><td></td></tr><tr><td>S637415021558</td><td>BU00001</td><td>2025-02-11</td><td></td></tr><tr><td>S816593715833</td><td>BU00001</td><td>2020-05-18</td><td></td></tr></tbody></table></div></section>
+<section class="card"><div class="ch"><h3><a href="data/csv/07_ext_pph21_bu.csv" download>07_ext_pph21_bu.csv</a></h3><span class="src ext">eksternal</span></div>
+<p>Simulasi ringkasan pelaporan PPh 21 per badan usaha: jumlah pekerja dan rata-rata penghasilan (gangguan ±5%).</p><p class="meta">1.200 baris · 4 kolom · 32 KB</p><div class="scroll"><table><thead><tr><th>id_bu</th><th>periode_pelaporan</th><th>jumlah_tk_pelaporan_pph21</th><th>rata2_penghasilan_bruto_pph21</th></tr></thead><tbody><tr><td>BU00001</td><td>2026-09</td><td>7</td><td>2629000</td></tr><tr><td>BU00002</td><td>2026-09</td><td>6</td><td>2915000</td></tr><tr><td>BU00003</td><td>2026-09</td><td>16</td><td>2978000</td></tr><tr><td>BU00004</td><td>2026-09</td><td>17</td><td>2826000</td></tr><tr><td>BU00005</td><td>2026-09</td><td>35</td><td>3871000</td></tr></tbody></table></div></section>
+<section class="card"><div class="ch"><h3><a href="data/csv/99_kunci_jawaban.csv" download>99_kunci_jawaban.csv</a></h3><span class="src key">kunci jawaban</span></div>
+<p>Label modus per badan usaha. Tidak dipakai melatih model; hanya untuk evaluasi.</p><p class="meta">1.200 baris · 9 kolom · 36 KB</p><div class="scroll"><table><thead><tr><th>id_bu</th><th>is_fraud</th><th>jenis_fraud</th><th>pola_tunggakan</th><th>jumlah_tk_riil</th><th>flag_pduk</th><th>flag_under_upah</th><th>flag_misklasifikasi</th><th>flag_mutasi</th></tr></thead><tbody><tr><td>BU00001</td><td>0</td><td>NORMAL</td><td>0</td><td>7</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>BU00002</td><td>0</td><td>NORMAL</td><td>0</td><td>7</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>BU00003</td><td>0</td><td>NORMAL</td><td>0</td><td>17</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>BU00004</td><td>0</td><td>NORMAL</td><td>0</td><td>19</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>BU00005</td><td>0</td><td>NORMAL</td><td>0</td><td>36</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></tbody></table></div></section>
+  </div>
+ </section>
+ <section class="two">
+  <div class="card">
+   <p class="eyebrow">Hasil model</p>
+   <ul class="files"><li><a href="data/hasil/skor_radar.csv" download>skor_radar.csv</a> <span class="meta">· 197 KB</span><br>Skor RADAR, level, peringkat, modus terindikasi, 3 alasan, dan aturan terpicu per badan usaha.</li><li><a href="data/hasil/indikator_per_bu.csv" download>indikator_per_bu.csv</a> <span class="meta">· 334 KB</span><br>Nilai 11 indikator mentah per badan usaha beserta kelompok usaha sejenisnya.</li><li><a href="data/hasil/evaluasi_model.csv" download>evaluasi_model.csv</a> <span class="meta">· 1 KB</span><br>Metrik evaluasi: AUC-ROC, presisi 50/100/200 teratas, recall 20% teratas, baseline acak.</li><li><a href="data/hasil/evaluasi_per_modus.csv" download>evaluasi_per_modus.csv</a> <span class="meta">· 1 KB</span><br>Recall 200 teratas per modus, mode internal saja vs internal + eksternal.</li></ul>
+  </div>
+  <div class="card">
+   <p class="eyebrow">Versi Excel</p>
+   <ul class="files"><li><a href="data/Data_Sintetis_Healthkathon2026_PemberiKerja.xlsx" download>Data_Sintetis_Healthkathon2026_PemberiKerja.xlsx</a> <span class="meta">· 5.3 MB</span></li><li><a href="data/Hasil_Model_RADAR_DataSintetis.xlsx" download>Hasil_Model_RADAR_DataSintetis.xlsx</a> <span class="meta">· 296 KB</span></li></ul>
+   <p class="meta" style="margin-top:8px">Versi Excel dibuat dari data yang sama (seed 2026). Bila skrip diubah, file CSV di atas adalah versi terbaru.</p>
+  </div>
+ </section>
+ <section class="card">
+  <p class="eyebrow">Membangun ulang</p>
+  <p>Data, skor, dan ketiga halaman situs ini dibangun ulang dengan satu perintah dari folder repositori:</p>
+  <pre>pip install -r model/requirements.txt
+python model/build_web.py</pre>
+  <p class="meta">Skrip: <span style="font-family:var(--f-mono)">model/generate_data_sintetis.py</span> (data), <span style="font-family:var(--f-mono)">model/radar_model.py</span> (indikator, aturan, Isolation Forest, skor), <span style="font-family:var(--f-mono)">model/build_web.py</span> (situs).</p>
+ </section>
+</div></main>
+<footer><div class="wrap">RADAR · Tim SMILE · Healthkathon 2026 · Kategori Efisiensi Risiko pada Pemberi Kerja · UMK yang dipakai bersifat ilustratif.</div></footer>
+</body>
+</html>

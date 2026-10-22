@@ -1,0 +1,1201 @@
+id_bu,nama_bu,bentuk_usaha,sektor,kab_kota,provinsi,tgl_daftar_jkn,skala_usaha_oss,estimasi_tk_oss
+BU00001,CV Abadi Bersama Agung,CV,Akomodasi & Makan Minum,Kab. Sleman,DI Yogyakarta,2021-12-07,Kecil,7
+BU00002,CV Agung Kayu Abadi,CV,Akomodasi & Makan Minum,Kab. Demak,Jawa Tengah,2024-08-21,Kecil,7
+BU00003,CV Karya Logam Logam,CV,Perdagangan,Kab. Banyumas,Jawa Tengah,2016-12-24,Kecil,15
+BU00004,PT Tekstil Lestari Sinar,PT,Industri Pengolahan,Kab. Banyumas,Jawa Tengah,2018-01-07,Kecil,14
+BU00005,PT Garmen Tekstil Harapan,PT,Jasa Perusahaan,Kab. Bantul,DI Yogyakarta,2022-09-29,Menengah,48
+BU00006,PT Bangun Nusantara Nusantara,PT,Perdagangan,Kab. Klaten,Jawa Tengah,2017-07-07,Menengah,21
+BU00007,CV Prima Nusantara Nusantara,CV,Industri Pengolahan,Kab. Kendal,Jawa Tengah,2018-12-17,Menengah,26
+BU00008,CV Garmen Utama Karya,CV,Perdagangan,Kab. Banyumas,Jawa Tengah,2019-06-12,Menengah,21
+BU00009,PT Maju Logam Sentosa,PT,Transportasi & Pergudangan,Kota Yogyakarta,DI Yogyakarta,2015-12-03,Menengah,29
+BU00010,CV Abadi Mulia Harapan,CV,Pertanian & Perkebunan,Kab. Sleman,DI Yogyakarta,2017-12-10,Kecil,11
+BU00011,PT Abadi Utama Maju,PT,Pertanian & Perkebunan,Kab. Demak,Jawa Tengah,2016-12-22,Besar,142
+BU00012,CV Harapan Pangan Prima,CV,Perdagangan,Kota Semarang,Jawa Tengah,2021-05-23,Kecil,6
+BU00013,PT Pangan Bersama Mandiri,PT,Akomodasi & Makan Minum,Kab. Bantul,DI Yogyakarta,2016-10-21,Menengah,65
+BU00014,PT Perkasa Sumber Indah,PT,Transportasi & Pergudangan,Kab. Bantul,DI Yogyakarta,2021-04-04,Kecil,16
+BU00015,PT Indah Sinar Perkasa,PT,Jasa Perusahaan,Kota Yogyakarta,DI Yogyakarta,2017-02-16,Kecil,14
+BU00016,PT Bangun Agung Kayu,PT,Jasa Perusahaan,Kab. Banyumas,Jawa Tengah,2017-07-15,Besar,100
+BU00017,CV Sentosa Bangun Bersama,CV,Industri Pengolahan,Kota Yogyakarta,DI Yogyakarta,2022-03-02,Kecil,5
+BU00018,CV Sentosa Tekstil Tekstil,CV,Perdagangan,Kab. Jepara,Jawa Tengah,2015-04-19,Kecil,5
+BU00019,PT Mulia Mulia Utama,PT,Akomodasi & Makan Minum,Kab. Demak,Jawa Tengah,2021-10-11,Menengah,89
+BU00020,PT Makmur Kayu Niaga,PT,Jasa Perusahaan,Kab. Cilacap,Jawa Tengah,2021-07-30,Menengah,25
+BU00021,CV Niaga Garmen Mulia,CV,Industri Pengolahan,Kab. Jepara,Jawa Tengah,2017-12-15,Kecil,19
+BU00022,CV Maju Niaga Indah,CV,Konstruksi,Kab. Kudus,Jawa Tengah,2021-05-07,Kecil,15
+BU00023,PT Indah Utama Lestari,PT,Industri Pengolahan,Kab. Kudus,Jawa Tengah,2020-04-30,Menengah,66
+BU00024,CV Sentosa Perkasa Garmen,CV,Industri Pengolahan,Kota Semarang,Jawa Tengah,2016-04-15,Kecil,12
+BU00025,CV Tekstil Prima Abadi,CV,Jasa Perusahaan,Kab. Klaten,Jawa Tengah,2016-06-23,Kecil,8
+BU00026,PT Lestari Agung Sinar,PT,Pertanian & Perkebunan,Kab. Sleman,DI Yogyakarta,2020-11-29,Menengah,20
+BU00027,CV Nusantara Logam Prima,CV,Konstruksi,Kab. Klaten,Jawa Tengah,2021-12-12,Kecil,3
+BU00028,PT Perkasa Agung Sumber,PT,Industri Pengolahan,Kab. Banyumas,Jawa Tengah,2022-06-28,Menengah,39
+BU00029,PT Lestari Garmen Prima,PT,Jasa Perusahaan,Kab. Sleman,DI Yogyakarta,2015-01-28,Menengah,20
+BU00030,PT Agung Agung Sinar,PT,Industri Pengolahan,Kab. Kudus,Jawa Tengah,2020-06-20,Menengah,50
+BU00031,PT Maju Garmen Karya,PT,Perdagangan,Kab. Sleman,DI Yogyakarta,2021-01-31,Menengah,54
+BU00032,PT Nusantara Makmur Harapan,PT,Industri Pengolahan,Kota Semarang,Jawa Tengah,2020-04-07,Menengah,55
+BU00033,CV Jaya Niaga Agung,CV,Perdagangan,Kab. Cilacap,Jawa Tengah,2020-01-05,Kecil,13
+BU00034,CV Pangan Abadi Niaga,CV,Industri Pengolahan,Kab. Kendal,Jawa Tengah,2014-11-03,Kecil,11
+BU00035,PT Logam Lestari Prima,PT,Perdagangan,Kab. Sleman,DI Yogyakarta,2023-06-10,Besar,295
+BU00036,PT Makmur Prima Karya,PT,Perdagangan,Kab. Klaten,Jawa Tengah,2021-02-01,Menengah,40
+BU00037,CV Abadi Kayu Niaga,CV,Konstruksi,Kab. Sleman,DI Yogyakarta,2020-03-13,Menengah,25
+BU00038,PT Utama Pangan Prima,PT,Industri Pengolahan,Kab. Banyumas,Jawa Tengah,2017-08-22,Kecil,16
+BU00039,PT Niaga Tekstil Sumber,PT,Jasa Perusahaan,Kab. Cilacap,Jawa Tengah,2021-09-25,Menengah,69
+BU00040,PT Tekstil Perkasa Pangan,PT,Perdagangan,Kota Yogyakarta,DI Yogyakarta,2024-01-08,Kecil,12
+BU00041,PT Mulia Tekstil Sinar,PT,Konstruksi,Kab. Kudus,Jawa Tengah,2022-01-16,Menengah,31
+BU00042,PT Kayu Agung Niaga,PT,Industri Pengolahan,Kab. Klaten,Jawa Tengah,2020-03-25,Kecil,6
+BU00043,PT Prima Sinar Perkasa,PT,Konstruksi,Kab. Sleman,DI Yogyakarta,2022-09-03,Menengah,93
+BU00044,CV Lestari Mandiri Mulia,CV,Industri Pengolahan,Kab. Klaten,Jawa Tengah,2023-04-05,Kecil,15
+BU00045,CV Harapan Sumber Maju,CV,Perdagangan,Kab. Kendal,Jawa Tengah,2017-06-15,Kecil,13
+BU00046,PT Jaya Makmur Kayu,PT,Akomodasi & Makan Minum,Kab. Jepara,Jawa Tengah,2018-06-02,Menengah,71
+BU00047,PT Logam Utama Sinar,PT,Jasa Perusahaan,Kab. Bantul,DI Yogyakarta,2020-04-08,Menengah,82
+BU00048,PT Agung Prima Indah,PT,Industri Pengolahan,Kab. Demak,Jawa Tengah,2015-08-25,Menengah,72
+BU00049,CV Mandiri Sumber Niaga,CV,Akomodasi & Makan Minum,Kota Surakarta,Jawa Tengah,2016-09-28,Kecil,5
+BU00050,PT Prima Utama Agung,PT,Transportasi & Pergudangan,Kab. Demak,Jawa Tengah,2024-05-13,Menengah,66
+BU00051,CV Nusantara Harapan Prima,CV,Industri Pengolahan,Kab. Kudus,Jawa Tengah,2016-05-26,Menengah,20
+BU00052,PT Sinar Lestari Tekstil,PT,Industri Pengolahan,Kab. Jepara,Jawa Tengah,2014-05-02,Menengah,29
+BU00053,CV Pangan Jaya Harapan,CV,Perdagangan,Kab. Demak,Jawa Tengah,2014-06-20,Kecil,10
+BU00054,CV Mulia Bersama Utama,CV,Konstruksi,Kab. Jepara,Jawa Tengah,2021-01-09,Kecil,6
+BU00055,CV Sinar Abadi Utama,CV,Industri Pengolahan,Kab. Cilacap,Jawa Tengah,2016-08-16,Kecil,12
+BU00056,CV Niaga Niaga Sinar,CV,Transportasi & Pergudangan,Kab. Kudus,Jawa Tengah,2022-02-21,Kecil,12
+BU00057,PT Agung Sumber Utama,PT,Industri Pengolahan,Kota Surakarta,Jawa Tengah,2019-04-13,Menengah,39
+BU00058,PT Sejahtera Lestari Harapan,PT,Perdagangan,Kota Semarang,Jawa Tengah,2022-10-31,Menengah,35
+BU00059,PT Bangun Prima Sentosa,PT,Pertanian & Perkebunan,Kab. Cilacap,Jawa Tengah,2014-03-24,Menengah,33
+BU00060,CV Kayu Sumber Prima,CV,Industri Pengolahan,Kab. Bantul,DI Yogyakarta,2022-08-23,Menengah,22
+BU00061,PT Indah Abadi Mandiri,PT,Jasa Perusahaan,Kab. Klaten,Jawa Tengah,2024-12-07,Kecil,12
+BU00062,PT Bangun Lestari Makmur,PT,Akomodasi & Makan Minum,Kab. Banyumas,Jawa Tengah,2014-12-27,Besar,208
+BU00063,PT Utama Maju Sentosa,PT,Jasa Perusahaan,Kota Surakarta,Jawa Tengah,2019-02-09,Menengah,48
+BU00064,PT Maju Utama Garmen,PT,Pertanian & Perkebunan,Kab. Klaten,Jawa Tengah,2016-07-16,Menengah,53
+BU00065,CV Tekstil Harapan Sentosa,CV,Akomodasi & Makan Minum,Kab. Sleman,DI Yogyakarta,2024-03-12,Kecil,7
+BU00066,PT Logam Sinar Mandiri,PT,Industri Pengolahan,Kab. Sleman,DI Yogyakarta,2016-07-15,Kecil,17
+BU00067,CV Karya Abadi Logam,CV,Pertanian & Perkebunan,Kota Yogyakarta,DI Yogyakarta,2019-12-12,Kecil,6
+BU00068,PT Jaya Nusantara Tekstil,PT,Transportasi & Pergudangan,Kab. Klaten,Jawa Tengah,2023-01-28,Menengah,77
+BU00069,PT Sumber Pangan Nusantara,PT,Industri Pengolahan,Kab. Jepara,Jawa Tengah,2017-05-21,Menengah,35
+BU00070,CV Kayu Indah Makmur,CV,Perdagangan,Kota Semarang,Jawa Tengah,2015-02-21,Kecil,7
+BU00071,PT Maju Bersama Pangan,PT,Industri Pengolahan,Kab. Kendal,Jawa Tengah,2024-01-09,Menengah,75
+BU00072,PT Garmen Garmen Nusantara,PT,Industri Pengolahan,Kab. Klaten,Jawa Tengah,2024-01-13,Menengah,67
+BU00073,PT Prima Niaga Bangun,PT,Pertanian & Perkebunan,Kab. Bantul,DI Yogyakarta,2018-07-22,Besar,254
+BU00074,PT Makmur Tekstil Karya,PT,Industri Pengolahan,Kab. Sleman,DI Yogyakarta,2018-09-01,Besar,172
+BU00075,PT Prima Garmen Makmur,PT,Jasa Perusahaan,Kab. Klaten,Jawa Tengah,2015-01-04,Menengah,65
+BU00076,PT Logam Niaga Agung,PT,Konstruksi,Kab. Kudus,Jawa Tengah,2024-10-09,Menengah,59
+BU00077,PT Mulia Sentosa Lestari,PT,Akomodasi & Makan Minum,Kab. Sleman,DI Yogyakarta,2020-07-27,Menengah,41
+BU00078,CV Pangan Sejahtera Makmur,CV,Perdagangan,Kab. Demak,Jawa Tengah,2023-07-25,Menengah,28
+BU00079,PT Sinar Sinar Garmen,PT,Akomodasi & Makan Minum,Kab. Cilacap,Jawa Tengah,2021-11-18,Menengah,73
+BU00080,PT Mulia Agung Lestari,PT,Industri Pengolahan,Kab. Banyumas,Jawa Tengah,2015-04-30,Menengah,43
+BU00081,CV Perkasa Sinar Makmur,CV,Konstruksi,Kab. Banyumas,Jawa Tengah,2023-06-28,Kecil,12
+BU00082,CV Agung Sinar Mandiri,CV,Industri Pengolahan,Kab. Kudus,Jawa Tengah,2015-11-08,Kecil,14
+BU00083,CV Perkasa Maju Abadi,CV,Konstruksi,Kota Yogyakarta,DI Yogyakarta,2022-12-05,Kecil,4
+BU00084,CV Perkasa Sentosa Jaya,CV,Jasa Perusahaan,Kab. Demak,Jawa Tengah,2015-07-27,Kecil,11
+BU00085,CV Harapan Indah Kayu,CV,Transportasi & Pergudangan,Kota Surakarta,Jawa Tengah,2014-08-11,Kecil,18
+BU00086,PT Indah Nusantara Maju,PT,Akomodasi & Makan Minum,Kab. Banyumas,Jawa Tengah,2015-04-01,Kecil,10
+BU00087,PT Maju Agung Prima,PT,Jasa Perusahaan,Kab. Banyumas,Jawa Tengah,2024-09-02,Menengah,24
+BU00088,PT Bersama Pangan Mulia,PT,Perdagangan,Kab. Banyumas,Jawa Tengah,2019-08-29,Menengah,40
+BU00089,PT Utama Bersama Abadi,PT,Konstruksi,Kab. Demak,Jawa Tengah,2018-04-23,Besar,171
+BU00090,CV Prima Utama Garmen,CV,Konstruksi,Kota Surakarta,Jawa Tengah,2014-03-18,Kecil,19
+BU00091,PT Logam Sinar Sejahtera,PT,Jasa Perusahaan,Kab. Bantul,DI Yogyakarta,2021-07-02,Menengah,67
+BU00092,PT Makmur Garmen Agung,PT,Industri Pengolahan,Kab. Sleman,DI Yogyakarta,2015-12-14,Menengah,92
+BU00093,PT Mandiri Lestari Logam,PT,Perdagangan,Kab. Klaten,Jawa Tengah,2018-01-08,Kecil,9
+BU00094,PT Bersama Utama Logam,PT,Transportasi & Pergudangan,Kota Yogyakarta,DI Yogyakarta,2014-03-21,Menengah,41
+BU00095,PT Karya Pangan Niaga,PT,Akomodasi & Makan Minum,Kota Surakarta,Jawa Tengah,2014-11-17,Besar,150
+BU00096,PT Sentosa Tekstil Perkasa,PT,Jasa Perusahaan,Kab. Kudus,Jawa Tengah,2017-03-13,Menengah,97
+BU00097,PT Jaya Mandiri Kayu,PT,Industri Pengolahan,Kab. Jepara,Jawa Tengah,2019-02-23,Besar,249
+BU00098,CV Sejahtera Jaya Kayu,CV,Konstruksi,Kab. Cilacap,Jawa Tengah,2024-02-13,Kecil,14
+BU00099,CV Tekstil Harapan Jaya,CV,Akomodasi & Makan Minum,Kota Semarang,Jawa Tengah,2015-09-11,Kecil,15
+BU00100,PT Utama Nusantara Kayu,PT,Jasa Perusahaan,Kota Yogyakarta,DI Yogyakarta,2021-11-30,Besar,179
+BU00101,PT Mandiri Prima Niaga,PT,Akomodasi & Makan Minum,Kota Semarang,Jawa Tengah,2015-10-03,Kecil,17
+BU00102,PT Pangan Maju Makmur,PT,Perdagangan,Kota Yogyakarta,DI Yogyakarta,2014-12-23,Menengah,26
+BU00103,PT Kayu Agung Mandiri,PT,Konstruksi,Kab. Bantul,DI Yogyakarta,2024-08-04,Menengah,21
+BU00104,CV Sinar Agung Makmur,CV,Industri Pengolahan,Kab. Demak,Jawa Tengah,2022-08-18,Kecil,16
+BU00105,PT Sejahtera Pangan Sejahtera,PT,Konstruksi,Kab. Kendal,Jawa Tengah,2019-01-16,Menengah,52
+BU00106,PT Perkasa Sumber Lestari,PT,Industri Pengolahan,Kab. Bantul,DI Yogyakarta,2024-03-23,Menengah,43
+BU00107,PT Tekstil Lestari Sentosa,PT,Konstruksi,Kab. Demak,Jawa Tengah,2019-12-22,Menengah,66
+BU00108,PT Perkasa Mulia Sejahtera,PT,Akomodasi & Makan Minum,Kab. Banyumas,Jawa Tengah,2020-02-01,Menengah,72
+BU00109,PT Indah Sejahtera Sumber,PT,Industri Pengolahan,Kab. Bantul,DI Yogyakarta,2020-02-15,Menengah,96
+BU00110,PT Utama Prima Nusantara,PT,Industri Pengolahan,Kota Yogyakarta,DI Yogyakarta,2022-07-17,Kecil,8
+BU00111,PT Harapan Lestari Mulia,PT,Transportasi & Pergudangan,Kab. Cilacap,Jawa Tengah,2020-07-23,Menengah,67
+BU00112,PT Utama Sejahtera Bersama,PT,Pertanian & Perkebunan,Kab. Sleman,DI Yogyakarta,2014-01-21,Kecil,13
+BU00113,PT Agung Prima Utama,PT,Industri Pengolahan,Kab. Kendal,Jawa Tengah,2021-07-05,Menengah,76
+BU00114,CV Abadi Agung Sinar,CV,Pertanian & Perkebunan,Kab. Kudus,Jawa Tengah,2018-05-26,Kecil,18
+BU00115,PT Agung Sinar Sumber,PT,Akomodasi & Makan Minum,Kab. Kendal,Jawa Tengah,2022-04-21,Kecil,17
+BU00116,PT Harapan Abadi Mandiri,PT,Akomodasi & Makan Minum,Kab. Demak,Jawa Tengah,2019-04-22,Menengah,36
+BU00117,CV Karya Maju Sentosa,CV,Pertanian & Perkebunan,Kab. Cilacap,Jawa Tengah,2015-09-17,Kecil,9
+BU00118,CV Utama Kayu Bersama,CV,Perdagangan,Kab. Cilacap,Jawa Tengah,2020-12-26,Kecil,5
+BU00119,PT Lestari Tekstil Sinar,PT,Transportasi & Pergudangan,Kab. Jepara,Jawa Tengah,2014-02-15,Kecil,5
+BU00120,CV Harapan Pangan Sejahtera,CV,Konstruksi,Kab. Klaten,Jawa Tengah,2022-06-05,Kecil,16
+BU00121,CV Maju Indah Sejahtera,CV,Transportasi & Pergudangan,Kab. Cilacap,Jawa Tengah,2020-05-31,Menengah,27
+BU00122,PT Indah Tekstil Pangan,PT,Perdagangan,Kab. Klaten,Jawa Tengah,2018-03-11,Menengah,30
+BU00123,PT Garmen Sinar Tekstil,PT,Akomodasi & Makan Minum,Kota Yogyakarta,DI Yogyakarta,2024-11-26,Besar,125
+BU00124,PT Mandiri Abadi Logam,PT,Perdagangan,Kab. Jepara,Jawa Tengah,2024-05-16,Kecil,6
+BU00125,CV Niaga Sumber Tekstil,CV,Perdagangan,Kab. Banyumas,Jawa Tengah,2021-08-01,Menengah,24
+BU00126,PT Nusantara Garmen Bangun,PT,Perdagangan,Kota Yogyakarta,DI Yogyakarta,2024-01-28,Kecil,15
+BU00127,CV Mandiri Garmen Mulia,CV,Konstruksi,Kab. Banyumas,Jawa Tengah,2018-06-03,Kecil,8
+BU00128,CV Garmen Sumber Pangan,CV,Akomodasi & Makan Minum,Kab. Demak,Jawa Tengah,2022-01-24,Kecil,7
+BU00129,CV Tekstil Makmur Abadi,CV,Industri Pengolahan,Kab. Kudus,Jawa Tengah,2018-05-05,Kecil,13
+BU00130,CV Sinar Sumber Abadi,CV,Perdagangan,Kab. Kudus,Jawa Tengah,2017-05-10,Menengah,23
+BU00131,PT Lestari Sejahtera Abadi,PT,Industri Pengolahan,Kota Yogyakarta,DI Yogyakarta,2020-12-27,Menengah,23
+BU00132,PT Pangan Jaya Nusantara,PT,Transportasi & Pergudangan,Kab. Bantul,DI Yogyakarta,2015-09-28,Menengah,44
+BU00133,PT Indah Bangun Sinar,PT,Jasa Perusahaan,Kab. Banyumas,Jawa Tengah,2024-10-19,Kecil,12
+BU00134,PT Sejahtera Kayu Kayu,PT,Akomodasi & Makan Minum,Kab. Kudus,Jawa Tengah,2021-01-23,Menengah,26
+BU00135,PT Abadi Agung Bersama,PT,Industri Pengolahan,Kab. Sleman,DI Yogyakarta,2016-03-27,Besar,310
+BU00136,PT Sumber Garmen Harapan,PT,Transportasi & Pergudangan,Kab. Bantul,DI Yogyakarta,2015-07-24,Besar,159
+BU00137,PT Sentosa Mulia Bersama,PT,Perdagangan,Kab. Cilacap,Jawa Tengah,2015-02-13,Menengah,46
+BU00138,PT Sejahtera Sumber Sumber,PT,Industri Pengolahan,Kab. Bantul,DI Yogyakarta,2014-02-06,Menengah,57
+BU00139,PT Sentosa Maju Lestari,PT,Perdagangan,Kota Yogyakarta,DI Yogyakarta,2022-11-11,Menengah,59
+BU00140,PT Nusantara Sumber Lestari,PT,Perdagangan,Kab. Bantul,DI Yogyakarta,2016-07-10,Menengah,21
+BU00141,PT Maju Jaya Abadi,PT,Industri Pengolahan,Kab. Kudus,Jawa Tengah,2022-04-21,Besar,252
+BU00142,PT Karya Maju Mulia,PT,Akomodasi & Makan Minum,Kota Semarang,Jawa Tengah,2022-11-20,Menengah,94
+BU00143,PT Abadi Abadi Pangan,PT,Transportasi & Pergudangan,Kab. Kendal,Jawa Tengah,2023-04-11,Menengah,55
+BU00144,PT Tekstil Garmen Indah,PT,Jasa Perusahaan,Kab. Bantul,DI Yogyakarta,2017-11-13,Kecil,13
+BU00145,CV Bersama Nusantara Utama,CV,Akomodasi & Makan Minum,Kab. Klaten,Jawa Tengah,2021-07-02,Menengah,20
+BU00146,PT Logam Kayu Kayu,PT,Akomodasi & Makan Minum,Kota Yogyakarta,DI Yogyakarta,2017-11-29,Menengah,70
+BU00147,PT Niaga Logam Jaya,PT,Perdagangan,Kota Yogyakarta,DI Yogyakarta,2018-10-27,Menengah,21
+BU00148,PT Perkasa Bersama Logam,PT,Perdagangan,Kab. Bantul,DI Yogyakarta,2014-08-14,Menengah,37
+BU00149,PT Mandiri Logam Utama,PT,Pertanian & Perkebunan,Kota Semarang,Jawa Tengah,2018-05-23,Kecil,17
+BU00150,PT Lestari Pangan Abadi,PT,Industri Pengolahan,Kota Yogyakarta,DI Yogyakarta,2014-08-10,Besar,100
+BU00151,PT Pangan Indah Agung,PT,Transportasi & Pergudangan,Kab. Kudus,Jawa Tengah,2021-12-10,Besar,107
+BU00152,PT Pangan Sumber Perkasa,PT,Jasa Perusahaan,Kab. Demak,Jawa Tengah,2019-06-12,Menengah,92
+BU00153,PT Mulia Harapan Indah,PT,Perdagangan,Kota Semarang,Jawa Tengah,2022-09-23,Menengah,29
+BU00154,CV Jaya Bangun Niaga,CV,Industri Pengolahan,Kab. Bantul,DI Yogyakarta,2014-12-25,Kecil,18
+BU00155,PT Lestari Maju Mulia,PT,Pertanian & Perkebunan,Kab. Cilacap,Jawa Tengah,2017-02-25,Menengah,93
+BU00156,PT Niaga Bersama Mulia,PT,Akomodasi & Makan Minum,Kab. Banyumas,Jawa Tengah,2017-05-04,Menengah,27
+BU00157,PT Bangun Nusantara Sinar,PT,Transportasi & Pergudangan,Kab. Bantul,DI Yogyakarta,2020-05-12,Menengah,38
+BU00158,PT Abadi Mulia Nusantara,PT,Perdagangan,Kab. Cilacap,Jawa Tengah,2021-09-09,Menengah,25
+BU00159,PT Lestari Bersama Garmen,PT,Konstruksi,Kota Yogyakarta,DI Yogyakarta,2015-01-14,Kecil,10
+BU00160,PT Maju Tekstil Bersama,PT,Industri Pengolahan,Kota Semarang,Jawa Tengah,2017-08-08,Besar,214
+BU00161,PT Mandiri Tekstil Jaya,PT,Akomodasi & Makan Minum,Kab. Banyumas,Jawa Tengah,2017-03-30,Menengah,78
+BU00162,PT Bangun Abadi Sejahtera,PT,Konstruksi,Kota Yogyakarta,DI Yogyakarta,2017-03-23,Kecil,10
+BU00163,PT Logam Abadi Abadi,PT,Transportasi & Pergudangan,Kota Yogyakarta,DI Yogyakarta,2020-11-01,Besar,124
+BU00164,CV Jaya Makmur Agung,CV,Transportasi & Pergudangan,Kab. Kendal,Jawa Tengah,2017-04-18,Kecil,10
+BU00165,PT Indah Logam Kayu,PT,Industri Pengolahan,Kota Semarang,Jawa Tengah,2019-09-23,Menengah,52
+BU00166,CV Kayu Mulia Maju,CV,Konstruksi,Kab. Bantul,DI Yogyakarta,2014-09-06,Kecil,9
+BU00167,PT Lestari Garmen Makmur,PT,Perdagangan,Kab. Jepara,Jawa Tengah,2024-11-22,Menengah,45
+BU00168,PT Indah Lestari Perkasa,PT,Transportasi & Pergudangan,Kab. Klaten,Jawa Tengah,2022-04-16,Kecil,9
+BU00169,CV Perkasa Karya Nusantara,CV,Konstruksi,Kab. Klaten,Jawa Tengah,2024-01-01,Kecil,9
+BU00170,PT Lestari Pangan Karya,PT,Perdagangan,Kab. Sleman,DI Yogyakarta,2023-11-10,Besar,157
+BU00171,CV Nusantara Makmur Sejahtera,CV,Konstruksi,Kab. Klaten,Jawa Tengah,2023-08-31,Kecil,16
+BU00172,PT Tekstil Maju Pangan,PT,Perdagangan,Kab. Klaten,Jawa Tengah,2019-12-11,Menengah,77
+BU00173,PT Niaga Tekstil Pangan,PT,Industri Pengolahan,Kab. Kendal,Jawa Tengah,2022-08-11,Kecil,15
+BU00174,PT Tekstil Perkasa Sumber,PT,Industri Pengolahan,Kab. Banyumas,Jawa Tengah,2018-07-01,Kecil,8
+BU00175,PT Sinar Makmur Karya,PT,Akomodasi & Makan Minum,Kab. Cilacap,Jawa Tengah,2020-10-06,Besar,111
+BU00176,PT Maju Maju Sumber,PT,Perdagangan,Kota Yogyakarta,DI Yogyakarta,2016-11-05,Menengah,61
+BU00177,CV Tekstil Prima Lestari,CV,Perdagangan,Kab. Klaten,Jawa Tengah,2023-11-25,Kecil,7
+BU00178,PT Sumber Bersama Makmur,PT,Pertanian & Perkebunan,Kab. Banyumas,Jawa Tengah,2024-05-31,Menengah,57
+BU00179,CV Kayu Garmen Sentosa,CV,Perdagangan,Kab. Sleman,DI Yogyakarta,2015-12-12,Kecil,15
+BU00180,PT Harapan Sejahtera Tekstil,PT,Perdagangan,Kab. Banyumas,Jawa Tengah,2023-04-18,Besar,113
+BU00181,PT Jaya Kayu Harapan,PT,Industri Pengolahan,Kab. Banyumas,Jawa Tengah,2017-08-29,Menengah,87
+BU00182,PT Agung Harapan Sumber,PT,Konstruksi,Kab. Bantul,DI Yogyakarta,2024-02-13,Kecil,4
+BU00183,PT Bersama Kayu Agung,PT,Konstruksi,Kota Surakarta,Jawa Tengah,2020-08-09,Menengah,68
+BU00184,PT Nusantara Bangun Bersama,PT,Konstruksi,Kota Surakarta,Jawa Tengah,2015-08-11,Kecil,14
+BU00185,CV Jaya Pangan Harapan,CV,Industri Pengolahan,Kab. Demak,Jawa Tengah,2017-11-15,Kecil,11
+BU00186,PT Maju Kayu Karya,PT,Akomodasi & Makan Minum,Kota Yogyakarta,DI Yogyakarta,2014-09-12,Kecil,16
+BU00187,PT Prima Jaya Karya,PT,Industri Pengolahan,Kota Semarang,Jawa Tengah,2024-05-04,Menengah,34
+BU00188,PT Pangan Agung Makmur,PT,Akomodasi & Makan Minum,Kab. Demak,Jawa Tengah,2023-01-10,Kecil,12
+BU00189,PT Bangun Perkasa Niaga,PT,Akomodasi & Makan Minum,Kota Surakarta,Jawa Tengah,2014-02-08,Menengah,54
+BU00190,PT Indah Sinar Karya,PT,Akomodasi & Makan Minum,Kab. Kudus,Jawa Tengah,2021-07-12,Menengah,33
+BU00191,PT Tekstil Harapan Sumber,PT,Industri Pengolahan,Kab. Cilacap,Jawa Tengah,2020-04-23,Besar,100
+BU00192,PT Bersama Mandiri Indah,PT,Industri Pengolahan,Kab. Banyumas,Jawa Tengah,2015-09-20,Kecil,13
+BU00193,PT Indah Utama Kayu,PT,Perdagangan,Kab. Sleman,DI Yogyakarta,2016-02-05,Besar,109
+BU00194,CV Utama Tekstil Sinar,CV,Industri Pengolahan,Kota Yogyakarta,DI Yogyakarta,2014-03-14,Kecil,5
+BU00195,PT Prima Sinar Pangan,PT,Pertanian & Perkebunan,Kab. Cilacap,Jawa Tengah,2023-11-07,Menengah,22
+BU00196,CV Garmen Mulia Mandiri,CV,Industri Pengolahan,Kota Surakarta,Jawa Tengah,2014-12-20,Kecil,10
+BU00197,PT Sejahtera Kayu Lestari,PT,Pertanian & Perkebunan,Kab. Cilacap,Jawa Tengah,2022-12-27,Menengah,55
+BU00198,PT Makmur Prima Maju,PT,Industri Pengolahan,Kab. Demak,Jawa Tengah,2018-01-14,Besar,180
+BU00199,PT Indah Harapan Harapan,PT,Industri Pengolahan,Kab. Klaten,Jawa Tengah,2017-08-30,Besar,106
+BU00200,PT Agung Niaga Lestari,PT,Industri Pengolahan,Kota Semarang,Jawa Tengah,2017-01-07,Besar,281
+BU00201,PT Sinar Jaya Kayu,PT,Konstruksi,Kota Surakarta,Jawa Tengah,2015-11-05,Kecil,5
+BU00202,PT Sejahtera Sentosa Mulia,PT,Industri Pengolahan,Kota Surakarta,Jawa Tengah,2016-10-25,Menengah,44
+BU00203,CV Indah Tekstil Bangun,CV,Konstruksi,Kab. Banyumas,Jawa Tengah,2017-05-18,Kecil,11
+BU00204,CV Sumber Makmur Niaga,CV,Perdagangan,Kota Semarang,Jawa Tengah,2018-04-04,Kecil,9
+BU00205,PT Bangun Abadi Maju,PT,Jasa Perusahaan,Kab. Klaten,Jawa Tengah,2021-04-03,Menengah,64
+BU00206,PT Tekstil Mandiri Niaga,PT,Jasa Perusahaan,Kab. Bantul,DI Yogyakarta,2018-10-18,Menengah,21
+BU00207,CV Garmen Mulia Garmen,CV,Perdagangan,Kota Semarang,Jawa Tengah,2014-08-09,Kecil,13
+BU00208,PT Jaya Perkasa Perkasa,PT,Akomodasi & Makan Minum,Kab. Bantul,DI Yogyakarta,2014-06-16,Menengah,45
+BU00209,PT Tekstil Agung Sinar,PT,Industri Pengolahan,Kab. Cilacap,Jawa Tengah,2017-02-05,Menengah,92
+BU00210,CV Kayu Pangan Sejahtera,CV,Perdagangan,Kab. Kendal,Jawa Tengah,2018-06-12,Kecil,5
+BU00211,CV Agung Abadi Sentosa,CV,Pertanian & Perkebunan,Kota Yogyakarta,DI Yogyakarta,2016-07-01,Kecil,10
+BU00212,PT Makmur Bangun Perkasa,PT,Industri Pengolahan,Kab. Jepara,Jawa Tengah,2016-02-20,Kecil,12
+BU00213,PT Bersama Tekstil Sumber,PT,Industri Pengolahan,Kab. Banyumas,Jawa Tengah,2015-12-20,Menengah,61
+BU00214,PT Mulia Jaya Bangun,PT,Industri Pengolahan,Kab. Demak,Jawa Tengah,2021-01-12,Menengah,51
+BU00215,PT Garmen Pangan Sinar,PT,Perdagangan,Kab. Cilacap,Jawa Tengah,2014-04-30,Menengah,42
+BU00216,PT Mandiri Sejahtera Mulia,PT,Akomodasi & Makan Minum,Kota Yogyakarta,DI Yogyakarta,2015-01-27,Menengah,66
+BU00217,PT Mulia Tekstil Mulia,PT,Perdagangan,Kab. Jepara,Jawa Tengah,2019-10-26,Menengah,56
+BU00218,PT Indah Makmur Perkasa,PT,Akomodasi & Makan Minum,Kab. Kudus,Jawa Tengah,2018-06-22,Besar,115
+BU00219,PT Mandiri Bangun Kayu,PT,Industri Pengolahan,Kab. Demak,Jawa Tengah,2018-07-07,Menengah,48
+BU00220,PT Maju Logam Kayu,PT,Akomodasi & Makan Minum,Kota Surakarta,Jawa Tengah,2023-11-03,Menengah,26
+BU00221,PT Prima Lestari Indah,PT,Jasa Perusahaan,Kota Yogyakarta,DI Yogyakarta,2018-03-22,Menengah,51
+BU00222,PT Sinar Nusantara Nusantara,PT,Akomodasi & Makan Minum,Kab. Banyumas,Jawa Tengah,2019-01-07,Kecil,17
+BU00223,PT Tekstil Sejahtera Bangun,PT,Industri Pengolahan,Kab. Demak,Jawa Tengah,2016-02-18,Kecil,7
+BU00224,CV Agung Maju Sejahtera,CV,Perdagangan,Kab. Cilacap,Jawa Tengah,2020-06-05,Kecil,16
+BU00225,PT Bersama Tekstil Makmur,PT,Akomodasi & Makan Minum,Kab. Kudus,Jawa Tengah,2024-12-07,Kecil,13
+BU00226,CV Sejahtera Maju Abadi,CV,Pertanian & Perkebunan,Kab. Kendal,Jawa Tengah,2016-09-13,Kecil,6
+BU00227,PT Agung Pangan Niaga,PT,Perdagangan,Kota Semarang,Jawa Tengah,2019-04-02,Menengah,61
+BU00228,PT Kayu Nusantara Maju,PT,Akomodasi & Makan Minum,Kab. Bantul,DI Yogyakarta,2016-11-13,Menengah,21
+BU00229,PT Harapan Indah Sentosa,PT,Perdagangan,Kab. Demak,Jawa Tengah,2018-10-22,Menengah,71
+BU00230,PT Indah Mulia Mandiri,PT,Jasa Perusahaan,Kab. Kendal,Jawa Tengah,2018-07-29,Menengah,92
+BU00231,PT Tekstil Makmur Logam,PT,Industri Pengolahan,Kab. Jepara,Jawa Tengah,2022-02-28,Kecil,18
+BU00232,PT Logam Karya Makmur,PT,Industri Pengolahan,Kab. Banyumas,Jawa Tengah,2014-12-18,Kecil,13
+BU00233,PT Abadi Bersama Prima,PT,Industri Pengolahan,Kab. Banyumas,Jawa Tengah,2023-05-18,Menengah,51
+BU00234,PT Abadi Harapan Bangun,PT,Konstruksi,Kota Surakarta,Jawa Tengah,2017-11-13,Besar,167
+BU00235,PT Sentosa Perkasa Sumber,PT,Jasa Perusahaan,Kab. Kendal,Jawa Tengah,2022-06-16,Menengah,76
+BU00236,PT Logam Mulia Kayu,PT,Industri Pengolahan,Kota Surakarta,Jawa Tengah,2021-05-23,Kecil,13
+BU00237,PT Abadi Indah Prima,PT,Perdagangan,Kab. Cilacap,Jawa Tengah,2018-05-24,Menengah,51
+BU00238,PT Prima Abadi Tekstil,PT,Transportasi & Pergudangan,Kab. Kendal,Jawa Tengah,2015-04-21,Menengah,80
+BU00239,PT Agung Karya Harapan,PT,Akomodasi & Makan Minum,Kota Yogyakarta,DI Yogyakarta,2014-09-11,Menengah,67
+BU00240,PT Indah Pangan Harapan,PT,Jasa Perusahaan,Kab. Sleman,DI Yogyakarta,2019-07-13,Kecil,19
+BU00241,PT Utama Garmen Indah,PT,Jasa Perusahaan,Kab. Jepara,Jawa Tengah,2014-01-13,Kecil,3
+BU00242,PT Sentosa Sentosa Nusantara,PT,Industri Pengolahan,Kota Yogyakarta,DI Yogyakarta,2024-08-23,Kecil,18
+BU00243,CV Sentosa Sinar Prima,CV,Industri Pengolahan,Kab. Banyumas,Jawa Tengah,2017-02-06,Kecil,17
+BU00244,PT Nusantara Mulia Sumber,PT,Transportasi & Pergudangan,Kab. Banyumas,Jawa Tengah,2022-08-27,Kecil,16
+BU00245,PT Nusantara Pangan Karya,PT,Pertanian & Perkebunan,Kab. Sleman,DI Yogyakarta,2023-11-15,Menengah,75
+BU00246,PT Sejahtera Bersama Lestari,PT,Industri Pengolahan,Kab. Banyumas,Jawa Tengah,2023-04-22,Besar,180
+BU00247,CV Agung Tekstil Bersama,CV,Konstruksi,Kab. Jepara,Jawa Tengah,2015-10-06,Kecil,9
+BU00248,CV Bersama Bangun Pangan,CV,Jasa Perusahaan,Kab. Sleman,DI Yogyakarta,2015-02-20,Kecil,8
+BU00249,PT Prima Perkasa Bersama,PT,Perdagangan,Kab. Kudus,Jawa Tengah,2014-04-06,Kecil,11
+BU00250,PT Sejahtera Mandiri Sinar,PT,Perdagangan,Kota Yogyakarta,DI Yogyakarta,2016-03-24,Menengah,22
+BU00251,CV Utama Karya Niaga,CV,Perdagangan,Kota Surakarta,Jawa Tengah,2020-06-28,Kecil,11
+BU00252,PT Indah Nusantara Sinar,PT,Akomodasi & Makan Minum,Kota Semarang,Jawa Tengah,2020-12-31,Menengah,25
+BU00253,CV Indah Lestari Harapan,CV,Transportasi & Pergudangan,Kab. Banyumas,Jawa Tengah,2020-04-16,Kecil,11
+BU00254,PT Sinar Garmen Perkasa,PT,Perdagangan,Kab. Bantul,DI Yogyakarta,2017-09-10,Kecil,19
+BU00255,PT Mandiri Makmur Utama,PT,Jasa Perusahaan,Kab. Bantul,DI Yogyakarta,2019-05-20,Menengah,68
+BU00256,PT Bangun Garmen Pangan,PT,Industri Pengolahan,Kab. Kudus,Jawa Tengah,2024-08-14,Menengah,82
+BU00257,PT Bangun Makmur Lestari,PT,Perdagangan,Kab. Sleman,DI Yogyakarta,2018-11-08,Menengah,63
+BU00258,CV Sumber Bersama Harapan,CV,Industri Pengolahan,Kab. Cilacap,Jawa Tengah,2021-06-09,Kecil,14
+BU00259,PT Abadi Bersama Sumber,PT,Transportasi & Pergudangan,Kab. Jepara,Jawa Tengah,2015-09-23,Menengah,31
+BU00260,PT Harapan Utama Sumber,PT,Akomodasi & Makan Minum,Kab. Bantul,DI Yogyakarta,2020-11-13,Besar,339
+BU00261,CV Makmur Tekstil Kayu,CV,Industri Pengolahan,Kota Surakarta,Jawa Tengah,2014-01-08,Kecil,8
+BU00262,PT Sumber Karya Bersama,PT,Industri Pengolahan,Kab. Banyumas,Jawa Tengah,2021-08-20,Kecil,7
+BU00263,CV Makmur Tekstil Nusantara,CV,Transportasi & Pergudangan,Kab. Demak,Jawa Tengah,2020-09-05,Menengah,23
+BU00264,CV Abadi Sumber Mulia,CV,Perdagangan,Kab. Bantul,DI Yogyakarta,2021-08-17,Kecil,15
+BU00265,PT Garmen Utama Kayu,PT,Industri Pengolahan,Kota Surakarta,Jawa Tengah,2022-04-27,Kecil,12
+BU00266,PT Perkasa Perkasa Maju,PT,Akomodasi & Makan Minum,Kab. Kudus,Jawa Tengah,2020-04-30,Menengah,21
+BU00267,PT Tekstil Niaga Bersama,PT,Perdagangan,Kab. Demak,Jawa Tengah,2016-03-29,Menengah,32
+BU00268,PT Pangan Lestari Bersama,PT,Industri Pengolahan,Kab. Kendal,Jawa Tengah,2022-08-15,Kecil,7
+BU00269,PT Abadi Pangan Nusantara,PT,Akomodasi & Makan Minum,Kab. Banyumas,Jawa Tengah,2015-03-06,Menengah,75
+BU00270,PT Prima Pangan Kayu,PT,Jasa Perusahaan,Kab. Jepara,Jawa Tengah,2016-12-17,Menengah,70
+BU00271,PT Harapan Pangan Nusantara,PT,Perdagangan,Kab. Bantul,DI Yogyakarta,2015-10-14,Besar,183
+BU00272,PT Tekstil Agung Mandiri,PT,Konstruksi,Kota Yogyakarta,DI Yogyakarta,2020-11-02,Kecil,6
+BU00273,PT Lestari Indah Kayu,PT,Jasa Perusahaan,Kab. Demak,Jawa Tengah,2024-10-21,Menengah,83
+BU00274,PT Bersama Jaya Perkasa,PT,Perdagangan,Kab. Kendal,Jawa Tengah,2015-07-13,Menengah,99
+BU00275,CV Bangun Sejahtera Maju,CV,Industri Pengolahan,Kota Yogyakarta,DI Yogyakarta,2018-09-12,Kecil,13
+BU00276,PT Sumber Tekstil Niaga,PT,Industri Pengolahan,Kota Yogyakarta,DI Yogyakarta,2022-04-09,Menengah,94
+BU00277,PT Sumber Makmur Bersama,PT,Konstruksi,Kab. Cilacap,Jawa Tengah,2016-02-09,Menengah,54
+BU00278,PT Garmen Kayu Logam,PT,Akomodasi & Makan Minum,Kota Surakarta,Jawa Tengah,2020-01-30,Menengah,42
+BU00279,PT Lestari Harapan Nusantara,PT,Konstruksi,Kab. Klaten,Jawa Tengah,2019-12-16,Besar,111
+BU00280,PT Sinar Prima Prima,PT,Akomodasi & Makan Minum,Kab. Demak,Jawa Tengah,2019-04-12,Kecil,13
+BU00281,PT Bersama Maju Jaya,PT,Pertanian & Perkebunan,Kab. Klaten,Jawa Tengah,2015-10-31,Menengah,68
+BU00282,PT Nusantara Karya Kayu,PT,Pertanian & Perkebunan,Kab. Klaten,Jawa Tengah,2019-02-02,Menengah,37
+BU00283,CV Abadi Pangan Sumber,CV,Industri Pengolahan,Kota Semarang,Jawa Tengah,2023-07-31,Kecil,7
+BU00284,CV Bersama Maju Nusantara,CV,Perdagangan,Kab. Kudus,Jawa Tengah,2020-10-31,Kecil,10
+BU00285,PT Mandiri Sinar Utama,PT,Pertanian & Perkebunan,Kab. Kendal,Jawa Tengah,2022-07-21,Menengah,44
+BU00286,PT Agung Sumber Logam,PT,Industri Pengolahan,Kota Yogyakarta,DI Yogyakarta,2022-06-17,Menengah,49
+BU00287,PT Kayu Indah Sentosa,PT,Konstruksi,Kab. Demak,Jawa Tengah,2018-06-23,Menengah,69
+BU00288,PT Tekstil Niaga Mandiri,PT,Transportasi & Pergudangan,Kota Surakarta,Jawa Tengah,2016-11-19,Kecil,11
+BU00289,CV Tekstil Nusantara Maju,CV,Pertanian & Perkebunan,Kab. Jepara,Jawa Tengah,2017-10-13,Kecil,6
+BU00290,CV Abadi Makmur Bersama,CV,Transportasi & Pergudangan,Kota Surakarta,Jawa Tengah,2018-06-24,Kecil,6
+BU00291,CV Karya Utama Mandiri,CV,Konstruksi,Kab. Jepara,Jawa Tengah,2019-09-11,Kecil,15
+BU00292,PT Logam Pangan Sejahtera,PT,Pertanian & Perkebunan,Kab. Kendal,Jawa Tengah,2018-02-18,Menengah,36
+BU00293,PT Niaga Mulia Sentosa,PT,Perdagangan,Kab. Demak,Jawa Tengah,2014-12-26,Menengah,89
+BU00294,CV Garmen Lestari Niaga,CV,Konstruksi,Kota Semarang,Jawa Tengah,2016-01-08,Kecil,17
+BU00295,CV Agung Pangan Garmen,CV,Industri Pengolahan,Kota Semarang,Jawa Tengah,2015-10-16,Kecil,6
+BU00296,PT Tekstil Makmur Abadi,PT,Jasa Perusahaan,Kab. Cilacap,Jawa Tengah,2023-11-13,Kecil,12
+BU00297,PT Maju Sumber Lestari,PT,Perdagangan,Kab. Kendal,Jawa Tengah,2020-12-18,Kecil,12
+BU00298,PT Jaya Sejahtera Tekstil,PT,Pertanian & Perkebunan,Kota Semarang,Jawa Tengah,2024-10-31,Besar,148
+BU00299,PT Bangun Agung Karya,PT,Transportasi & Pergudangan,Kota Semarang,Jawa Tengah,2023-10-16,Menengah,49
+BU00300,PT Prima Pangan Pangan,PT,Konstruksi,Kab. Banyumas,Jawa Tengah,2015-11-03,Kecil,9
+BU00301,PT Bersama Bersama Indah,PT,Industri Pengolahan,Kab. Klaten,Jawa Tengah,2015-05-22,Kecil,5
+BU00302,PT Bersama Logam Prima,PT,Industri Pengolahan,Kab. Cilacap,Jawa Tengah,2024-04-28,Kecil,17
+BU00303,CV Sumber Prima Bersama,CV,Perdagangan,Kab. Bantul,DI Yogyakarta,2016-07-15,Kecil,4
+BU00304,PT Harapan Sumber Jaya,PT,Industri Pengolahan,Kab. Bantul,DI Yogyakarta,2020-08-26,Kecil,4
+BU00305,PT Kayu Prima Makmur,PT,Perdagangan,Kab. Bantul,DI Yogyakarta,2020-12-21,Menengah,28
+BU00306,PT Maju Prima Sinar,PT,Industri Pengolahan,Kab. Banyumas,Jawa Tengah,2015-12-14,Kecil,10
+BU00307,CV Indah Sumber Harapan,CV,Jasa Perusahaan,Kab. Cilacap,Jawa Tengah,2018-07-23,Kecil,4
+BU00308,CV Nusantara Utama Mandiri,CV,Industri Pengolahan,Kab. Bantul,DI Yogyakarta,2015-12-15,Menengah,25
+BU00309,CV Indah Sumber Agung,CV,Jasa Perusahaan,Kab. Sleman,DI Yogyakarta,2018-06-27,Kecil,11
+BU00310,PT Harapan Bangun Perkasa,PT,Perdagangan,Kab. Bantul,DI Yogyakarta,2024-09-24,Menengah,53
+BU00311,PT Mulia Mandiri Garmen,PT,Industri Pengolahan,Kab. Banyumas,Jawa Tengah,2018-02-08,Kecil,11
+BU00312,PT Jaya Harapan Lestari,PT,Jasa Perusahaan,Kota Surakarta,Jawa Tengah,2019-04-07,Menengah,39
+BU00313,CV Sentosa Bangun Bangun,CV,Industri Pengolahan,Kab. Banyumas,Jawa Tengah,2018-07-11,Kecil,15
+BU00314,PT Kayu Pangan Agung,PT,Pertanian & Perkebunan,Kab. Kudus,Jawa Tengah,2016-02-28,Besar,100
+BU00315,CV Pangan Tekstil Nusantara,CV,Industri Pengolahan,Kab. Cilacap,Jawa Tengah,2014-08-18,Kecil,8
+BU00316,PT Mulia Prima Logam,PT,Industri Pengolahan,Kab. Klaten,Jawa Tengah,2015-12-21,Menengah,21
+BU00317,PT Sentosa Agung Agung,PT,Akomodasi & Makan Minum,Kab. Bantul,DI Yogyakarta,2014-03-02,Menengah,54
+BU00318,PT Logam Bersama Prima,PT,Industri Pengolahan,Kab. Bantul,DI Yogyakarta,2024-12-15,Menengah,67
+BU00319,CV Bersama Pangan Bersama,CV,Perdagangan,Kota Semarang,Jawa Tengah,2016-10-17,Kecil,11
+BU00320,PT Indah Sejahtera Sentosa,PT,Transportasi & Pergudangan,Kota Surakarta,Jawa Tengah,2019-01-11,Menengah,95
+BU00321,PT Tekstil Sinar Sejahtera,PT,Industri Pengolahan,Kab. Bantul,DI Yogyakarta,2020-12-17,Kecil,14
+BU00322,CV Nusantara Sumber Agung,CV,Jasa Perusahaan,Kab. Demak,Jawa Tengah,2021-11-03,Kecil,14
+BU00323,PT Agung Perkasa Kayu,PT,Jasa Perusahaan,Kab. Bantul,DI Yogyakarta,2022-09-02,Menengah,24
+BU00324,PT Abadi Logam Mandiri,PT,Akomodasi & Makan Minum,Kota Yogyakarta,DI Yogyakarta,2023-04-16,Kecil,8
+BU00325,CV Maju Utama Karya,CV,Industri Pengolahan,Kab. Cilacap,Jawa Tengah,2019-09-03,Kecil,5
+BU00326,PT Mandiri Lestari Agung,PT,Jasa Perusahaan,Kota Yogyakarta,DI Yogyakarta,2018-06-23,Menengah,46
+BU00327,CV Agung Makmur Agung,CV,Perdagangan,Kab. Bantul,DI Yogyakarta,2022-02-05,Kecil,11
+BU00328,PT Mandiri Sinar Sumber,PT,Perdagangan,Kab. Kudus,Jawa Tengah,2019-11-02,Menengah,41
+BU00329,CV Nusantara Niaga Prima,CV,Jasa Perusahaan,Kab. Jepara,Jawa Tengah,2021-09-15,Kecil,6
+BU00330,CV Makmur Tekstil Pangan,CV,Industri Pengolahan,Kota Surakarta,Jawa Tengah,2019-11-11,Kecil,7
+BU00331,PT Harapan Bersama Indah,PT,Industri Pengolahan,Kab. Jepara,Jawa Tengah,2016-03-04,Kecil,6
+BU00332,CV Kayu Perkasa Tekstil,CV,Akomodasi & Makan Minum,Kota Semarang,Jawa Tengah,2017-07-26,Kecil,12
+BU00333,PT Logam Bangun Tekstil,PT,Konstruksi,Kota Surakarta,Jawa Tengah,2023-05-26,Kecil,13
+BU00334,CV Mandiri Makmur Logam,CV,Industri Pengolahan,Kota Surakarta,Jawa Tengah,2021-03-11,Kecil,15
+BU00335,CV Tekstil Niaga Makmur,CV,Akomodasi & Makan Minum,Kab. Kudus,Jawa Tengah,2023-04-10,Kecil,5
+BU00336,PT Bangun Makmur Makmur,PT,Perdagangan,Kab. Demak,Jawa Tengah,2019-02-04,Menengah,93
+BU00337,CV Sinar Harapan Sinar,CV,Industri Pengolahan,Kab. Kendal,Jawa Tengah,2015-03-29,Kecil,8
+BU00338,PT Pangan Garmen Jaya,PT,Jasa Perusahaan,Kab. Jepara,Jawa Tengah,2015-02-21,Kecil,13
+BU00339,PT Sinar Pangan Jaya,PT,Industri Pengolahan,Kab. Demak,Jawa Tengah,2020-01-15,Kecil,15
+BU00340,PT Sumber Sinar Mulia,PT,Industri Pengolahan,Kota Semarang,Jawa Tengah,2019-01-13,Besar,295
+BU00341,PT Harapan Sejahtera Makmur,PT,Industri Pengolahan,Kota Surakarta,Jawa Tengah,2018-08-02,Besar,180
+BU00342,PT Sumber Tekstil Niaga,PT,Konstruksi,Kota Surakarta,Jawa Tengah,2016-06-19,Besar,222
+BU00343,CV Indah Makmur Utama,CV,Industri Pengolahan,Kab. Kudus,Jawa Tengah,2015-10-18,Kecil,13
+BU00344,PT Sejahtera Sejahtera Niaga,PT,Jasa Perusahaan,Kab. Kendal,Jawa Tengah,2019-06-04,Menengah,67
+BU00345,PT Jaya Nusantara Sejahtera,PT,Jasa Perusahaan,Kab. Klaten,Jawa Tengah,2022-03-18,Menengah,51
+BU00346,CV Pangan Makmur Lestari,CV,Industri Pengolahan,Kota Surakarta,Jawa Tengah,2017-12-09,Kecil,12
+BU00347,PT Kayu Logam Prima,PT,Konstruksi,Kab. Cilacap,Jawa Tengah,2016-12-07,Menengah,38
+BU00348,CV Tekstil Maju Mulia,CV,Perdagangan,Kota Semarang,Jawa Tengah,2023-01-10,Kecil,8
+BU00349,PT Karya Agung Indah,PT,Industri Pengolahan,Kab. Demak,Jawa Tengah,2016-09-22,Menengah,78
+BU00350,PT Tekstil Sentosa Utama,PT,Transportasi & Pergudangan,Kab. Kudus,Jawa Tengah,2014-05-29,Kecil,12
+BU00351,CV Pangan Bangun Lestari,CV,Pertanian & Perkebunan,Kab. Kendal,Jawa Tengah,2016-02-24,Kecil,17
+BU00352,CV Makmur Bersama Makmur,CV,Industri Pengolahan,Kab. Bantul,DI Yogyakarta,2020-09-07,Kecil,8
+BU00353,PT Niaga Agung Jaya,PT,Konstruksi,Kab. Cilacap,Jawa Tengah,2020-02-25,Kecil,15
+BU00354,PT Prima Maju Jaya,PT,Industri Pengolahan,Kab. Kendal,Jawa Tengah,2021-06-29,Menengah,25
+BU00355,PT Abadi Indah Garmen,PT,Perdagangan,Kab. Kendal,Jawa Tengah,2019-08-08,Menengah,22
+BU00356,PT Niaga Niaga Harapan,PT,Akomodasi & Makan Minum,Kab. Sleman,DI Yogyakarta,2016-07-19,Besar,193
+BU00357,CV Harapan Sumber Bersama,CV,Jasa Perusahaan,Kab. Jepara,Jawa Tengah,2019-02-14,Kecil,7
+BU00358,PT Nusantara Maju Sejahtera,PT,Konstruksi,Kab. Demak,Jawa Tengah,2017-10-30,Kecil,4
+BU00359,CV Agung Mandiri Harapan,CV,Perdagangan,Kab. Banyumas,Jawa Tengah,2020-10-17,Kecil,10
+BU00360,PT Sentosa Lestari Pangan,PT,Industri Pengolahan,Kab. Klaten,Jawa Tengah,2023-12-23,Kecil,16
+BU00361,PT Lestari Mandiri Harapan,PT,Industri Pengolahan,Kab. Kudus,Jawa Tengah,2019-08-23,Menengah,79
+BU00362,PT Harapan Sejahtera Karya,PT,Industri Pengolahan,Kab. Bantul,DI Yogyakarta,2022-06-29,Menengah,41
+BU00363,PT Karya Pangan Prima,PT,Jasa Perusahaan,Kota Semarang,Jawa Tengah,2022-04-29,Menengah,40
+BU00364,CV Mandiri Indah Sejahtera,CV,Industri Pengolahan,Kab. Sleman,DI Yogyakarta,2016-11-14,Kecil,8
+BU00365,PT Tekstil Lestari Bangun,PT,Industri Pengolahan,Kota Surakarta,Jawa Tengah,2017-01-03,Besar,351
+BU00366,CV Lestari Utama Indah,CV,Konstruksi,Kota Surakarta,Jawa Tengah,2017-10-20,Kecil,15
+BU00367,CV Niaga Mandiri Mulia,CV,Industri Pengolahan,Kota Semarang,Jawa Tengah,2017-05-05,Menengah,24
+BU00368,CV Kayu Bangun Utama,CV,Akomodasi & Makan Minum,Kota Yogyakarta,DI Yogyakarta,2016-03-18,Kecil,12
+BU00369,CV Tekstil Logam Prima,CV,Jasa Perusahaan,Kab. Jepara,Jawa Tengah,2022-09-18,Kecil,7
+BU00370,CV Sentosa Mandiri Bangun,CV,Perdagangan,Kab. Banyumas,Jawa Tengah,2021-09-09,Kecil,16
+BU00371,PT Mandiri Abadi Nusantara,PT,Transportasi & Pergudangan,Kota Surakarta,Jawa Tengah,2022-08-06,Kecil,15
+BU00372,PT Sentosa Indah Niaga,PT,Perdagangan,Kab. Demak,Jawa Tengah,2023-03-17,Menengah,74
+BU00373,CV Pangan Logam Niaga,CV,Industri Pengolahan,Kota Surakarta,Jawa Tengah,2019-05-12,Kecil,16
+BU00374,CV Sejahtera Abadi Sejahtera,CV,Akomodasi & Makan Minum,Kota Semarang,Jawa Tengah,2021-09-24,Kecil,9
+BU00375,PT Mandiri Kayu Lestari,PT,Akomodasi & Makan Minum,Kab. Klaten,Jawa Tengah,2021-01-23,Besar,118
+BU00376,PT Mandiri Lestari Maju,PT,Perdagangan,Kab. Jepara,Jawa Tengah,2016-05-17,Kecil,19
+BU00377,PT Tekstil Makmur Kayu,PT,Jasa Perusahaan,Kab. Sleman,DI Yogyakarta,2017-12-12,Menengah,33
+BU00378,CV Kayu Sinar Sumber,CV,Konstruksi,Kab. Jepara,Jawa Tengah,2014-04-29,Kecil,16
+BU00379,PT Mulia Bangun Indah,PT,Industri Pengolahan,Kab. Kendal,Jawa Tengah,2016-01-29,Menengah,76
+BU00380,PT Perkasa Maju Prima,PT,Konstruksi,Kab. Jepara,Jawa Tengah,2017-02-06,Besar,159
+BU00381,PT Agung Utama Sumber,PT,Perdagangan,Kab. Cilacap,Jawa Tengah,2018-06-13,Besar,122
+BU00382,PT Harapan Indah Prima,PT,Pertanian & Perkebunan,Kab. Kudus,Jawa Tengah,2020-11-24,Menengah,34
+BU00383,PT Makmur Abadi Sinar,PT,Pertanian & Perkebunan,Kota Surakarta,Jawa Tengah,2021-02-24,Menengah,35
+BU00384,PT Makmur Tekstil Karya,PT,Perdagangan,Kab. Cilacap,Jawa Tengah,2024-05-30,Menengah,41
+BU00385,CV Indah Utama Perkasa,CV,Perdagangan,Kab. Kendal,Jawa Tengah,2019-09-27,Kecil,10
+BU00386,PT Logam Kayu Garmen,PT,Pertanian & Perkebunan,Kota Semarang,Jawa Tengah,2018-11-19,Kecil,7
+BU00387,CV Jaya Niaga Pangan,CV,Industri Pengolahan,Kab. Demak,Jawa Tengah,2017-05-05,Kecil,15
+BU00388,PT Tekstil Bersama Nusantara,PT,Industri Pengolahan,Kab. Banyumas,Jawa Tengah,2017-08-25,Kecil,9
+BU00389,PT Sumber Pangan Sentosa,PT,Industri Pengolahan,Kab. Kendal,Jawa Tengah,2016-04-10,Menengah,93
+BU00390,CV Utama Utama Indah,CV,Industri Pengolahan,Kab. Bantul,DI Yogyakarta,2020-01-05,Kecil,7
+BU00391,PT Tekstil Harapan Sinar,PT,Industri Pengolahan,Kota Surakarta,Jawa Tengah,2023-03-23,Menengah,97
+BU00392,PT Agung Harapan Agung,PT,Jasa Perusahaan,Kab. Demak,Jawa Tengah,2023-02-07,Kecil,19
+BU00393,PT Abadi Harapan Sumber,PT,Industri Pengolahan,Kab. Cilacap,Jawa Tengah,2019-03-03,Menengah,78
+BU00394,CV Mulia Jaya Sentosa,CV,Perdagangan,Kab. Kudus,Jawa Tengah,2021-10-07,Kecil,17
+BU00395,PT Garmen Jaya Sentosa,PT,Perdagangan,Kab. Sleman,DI Yogyakarta,2016-05-08,Kecil,6
+BU00396,PT Agung Utama Garmen,PT,Pertanian & Perkebunan,Kab. Kudus,Jawa Tengah,2020-03-30,Menengah,27
+BU00397,PT Abadi Perkasa Sinar,PT,Jasa Perusahaan,Kab. Banyumas,Jawa Tengah,2018-06-25,Kecil,17
+BU00398,PT Kayu Sinar Garmen,PT,Akomodasi & Makan Minum,Kab. Klaten,Jawa Tengah,2024-12-19,Besar,189
+BU00399,PT Utama Logam Prima,PT,Jasa Perusahaan,Kab. Kendal,Jawa Tengah,2019-05-02,Kecil,5
+BU00400,PT Tekstil Maju Makmur,PT,Transportasi & Pergudangan,Kab. Sleman,DI Yogyakarta,2017-11-27,Besar,105
+BU00401,CV Bersama Makmur Maju,CV,Pertanian & Perkebunan,Kab. Jepara,Jawa Tengah,2019-02-24,Kecil,18
+BU00402,PT Abadi Perkasa Sentosa,PT,Jasa Perusahaan,Kab. Demak,Jawa Tengah,2023-03-27,Menengah,36
+BU00403,CV Sejahtera Tekstil Sumber,CV,Perdagangan,Kab. Demak,Jawa Tengah,2023-10-01,Kecil,12
+BU00404,PT Maju Jaya Bangun,PT,Jasa Perusahaan,Kab. Bantul,DI Yogyakarta,2023-07-01,Menengah,87
+BU00405,PT Sentosa Nusantara Logam,PT,Jasa Perusahaan,Kab. Demak,Jawa Tengah,2018-06-23,Kecil,6
+BU00406,PT Agung Abadi Bangun,PT,Perdagangan,Kab. Klaten,Jawa Tengah,2022-03-17,Besar,101
+BU00407,CV Bersama Niaga Makmur,CV,Pertanian & Perkebunan,Kota Surakarta,Jawa Tengah,2020-12-08,Kecil,6
+BU00408,PT Mulia Prima Karya,PT,Jasa Perusahaan,Kab. Banyumas,Jawa Tengah,2017-07-19,Besar,100
+BU00409,PT Bersama Niaga Utama,PT,Transportasi & Pergudangan,Kab. Cilacap,Jawa Tengah,2019-02-03,Menengah,75
+BU00410,CV Niaga Karya Perkasa,CV,Industri Pengolahan,Kab. Jepara,Jawa Tengah,2014-02-28,Kecil,16
+BU00411,PT Karya Agung Bersama,PT,Jasa Perusahaan,Kab. Kendal,Jawa Tengah,2015-10-18,Menengah,74
+BU00412,PT Lestari Jaya Prima,PT,Pertanian & Perkebunan,Kab. Demak,Jawa Tengah,2020-01-11,Menengah,90
+BU00413,PT Karya Logam Sejahtera,PT,Industri Pengolahan,Kab. Bantul,DI Yogyakarta,2023-10-31,Kecil,12
+BU00414,PT Utama Mandiri Nusantara,PT,Industri Pengolahan,Kab. Demak,Jawa Tengah,2018-07-14,Menengah,79
+BU00415,PT Abadi Garmen Prima,PT,Industri Pengolahan,Kota Semarang,Jawa Tengah,2015-11-08,Menengah,32
+BU00416,PT Garmen Perkasa Prima,PT,Akomodasi & Makan Minum,Kota Surakarta,Jawa Tengah,2015-09-13,Besar,109
+BU00417,PT Agung Maju Prima,PT,Industri Pengolahan,Kab. Kudus,Jawa Tengah,2024-06-07,Menengah,35
+BU00418,PT Mandiri Perkasa Bangun,PT,Perdagangan,Kota Semarang,Jawa Tengah,2024-07-07,Menengah,23
+BU00419,CV Jaya Agung Utama,CV,Perdagangan,Kota Semarang,Jawa Tengah,2020-01-19,Kecil,9
+BU00420,PT Sinar Makmur Mulia,PT,Akomodasi & Makan Minum,Kab. Bantul,DI Yogyakarta,2019-10-22,Besar,315
+BU00421,PT Karya Agung Bersama,PT,Perdagangan,Kota Semarang,Jawa Tengah,2018-03-06,Menengah,74
+BU00422,PT Sumber Nusantara Lestari,PT,Industri Pengolahan,Kab. Klaten,Jawa Tengah,2022-12-03,Menengah,25
+BU00423,PT Bangun Garmen Maju,PT,Perdagangan,Kab. Cilacap,Jawa Tengah,2018-03-14,Kecil,10
+BU00424,PT Indah Logam Agung,PT,Transportasi & Pergudangan,Kab. Banyumas,Jawa Tengah,2016-03-17,Menengah,54
+BU00425,PT Sejahtera Agung Abadi,PT,Jasa Perusahaan,Kab. Sleman,DI Yogyakarta,2021-10-07,Kecil,8
+BU00426,PT Garmen Indah Sinar,PT,Perdagangan,Kab. Banyumas,Jawa Tengah,2019-11-09,Kecil,12
+BU00427,PT Mandiri Garmen Sentosa,PT,Industri Pengolahan,Kab. Klaten,Jawa Tengah,2021-02-12,Menengah,20
+BU00428,PT Tekstil Sejahtera Utama,PT,Perdagangan,Kab. Jepara,Jawa Tengah,2019-08-12,Besar,219
+BU00429,CV Perkasa Sinar Abadi,CV,Konstruksi,Kab. Banyumas,Jawa Tengah,2015-02-18,Kecil,16
+BU00430,PT Sinar Abadi Sinar,PT,Jasa Perusahaan,Kab. Demak,Jawa Tengah,2014-06-09,Besar,282
+BU00431,PT Lestari Perkasa Maju,PT,Pertanian & Perkebunan,Kota Yogyakarta,DI Yogyakarta,2021-01-10,Kecil,17
+BU00432,PT Karya Mandiri Jaya,PT,Akomodasi & Makan Minum,Kab. Kudus,Jawa Tengah,2014-04-15,Menengah,72
+BU00433,PT Sumber Nusantara Sinar,PT,Industri Pengolahan,Kab. Kendal,Jawa Tengah,2021-09-07,Kecil,5
+BU00434,PT Sejahtera Agung Sumber,PT,Industri Pengolahan,Kota Semarang,Jawa Tengah,2020-02-15,Menengah,82
+BU00435,PT Indah Sentosa Sumber,PT,Industri Pengolahan,Kota Surakarta,Jawa Tengah,2021-08-20,Menengah,60
+BU00436,PT Sejahtera Jaya Mandiri,PT,Pertanian & Perkebunan,Kota Yogyakarta,DI Yogyakarta,2023-05-21,Kecil,14
+BU00437,PT Niaga Harapan Kayu,PT,Konstruksi,Kota Yogyakarta,DI Yogyakarta,2014-06-20,Kecil,4
+BU00438,PT Sinar Niaga Tekstil,PT,Akomodasi & Makan Minum,Kab. Bantul,DI Yogyakarta,2022-11-16,Kecil,14
+BU00439,PT Abadi Utama Tekstil,PT,Perdagangan,Kab. Demak,Jawa Tengah,2019-02-05,Menengah,66
+BU00440,CV Pangan Jaya Indah,CV,Akomodasi & Makan Minum,Kota Semarang,Jawa Tengah,2016-08-27,Kecil,6
+BU00441,PT Niaga Utama Harapan,PT,Konstruksi,Kab. Jepara,Jawa Tengah,2020-06-28,Menengah,54
+BU00442,CV Agung Kayu Jaya,CV,Akomodasi & Makan Minum,Kab. Kudus,Jawa Tengah,2019-11-16,Kecil,11
+BU00443,PT Mandiri Kayu Kayu,PT,Akomodasi & Makan Minum,Kota Yogyakarta,DI Yogyakarta,2018-10-03,Menengah,28
+BU00444,PT Prima Jaya Mulia,PT,Jasa Perusahaan,Kab. Bantul,DI Yogyakarta,2019-01-28,Besar,104
+BU00445,CV Sentosa Sejahtera Kayu,CV,Perdagangan,Kab. Sleman,DI Yogyakarta,2016-11-26,Kecil,8
+BU00446,CV Sentosa Sumber Mandiri,CV,Perdagangan,Kota Semarang,Jawa Tengah,2015-12-22,Kecil,7
+BU00447,PT Maju Mulia Logam,PT,Jasa Perusahaan,Kab. Demak,Jawa Tengah,2015-04-20,Menengah,70
+BU00448,PT Kayu Jaya Prima,PT,Perdagangan,Kab. Jepara,Jawa Tengah,2021-04-08,Kecil,17
+BU00449,PT Sumber Sentosa Niaga,PT,Industri Pengolahan,Kota Semarang,Jawa Tengah,2018-11-30,Menengah,55
+BU00450,CV Bangun Tekstil Sejahtera,CV,Industri Pengolahan,Kab. Demak,Jawa Tengah,2024-04-14,Kecil,17
+BU00451,PT Tekstil Kayu Agung,PT,Perdagangan,Kab. Klaten,Jawa Tengah,2020-10-24,Menengah,33
+BU00452,CV Garmen Tekstil Karya,CV,Jasa Perusahaan,Kab. Kudus,Jawa Tengah,2017-10-18,Kecil,11
+BU00453,CV Prima Harapan Jaya,CV,Industri Pengolahan,Kab. Bantul,DI Yogyakarta,2020-05-21,Kecil,11
+BU00454,PT Tekstil Indah Karya,PT,Perdagangan,Kab. Demak,Jawa Tengah,2023-05-13,Kecil,10
+BU00455,PT Tekstil Perkasa Utama,PT,Perdagangan,Kab. Demak,Jawa Tengah,2022-04-15,Menengah,22
+BU00456,PT Sentosa Karya Jaya,PT,Konstruksi,Kab. Kudus,Jawa Tengah,2024-03-11,Kecil,10
+BU00457,CV Maju Lestari Perkasa,CV,Konstruksi,Kab. Jepara,Jawa Tengah,2020-05-19,Kecil,7
+BU00458,PT Tekstil Sentosa Utama,PT,Jasa Perusahaan,Kab. Jepara,Jawa Tengah,2016-03-22,Menengah,91
+BU00459,PT Pangan Logam Sejahtera,PT,Akomodasi & Makan Minum,Kab. Jepara,Jawa Tengah,2023-08-22,Kecil,18
+BU00460,PT Sejahtera Karya Sejahtera,PT,Jasa Perusahaan,Kab. Kendal,Jawa Tengah,2018-02-11,Besar,191
+BU00461,PT Tekstil Mandiri Agung,PT,Industri Pengolahan,Kab. Sleman,DI Yogyakarta,2022-02-22,Besar,206
+BU00462,PT Nusantara Bersama Perkasa,PT,Industri Pengolahan,Kab. Banyumas,Jawa Tengah,2017-09-18,Menengah,73
+BU00463,PT Sumber Kayu Kayu,PT,Industri Pengolahan,Kab. Kendal,Jawa Tengah,2014-06-15,Besar,193
+BU00464,CV Sejahtera Utama Sentosa,CV,Pertanian & Perkebunan,Kab. Cilacap,Jawa Tengah,2023-09-23,Kecil,8
+BU00465,PT Maju Indah Sentosa,PT,Jasa Perusahaan,Kab. Kudus,Jawa Tengah,2022-10-01,Besar,130
+BU00466,PT Bangun Nusantara Makmur,PT,Konstruksi,Kab. Bantul,DI Yogyakarta,2024-06-20,Kecil,4
+BU00467,CV Garmen Agung Nusantara,CV,Industri Pengolahan,Kab. Demak,Jawa Tengah,2023-04-15,Kecil,12
+BU00468,PT Karya Harapan Harapan,PT,Jasa Perusahaan,Kota Semarang,Jawa Tengah,2021-08-29,Kecil,9
+BU00469,PT Prima Niaga Makmur,PT,Pertanian & Perkebunan,Kab. Cilacap,Jawa Tengah,2018-03-14,Kecil,6
+BU00470,PT Pangan Sinar Bersama,PT,Jasa Perusahaan,Kab. Klaten,Jawa Tengah,2018-11-09,Menengah,73
+BU00471,PT Sejahtera Prima Tekstil,PT,Perdagangan,Kota Surakarta,Jawa Tengah,2024-08-07,Kecil,8
+BU00472,CV Abadi Makmur Maju,CV,Industri Pengolahan,Kab. Kendal,Jawa Tengah,2014-07-25,Kecil,13
+BU00473,CV Harapan Perkasa Sentosa,CV,Transportasi & Pergudangan,Kab. Jepara,Jawa Tengah,2022-08-24,Kecil,10
+BU00474,CV Niaga Prima Kayu,CV,Jasa Perusahaan,Kota Surakarta,Jawa Tengah,2014-04-26,Kecil,14
+BU00475,PT Lestari Pangan Garmen,PT,Konstruksi,Kab. Bantul,DI Yogyakarta,2014-03-26,Menengah,30
+BU00476,PT Bersama Agung Indah,PT,Industri Pengolahan,Kota Surakarta,Jawa Tengah,2018-08-06,Menengah,38
+BU00477,PT Sentosa Bangun Pangan,PT,Jasa Perusahaan,Kab. Klaten,Jawa Tengah,2020-04-07,Kecil,19
+BU00478,PT Garmen Maju Kayu,PT,Akomodasi & Makan Minum,Kab. Bantul,DI Yogyakarta,2020-06-29,Menengah,33
+BU00479,PT Sumber Karya Abadi,PT,Transportasi & Pergudangan,Kab. Kendal,Jawa Tengah,2016-03-08,Menengah,27
+BU00480,PT Perkasa Karya Mulia,PT,Perdagangan,Kab. Jepara,Jawa Tengah,2015-08-19,Menengah,20
+BU00481,CV Logam Pangan Garmen,CV,Industri Pengolahan,Kab. Bantul,DI Yogyakarta,2021-04-29,Kecil,11
+BU00482,PT Pangan Garmen Sejahtera,PT,Perdagangan,Kab. Banyumas,Jawa Tengah,2018-05-10,Menengah,96
+BU00483,PT Mulia Bangun Tekstil,PT,Perdagangan,Kab. Kudus,Jawa Tengah,2021-11-06,Menengah,61
+BU00484,CV Maju Maju Bersama,CV,Akomodasi & Makan Minum,Kota Yogyakarta,DI Yogyakarta,2023-09-14,Kecil,9
+BU00485,CV Bangun Sejahtera Niaga,CV,Industri Pengolahan,Kab. Klaten,Jawa Tengah,2020-04-22,Kecil,8
+BU00486,CV Utama Garmen Abadi,CV,Transportasi & Pergudangan,Kab. Banyumas,Jawa Tengah,2018-12-23,Kecil,6
+BU00487,PT Karya Pangan Prima,PT,Jasa Perusahaan,Kota Yogyakarta,DI Yogyakarta,2021-09-23,Menengah,45
+BU00488,CV Nusantara Sejahtera Logam,CV,Akomodasi & Makan Minum,Kab. Klaten,Jawa Tengah,2022-11-03,Kecil,6
+BU00489,PT Agung Pangan Prima,PT,Industri Pengolahan,Kota Semarang,Jawa Tengah,2021-01-13,Menengah,33
+BU00490,PT Abadi Sentosa Makmur,PT,Industri Pengolahan,Kab. Cilacap,Jawa Tengah,2022-02-07,Menengah,74
+BU00491,CV Maju Logam Agung,CV,Pertanian & Perkebunan,Kab. Bantul,DI Yogyakarta,2022-03-10,Kecil,9
+BU00492,PT Mulia Makmur Lestari,PT,Konstruksi,Kab. Bantul,DI Yogyakarta,2015-10-29,Menengah,41
+BU00493,CV Sumber Maju Utama,CV,Perdagangan,Kab. Demak,Jawa Tengah,2018-09-06,Kecil,14
+BU00494,CV Logam Mulia Makmur,CV,Industri Pengolahan,Kota Yogyakarta,DI Yogyakarta,2023-08-05,Kecil,5
+BU00495,CV Perkasa Kayu Kayu,CV,Konstruksi,Kab. Kendal,Jawa Tengah,2023-01-01,Kecil,3
+BU00496,PT Maju Utama Garmen,PT,Akomodasi & Makan Minum,Kab. Cilacap,Jawa Tengah,2023-08-11,Kecil,17
+BU00497,CV Abadi Abadi Karya,CV,Perdagangan,Kab. Kendal,Jawa Tengah,2024-10-07,Kecil,10
+BU00498,CV Harapan Bersama Utama,CV,Perdagangan,Kab. Demak,Jawa Tengah,2015-03-15,Kecil,12
+BU00499,PT Sinar Sentosa Perkasa,PT,Perdagangan,Kab. Cilacap,Jawa Tengah,2024-12-19,Menengah,28
+BU00500,PT Sumber Utama Nusantara,PT,Konstruksi,Kota Semarang,Jawa Tengah,2022-01-16,Menengah,44
+BU00501,PT Utama Bangun Harapan,PT,Industri Pengolahan,Kota Yogyakarta,DI Yogyakarta,2024-10-23,Menengah,35
+BU00502,PT Mulia Sumber Utama,PT,Perdagangan,Kab. Sleman,DI Yogyakarta,2014-03-04,Menengah,30
+BU00503,PT Bangun Logam Lestari,PT,Industri Pengolahan,Kab. Kudus,Jawa Tengah,2018-01-23,Besar,130
+BU00504,PT Prima Mulia Bersama,PT,Industri Pengolahan,Kab. Cilacap,Jawa Tengah,2017-09-07,Menengah,77
+BU00505,PT Harapan Sejahtera Abadi,PT,Industri Pengolahan,Kota Surakarta,Jawa Tengah,2023-07-11,Menengah,60
+BU00506,PT Logam Tekstil Maju,PT,Perdagangan,Kab. Banyumas,Jawa Tengah,2016-08-16,Kecil,7
+BU00507,PT Mandiri Mandiri Niaga,PT,Perdagangan,Kab. Kudus,Jawa Tengah,2020-01-20,Menengah,75
+BU00508,PT Mulia Niaga Nusantara,PT,Pertanian & Perkebunan,Kab. Bantul,DI Yogyakarta,2014-12-23,Menengah,26
+BU00509,CV Perkasa Karya Niaga,CV,Pertanian & Perkebunan,Kota Semarang,Jawa Tengah,2019-05-10,Kecil,7
+BU00510,CV Pangan Bersama Sejahtera,CV,Perdagangan,Kab. Kendal,Jawa Tengah,2020-12-18,Kecil,11
+BU00511,CV Sinar Abadi Karya,CV,Transportasi & Pergudangan,Kota Yogyakarta,DI Yogyakarta,2022-10-04,Kecil,5
+BU00512,PT Perkasa Makmur Logam,PT,Perdagangan,Kota Yogyakarta,DI Yogyakarta,2014-05-10,Menengah,42
+BU00513,PT Bersama Kayu Tekstil,PT,Perdagangan,Kab. Bantul,DI Yogyakarta,2014-05-08,Menengah,75
+BU00514,PT Perkasa Mandiri Logam,PT,Perdagangan,Kota Semarang,Jawa Tengah,2021-12-28,Menengah,32
+BU00515,PT Tekstil Mulia Tekstil,PT,Akomodasi & Makan Minum,Kab. Kudus,Jawa Tengah,2018-08-21,Menengah,36
+BU00516,CV Tekstil Perkasa Niaga,CV,Industri Pengolahan,Kab. Kendal,Jawa Tengah,2016-11-16,Menengah,20
+BU00517,PT Sumber Indah Utama,PT,Perdagangan,Kab. Banyumas,Jawa Tengah,2024-06-05,Menengah,48
+BU00518,PT Karya Sejahtera Agung,PT,Konstruksi,Kab. Sleman,DI Yogyakarta,2021-09-08,Besar,495
+BU00519,PT Mulia Jaya Bangun,PT,Industri Pengolahan,Kab. Klaten,Jawa Tengah,2018-08-12,Menengah,62
+BU00520,PT Logam Harapan Mandiri,PT,Konstruksi,Kab. Kendal,Jawa Tengah,2019-10-19,Kecil,12
+BU00521,CV Mulia Sejahtera Lestari,CV,Konstruksi,Kab. Kendal,Jawa Tengah,2016-08-04,Menengah,23
+BU00522,PT Pangan Garmen Makmur,PT,Jasa Perusahaan,Kab. Bantul,DI Yogyakarta,2021-07-25,Besar,205
+BU00523,PT Utama Perkasa Kayu,PT,Transportasi & Pergudangan,Kab. Banyumas,Jawa Tengah,2024-12-31,Menengah,89
+BU00524,PT Prima Pangan Jaya,PT,Industri Pengolahan,Kab. Jepara,Jawa Tengah,2024-03-04,Menengah,58
+BU00525,PT Logam Mulia Bangun,PT,Perdagangan,Kab. Bantul,DI Yogyakarta,2015-03-29,Kecil,19
+BU00526,PT Jaya Sinar Logam,PT,Transportasi & Pergudangan,Kab. Sleman,DI Yogyakarta,2020-06-27,Menengah,54
+BU00527,PT Agung Bersama Tekstil,PT,Konstruksi,Kab. Klaten,Jawa Tengah,2015-02-25,Menengah,69
+BU00528,CV Mulia Harapan Lestari,CV,Industri Pengolahan,Kab. Bantul,DI Yogyakarta,2021-04-06,Kecil,4
+BU00529,CV Karya Niaga Kayu,CV,Industri Pengolahan,Kab. Banyumas,Jawa Tengah,2020-06-03,Kecil,9
+BU00530,PT Tekstil Harapan Agung,PT,Akomodasi & Makan Minum,Kab. Kendal,Jawa Tengah,2019-12-24,Menengah,97
+BU00531,PT Mulia Sinar Pangan,PT,Industri Pengolahan,Kab. Kudus,Jawa Tengah,2024-11-29,Menengah,55
+BU00532,PT Harapan Logam Agung,PT,Konstruksi,Kota Semarang,Jawa Tengah,2023-06-22,Kecil,19
+BU00533,PT Indah Harapan Indah,PT,Akomodasi & Makan Minum,Kab. Banyumas,Jawa Tengah,2015-02-01,Besar,364
+BU00534,PT Nusantara Perkasa Agung,PT,Akomodasi & Makan Minum,Kab. Jepara,Jawa Tengah,2020-11-14,Besar,216
+BU00535,CV Karya Maju Lestari,CV,Transportasi & Pergudangan,Kota Semarang,Jawa Tengah,2019-11-30,Kecil,10
+BU00536,PT Agung Lestari Perkasa,PT,Industri Pengolahan,Kab. Sleman,DI Yogyakarta,2016-07-01,Menengah,23
+BU00537,PT Logam Indah Sinar,PT,Perdagangan,Kab. Kendal,Jawa Tengah,2015-05-08,Menengah,92
+BU00538,PT Karya Tekstil Garmen,PT,Industri Pengolahan,Kab. Banyumas,Jawa Tengah,2021-10-22,Menengah,50
+BU00539,CV Perkasa Indah Bangun,CV,Pertanian & Perkebunan,Kota Yogyakarta,DI Yogyakarta,2020-05-14,Kecil,13
+BU00540,CV Maju Abadi Karya,CV,Akomodasi & Makan Minum,Kab. Sleman,DI Yogyakarta,2021-09-17,Menengah,23
+BU00541,PT Mandiri Sejahtera Prima,PT,Akomodasi & Makan Minum,Kab. Klaten,Jawa Tengah,2024-12-27,Menengah,39
+BU00542,PT Logam Perkasa Prima,PT,Perdagangan,Kota Semarang,Jawa Tengah,2018-04-05,Menengah,60
+BU00543,PT Harapan Sejahtera Lestari,PT,Akomodasi & Makan Minum,Kota Semarang,Jawa Tengah,2017-02-11,Menengah,60
+BU00544,CV Agung Mandiri Indah,CV,Konstruksi,Kab. Demak,Jawa Tengah,2014-05-16,Kecil,11
+BU00545,CV Maju Tekstil Sentosa,CV,Industri Pengolahan,Kab. Kudus,Jawa Tengah,2021-05-16,Kecil,5
+BU00546,PT Abadi Abadi Mandiri,PT,Jasa Perusahaan,Kab. Sleman,DI Yogyakarta,2021-11-07,Menengah,23
+BU00547,PT Perkasa Abadi Utama,PT,Pertanian & Perkebunan,Kab. Cilacap,Jawa Tengah,2021-05-08,Menengah,72
+BU00548,PT Logam Indah Kayu,PT,Konstruksi,Kab. Kendal,Jawa Tengah,2014-08-06,Menengah,37
+BU00549,PT Agung Kayu Abadi,PT,Pertanian & Perkebunan,Kota Surakarta,Jawa Tengah,2020-10-22,Menengah,37
+BU00550,PT Lestari Karya Bersama,PT,Pertanian & Perkebunan,Kab. Cilacap,Jawa Tengah,2021-08-13,Kecil,7
+BU00551,PT Mulia Maju Abadi,PT,Jasa Perusahaan,Kab. Kendal,Jawa Tengah,2021-07-01,Menengah,90
+BU00552,PT Sentosa Nusantara Bersama,PT,Transportasi & Pergudangan,Kab. Jepara,Jawa Tengah,2019-10-25,Menengah,73
+BU00553,CV Pangan Makmur Utama,CV,Industri Pengolahan,Kab. Cilacap,Jawa Tengah,2018-12-19,Kecil,6
+BU00554,PT Kayu Lestari Abadi,PT,Perdagangan,Kota Surakarta,Jawa Tengah,2024-09-11,Menengah,20
+BU00555,CV Kayu Abadi Harapan,CV,Perdagangan,Kab. Kudus,Jawa Tengah,2021-12-23,Kecil,9
+BU00556,PT Harapan Mandiri Sinar,PT,Perdagangan,Kab. Sleman,DI Yogyakarta,2022-07-02,Menengah,98
+BU00557,PT Tekstil Prima Bersama,PT,Jasa Perusahaan,Kota Yogyakarta,DI Yogyakarta,2020-04-27,Menengah,31
+BU00558,CV Logam Sejahtera Abadi,CV,Industri Pengolahan,Kab. Banyumas,Jawa Tengah,2014-08-03,Kecil,16
+BU00559,CV Sentosa Indah Karya,CV,Perdagangan,Kota Surakarta,Jawa Tengah,2019-04-20,Kecil,8
+BU00560,PT Makmur Utama Utama,PT,Jasa Perusahaan,Kab. Bantul,DI Yogyakarta,2014-08-30,Menengah,39
+BU00561,PT Abadi Tekstil Sinar,PT,Konstruksi,Kota Yogyakarta,DI Yogyakarta,2022-01-10,Besar,297
+BU00562,PT Lestari Nusantara Makmur,PT,Jasa Perusahaan,Kota Yogyakarta,DI Yogyakarta,2014-06-28,Menengah,59
+BU00563,CV Sentosa Maju Pangan,CV,Perdagangan,Kab. Kendal,Jawa Tengah,2017-03-02,Kecil,7
+BU00564,PT Utama Lestari Sentosa,PT,Industri Pengolahan,Kab. Cilacap,Jawa Tengah,2016-07-24,Menengah,26
+BU00565,PT Utama Prima Jaya,PT,Konstruksi,Kab. Cilacap,Jawa Tengah,2016-02-12,Besar,181
+BU00566,CV Utama Prima Indah,CV,Konstruksi,Kab. Demak,Jawa Tengah,2017-08-17,Kecil,18
+BU00567,PT Bangun Abadi Jaya,PT,Akomodasi & Makan Minum,Kab. Klaten,Jawa Tengah,2024-03-29,Kecil,18
+BU00568,PT Lestari Sejahtera Lestari,PT,Jasa Perusahaan,Kab. Banyumas,Jawa Tengah,2018-10-22,Menengah,28
+BU00569,PT Kayu Sentosa Sumber,PT,Industri Pengolahan,Kab. Kudus,Jawa Tengah,2014-02-03,Kecil,9
+BU00570,PT Niaga Tekstil Agung,PT,Akomodasi & Makan Minum,Kota Yogyakarta,DI Yogyakarta,2020-01-04,Kecil,14
+BU00571,PT Karya Lestari Abadi,PT,Pertanian & Perkebunan,Kab. Cilacap,Jawa Tengah,2023-02-05,Menengah,35
+BU00572,PT Indah Sejahtera Maju,PT,Konstruksi,Kab. Banyumas,Jawa Tengah,2015-09-17,Kecil,6
+BU00573,PT Makmur Logam Logam,PT,Transportasi & Pergudangan,Kab. Kendal,Jawa Tengah,2018-05-03,Menengah,44
+BU00574,CV Sinar Mulia Sumber,CV,Akomodasi & Makan Minum,Kab. Jepara,Jawa Tengah,2018-10-28,Kecil,5
+BU00575,PT Nusantara Sinar Lestari,PT,Industri Pengolahan,Kab. Bantul,DI Yogyakarta,2015-01-04,Kecil,16
+BU00576,PT Sinar Abadi Niaga,PT,Konstruksi,Kab. Jepara,Jawa Tengah,2015-10-16,Besar,219
+BU00577,CV Karya Indah Nusantara,CV,Akomodasi & Makan Minum,Kab. Jepara,Jawa Tengah,2015-03-03,Kecil,11
+BU00578,PT Sentosa Lestari Kayu,PT,Industri Pengolahan,Kab. Kudus,Jawa Tengah,2023-04-28,Menengah,48
+BU00579,CV Sentosa Garmen Nusantara,CV,Transportasi & Pergudangan,Kab. Sleman,DI Yogyakarta,2020-10-29,Kecil,19
+BU00580,PT Logam Sumber Bersama,PT,Perdagangan,Kota Semarang,Jawa Tengah,2023-01-10,Menengah,59
+BU00581,CV Lestari Logam Garmen,CV,Perdagangan,Kab. Kudus,Jawa Tengah,2020-06-01,Kecil,5
+BU00582,PT Mulia Karya Bangun,PT,Jasa Perusahaan,Kab. Bantul,DI Yogyakarta,2023-02-08,Kecil,7
+BU00583,PT Harapan Logam Agung,PT,Industri Pengolahan,Kab. Bantul,DI Yogyakarta,2021-11-03,Kecil,19
+BU00584,PT Sejahtera Agung Lestari,PT,Industri Pengolahan,Kab. Demak,Jawa Tengah,2020-06-09,Menengah,23
+BU00585,PT Sumber Jaya Tekstil,PT,Perdagangan,Kab. Banyumas,Jawa Tengah,2023-11-09,Besar,113
+BU00586,PT Logam Sumber Agung,PT,Perdagangan,Kab. Kendal,Jawa Tengah,2017-02-16,Menengah,49
+BU00587,CV Utama Mulia Lestari,CV,Industri Pengolahan,Kab. Kendal,Jawa Tengah,2016-10-27,Kecil,14
+BU00588,PT Bangun Sumber Mandiri,PT,Industri Pengolahan,Kab. Sleman,DI Yogyakarta,2023-01-19,Besar,122
+BU00589,CV Niaga Nusantara Bangun,CV,Industri Pengolahan,Kab. Klaten,Jawa Tengah,2017-11-21,Kecil,4
+BU00590,PT Garmen Utama Sejahtera,PT,Akomodasi & Makan Minum,Kota Surakarta,Jawa Tengah,2015-09-21,Kecil,15
+BU00591,CV Indah Harapan Agung,CV,Industri Pengolahan,Kab. Banyumas,Jawa Tengah,2024-02-23,Kecil,17
+BU00592,PT Mulia Sumber Mulia,PT,Jasa Perusahaan,Kab. Banyumas,Jawa Tengah,2015-07-25,Menengah,67
+BU00593,PT Abadi Logam Karya,PT,Industri Pengolahan,Kab. Demak,Jawa Tengah,2017-04-09,Besar,250
+BU00594,PT Maju Mandiri Logam,PT,Pertanian & Perkebunan,Kab. Banyumas,Jawa Tengah,2024-02-09,Menengah,68
+BU00595,PT Logam Bersama Niaga,PT,Industri Pengolahan,Kota Semarang,Jawa Tengah,2021-05-05,Menengah,24
+BU00596,PT Bersama Bangun Kayu,PT,Akomodasi & Makan Minum,Kab. Sleman,DI Yogyakarta,2023-01-30,Menengah,24
+BU00597,CV Abadi Pangan Bersama,CV,Konstruksi,Kab. Kendal,Jawa Tengah,2019-12-29,Menengah,31
+BU00598,CV Perkasa Kayu Lestari,CV,Perdagangan,Kab. Klaten,Jawa Tengah,2020-12-31,Kecil,8
+BU00599,PT Logam Utama Logam,PT,Akomodasi & Makan Minum,Kab. Sleman,DI Yogyakarta,2020-07-25,Menengah,87
+BU00600,PT Perkasa Pangan Abadi,PT,Akomodasi & Makan Minum,Kab. Jepara,Jawa Tengah,2021-07-21,Menengah,45
+BU00601,PT Indah Harapan Lestari,PT,Jasa Perusahaan,Kab. Klaten,Jawa Tengah,2016-08-23,Kecil,19
+BU00602,PT Nusantara Pangan Utama,PT,Perdagangan,Kab. Sleman,DI Yogyakarta,2016-06-11,Menengah,61
+BU00603,PT Garmen Bersama Garmen,PT,Pertanian & Perkebunan,Kab. Cilacap,Jawa Tengah,2021-09-14,Menengah,83
+BU00604,PT Perkasa Indah Maju,PT,Konstruksi,Kota Yogyakarta,DI Yogyakarta,2019-01-16,Menengah,30
+BU00605,PT Nusantara Indah Perkasa,PT,Konstruksi,Kab. Kendal,Jawa Tengah,2021-06-30,Kecil,16
+BU00606,CV Bangun Indah Sinar,CV,Industri Pengolahan,Kab. Banyumas,Jawa Tengah,2019-06-27,Kecil,18
+BU00607,PT Sumber Sinar Prima,PT,Perdagangan,Kab. Bantul,DI Yogyakarta,2017-02-11,Menengah,73
+BU00608,PT Maju Indah Lestari,PT,Jasa Perusahaan,Kab. Cilacap,Jawa Tengah,2017-08-22,Menengah,42
+BU00609,PT Utama Jaya Logam,PT,Industri Pengolahan,Kota Yogyakarta,DI Yogyakarta,2019-12-10,Menengah,41
+BU00610,PT Maju Niaga Mulia,PT,Industri Pengolahan,Kota Surakarta,Jawa Tengah,2021-07-18,Besar,366
+BU00611,PT Tekstil Tekstil Sinar,PT,Perdagangan,Kota Semarang,Jawa Tengah,2019-09-09,Besar,112
+BU00612,PT Jaya Abadi Nusantara,PT,Industri Pengolahan,Kab. Kendal,Jawa Tengah,2021-04-08,Menengah,55
+BU00613,PT Bersama Lestari Sumber,PT,Perdagangan,Kab. Cilacap,Jawa Tengah,2019-11-13,Besar,197
+BU00614,PT Perkasa Mulia Niaga,PT,Pertanian & Perkebunan,Kab. Sleman,DI Yogyakarta,2019-09-12,Menengah,43
+BU00615,PT Sumber Maju Mandiri,PT,Perdagangan,Kab. Jepara,Jawa Tengah,2019-03-27,Kecil,14
+BU00616,CV Mandiri Jaya Sentosa,CV,Industri Pengolahan,Kota Yogyakarta,DI Yogyakarta,2023-10-08,Kecil,16
+BU00617,PT Karya Sejahtera Jaya,PT,Industri Pengolahan,Kota Surakarta,Jawa Tengah,2022-03-19,Menengah,60
+BU00618,PT Niaga Indah Logam,PT,Akomodasi & Makan Minum,Kota Semarang,Jawa Tengah,2022-10-27,Besar,270
+BU00619,CV Tekstil Utama Abadi,CV,Industri Pengolahan,Kab. Demak,Jawa Tengah,2020-03-24,Kecil,9
+BU00620,CV Pangan Logam Tekstil,CV,Industri Pengolahan,Kab. Klaten,Jawa Tengah,2019-11-03,Kecil,19
+BU00621,CV Agung Kayu Logam,CV,Perdagangan,Kab. Sleman,DI Yogyakarta,2023-07-17,Kecil,11
+BU00622,CV Jaya Mulia Makmur,CV,Akomodasi & Makan Minum,Kab. Kudus,Jawa Tengah,2020-12-13,Kecil,14
+BU00623,PT Abadi Lestari Karya,PT,Industri Pengolahan,Kota Surakarta,Jawa Tengah,2021-02-10,Kecil,12
+BU00624,PT Abadi Niaga Sentosa,PT,Industri Pengolahan,Kab. Klaten,Jawa Tengah,2023-05-13,Kecil,8
+BU00625,CV Abadi Sinar Sinar,CV,Jasa Perusahaan,Kota Semarang,Jawa Tengah,2015-03-29,Kecil,16
+BU00626,PT Sentosa Garmen Bangun,PT,Industri Pengolahan,Kab. Kendal,Jawa Tengah,2022-11-15,Kecil,10
+BU00627,PT Bangun Perkasa Jaya,PT,Akomodasi & Makan Minum,Kab. Jepara,Jawa Tengah,2023-03-20,Menengah,87
+BU00628,PT Makmur Utama Harapan,PT,Industri Pengolahan,Kab. Sleman,DI Yogyakarta,2014-12-09,Menengah,30
+BU00629,PT Tekstil Bangun Maju,PT,Perdagangan,Kab. Sleman,DI Yogyakarta,2015-01-23,Kecil,11
+BU00630,PT Nusantara Nusantara Mulia,PT,Perdagangan,Kab. Banyumas,Jawa Tengah,2024-04-22,Kecil,10
+BU00631,PT Lestari Indah Tekstil,PT,Pertanian & Perkebunan,Kab. Kudus,Jawa Tengah,2015-09-22,Menengah,24
+BU00632,CV Pangan Harapan Sinar,CV,Jasa Perusahaan,Kab. Demak,Jawa Tengah,2014-04-21,Kecil,8
+BU00633,PT Utama Mandiri Jaya,PT,Transportasi & Pergudangan,Kab. Jepara,Jawa Tengah,2019-05-13,Besar,108
+BU00634,PT Lestari Mulia Makmur,PT,Pertanian & Perkebunan,Kab. Kudus,Jawa Tengah,2015-12-15,Menengah,34
+BU00635,PT Sumber Kayu Tekstil,PT,Akomodasi & Makan Minum,Kab. Demak,Jawa Tengah,2019-11-22,Kecil,18
+BU00636,PT Sejahtera Logam Perkasa,PT,Industri Pengolahan,Kab. Banyumas,Jawa Tengah,2023-02-04,Besar,147
+BU00637,PT Niaga Jaya Sentosa,PT,Industri Pengolahan,Kab. Klaten,Jawa Tengah,2021-10-04,Menengah,65
+BU00638,PT Utama Garmen Lestari,PT,Akomodasi & Makan Minum,Kab. Kudus,Jawa Tengah,2020-03-27,Kecil,8
+BU00639,CV Harapan Prima Utama,CV,Konstruksi,Kota Semarang,Jawa Tengah,2024-11-05,Kecil,15
+BU00640,CV Kayu Kayu Makmur,CV,Perdagangan,Kota Yogyakarta,DI Yogyakarta,2019-04-27,Kecil,10
+BU00641,PT Sinar Maju Mulia,PT,Konstruksi,Kab. Kudus,Jawa Tengah,2018-06-14,Menengah,65
+BU00642,PT Nusantara Nusantara Abadi,PT,Pertanian & Perkebunan,Kota Surakarta,Jawa Tengah,2020-08-19,Besar,105
+BU00643,PT Sinar Makmur Lestari,PT,Akomodasi & Makan Minum,Kab. Cilacap,Jawa Tengah,2020-06-27,Kecil,11
+BU00644,PT Mandiri Sumber Bangun,PT,Jasa Perusahaan,Kab. Demak,Jawa Tengah,2020-10-23,Menengah,89
+BU00645,PT Utama Agung Logam,PT,Industri Pengolahan,Kab. Klaten,Jawa Tengah,2023-07-01,Kecil,9
+BU00646,PT Makmur Mandiri Bersama,PT,Pertanian & Perkebunan,Kota Surakarta,Jawa Tengah,2023-04-04,Kecil,4
+BU00647,PT Sejahtera Nusantara Sinar,PT,Perdagangan,Kab. Demak,Jawa Tengah,2022-04-09,Menengah,58
+BU00648,PT Niaga Mulia Maju,PT,Industri Pengolahan,Kab. Sleman,DI Yogyakarta,2016-07-12,Besar,289
+BU00649,PT Abadi Mandiri Utama,PT,Konstruksi,Kota Yogyakarta,DI Yogyakarta,2020-03-02,Menengah,64
+BU00650,PT Perkasa Sentosa Indah,PT,Jasa Perusahaan,Kota Yogyakarta,DI Yogyakarta,2014-05-01,Menengah,55
+BU00651,PT Perkasa Sentosa Maju,PT,Perdagangan,Kab. Banyumas,Jawa Tengah,2019-03-31,Kecil,18
+BU00652,PT Indah Garmen Pangan,PT,Perdagangan,Kab. Bantul,DI Yogyakarta,2022-01-24,Menengah,33
+BU00653,PT Sentosa Sumber Tekstil,PT,Jasa Perusahaan,Kab. Banyumas,Jawa Tengah,2023-07-08,Menengah,48
+BU00654,PT Karya Mandiri Bersama,PT,Jasa Perusahaan,Kab. Klaten,Jawa Tengah,2015-04-09,Menengah,54
+BU00655,PT Sumber Sentosa Mulia,PT,Industri Pengolahan,Kab. Banyumas,Jawa Tengah,2021-06-07,Menengah,46
+BU00656,PT Tekstil Tekstil Abadi,PT,Akomodasi & Makan Minum,Kab. Kendal,Jawa Tengah,2018-09-17,Kecil,11
+BU00657,PT Harapan Tekstil Sentosa,PT,Perdagangan,Kota Yogyakarta,DI Yogyakarta,2016-03-07,Kecil,15
+BU00658,PT Niaga Karya Utama,PT,Perdagangan,Kab. Cilacap,Jawa Tengah,2021-04-10,Menengah,85
+BU00659,PT Tekstil Indah Sinar,PT,Pertanian & Perkebunan,Kota Surakarta,Jawa Tengah,2014-06-13,Kecil,14
+BU00660,PT Sinar Makmur Sejahtera,PT,Perdagangan,Kab. Jepara,Jawa Tengah,2024-05-03,Besar,139
+BU00661,PT Makmur Mandiri Tekstil,PT,Jasa Perusahaan,Kab. Demak,Jawa Tengah,2021-08-05,Menengah,45
+BU00662,CV Sumber Pangan Abadi,CV,Akomodasi & Makan Minum,Kab. Kendal,Jawa Tengah,2022-01-02,Kecil,16
+BU00663,PT Perkasa Sumber Garmen,PT,Transportasi & Pergudangan,Kab. Demak,Jawa Tengah,2018-12-04,Kecil,10
+BU00664,PT Kayu Prima Indah,PT,Perdagangan,Kota Surakarta,Jawa Tengah,2018-07-22,Menengah,51
+BU00665,CV Mandiri Mandiri Nusantara,CV,Perdagangan,Kab. Kendal,Jawa Tengah,2022-09-25,Kecil,14
+BU00666,CV Sejahtera Indah Prima,CV,Perdagangan,Kab. Cilacap,Jawa Tengah,2014-07-02,Kecil,7
+BU00667,PT Sentosa Kayu Logam,PT,Perdagangan,Kab. Sleman,DI Yogyakarta,2023-12-04,Menengah,39
+BU00668,CV Makmur Logam Mulia,CV,Pertanian & Perkebunan,Kab. Kudus,Jawa Tengah,2024-07-07,Kecil,3
+BU00669,PT Sinar Sinar Tekstil,PT,Akomodasi & Makan Minum,Kab. Sleman,DI Yogyakarta,2019-03-02,Besar,198
+BU00670,CV Jaya Tekstil Indah,CV,Industri Pengolahan,Kab. Cilacap,Jawa Tengah,2023-03-05,Kecil,7
+BU00671,PT Karya Bangun Sumber,PT,Transportasi & Pergudangan,Kab. Jepara,Jawa Tengah,2020-02-07,Menengah,54
+BU00672,PT Prima Kayu Jaya,PT,Pertanian & Perkebunan,Kab. Sleman,DI Yogyakarta,2016-06-28,Menengah,60
+BU00673,CV Mulia Makmur Sumber,CV,Transportasi & Pergudangan,Kab. Kudus,Jawa Tengah,2021-11-26,Kecil,13
+BU00674,PT Utama Perkasa Sinar,PT,Akomodasi & Makan Minum,Kota Semarang,Jawa Tengah,2017-01-20,Menengah,67
+BU00675,PT Niaga Abadi Mandiri,PT,Perdagangan,Kab. Cilacap,Jawa Tengah,2016-11-25,Menengah,46
+BU00676,CV Mulia Abadi Sumber,CV,Industri Pengolahan,Kab. Sleman,DI Yogyakarta,2023-11-24,Kecil,11
+BU00677,PT Pangan Harapan Lestari,PT,Industri Pengolahan,Kota Semarang,Jawa Tengah,2017-01-06,Menengah,46
+BU00678,PT Sentosa Prima Bersama,PT,Transportasi & Pergudangan,Kab. Jepara,Jawa Tengah,2023-07-05,Menengah,66
+BU00679,PT Mulia Mulia Makmur,PT,Jasa Perusahaan,Kab. Klaten,Jawa Tengah,2023-03-31,Menengah,27
+BU00680,CV Niaga Harapan Jaya,CV,Jasa Perusahaan,Kab. Sleman,DI Yogyakarta,2018-11-08,Kecil,10
+BU00681,PT Sentosa Mulia Nusantara,PT,Pertanian & Perkebunan,Kab. Kendal,Jawa Tengah,2017-06-03,Kecil,17
+BU00682,PT Lestari Sentosa Mandiri,PT,Jasa Perusahaan,Kab. Sleman,DI Yogyakarta,2015-11-07,Menengah,35
+BU00683,PT Kayu Mandiri Tekstil,PT,Jasa Perusahaan,Kab. Jepara,Jawa Tengah,2019-12-19,Menengah,65
+BU00684,CV Maju Maju Bersama,CV,Industri Pengolahan,Kab. Jepara,Jawa Tengah,2024-03-03,Kecil,9
+BU00685,CV Mandiri Maju Kayu,CV,Akomodasi & Makan Minum,Kab. Klaten,Jawa Tengah,2017-02-27,Kecil,11
+BU00686,PT Harapan Bersama Abadi,PT,Jasa Perusahaan,Kota Yogyakarta,DI Yogyakarta,2018-04-27,Menengah,96
+BU00687,PT Sumber Prima Agung,PT,Industri Pengolahan,Kota Surakarta,Jawa Tengah,2014-12-18,Menengah,27
+BU00688,PT Harapan Lestari Pangan,PT,Jasa Perusahaan,Kab. Klaten,Jawa Tengah,2021-06-27,Menengah,91
+BU00689,PT Bersama Tekstil Bangun,PT,Industri Pengolahan,Kab. Demak,Jawa Tengah,2014-01-10,Menengah,81
+BU00690,PT Logam Karya Jaya,PT,Transportasi & Pergudangan,Kota Surakarta,Jawa Tengah,2022-06-22,Menengah,21
+BU00691,CV Indah Harapan Pangan,CV,Jasa Perusahaan,Kota Yogyakarta,DI Yogyakarta,2014-07-12,Kecil,18
+BU00692,CV Garmen Niaga Prima,CV,Konstruksi,Kab. Klaten,Jawa Tengah,2017-06-25,Kecil,11
+BU00693,PT Pangan Prima Niaga,PT,Jasa Perusahaan,Kab. Klaten,Jawa Tengah,2021-07-25,Kecil,7
+BU00694,PT Lestari Jaya Kayu,PT,Pertanian & Perkebunan,Kab. Sleman,DI Yogyakarta,2019-07-13,Menengah,80
+BU00695,CV Kayu Bersama Indah,CV,Akomodasi & Makan Minum,Kab. Kendal,Jawa Tengah,2014-05-23,Kecil,13
+BU00696,PT Mandiri Tekstil Sumber,PT,Perdagangan,Kota Surakarta,Jawa Tengah,2014-04-17,Menengah,61
+BU00697,PT Tekstil Kayu Agung,PT,Transportasi & Pergudangan,Kota Yogyakarta,DI Yogyakarta,2018-01-29,Menengah,27
+BU00698,PT Indah Sinar Perkasa,PT,Perdagangan,Kab. Sleman,DI Yogyakarta,2021-02-24,Menengah,52
+BU00699,PT Tekstil Nusantara Sentosa,PT,Perdagangan,Kab. Klaten,Jawa Tengah,2017-01-14,Menengah,40
+BU00700,PT Kayu Kayu Nusantara,PT,Akomodasi & Makan Minum,Kab. Bantul,DI Yogyakarta,2020-10-15,Menengah,73
+BU00701,CV Sinar Maju Lestari,CV,Perdagangan,Kota Semarang,Jawa Tengah,2024-09-17,Kecil,13
+BU00702,PT Utama Pangan Jaya,PT,Konstruksi,Kab. Sleman,DI Yogyakarta,2015-09-02,Besar,227
+BU00703,PT Kayu Logam Jaya,PT,Konstruksi,Kab. Kudus,Jawa Tengah,2016-08-19,Besar,190
+BU00704,PT Prima Makmur Pangan,PT,Perdagangan,Kab. Bantul,DI Yogyakarta,2021-06-15,Kecil,11
+BU00705,PT Prima Perkasa Abadi,PT,Konstruksi,Kab. Kudus,Jawa Tengah,2022-03-28,Kecil,19
+BU00706,PT Niaga Kayu Indah,PT,Transportasi & Pergudangan,Kab. Sleman,DI Yogyakarta,2014-01-22,Menengah,79
+BU00707,CV Abadi Sumber Abadi,CV,Konstruksi,Kab. Demak,Jawa Tengah,2022-12-11,Kecil,11
+BU00708,CV Karya Lestari Karya,CV,Perdagangan,Kab. Klaten,Jawa Tengah,2024-06-19,Menengah,24
+BU00709,PT Kayu Mandiri Sumber,PT,Konstruksi,Kota Surakarta,Jawa Tengah,2022-05-17,Kecil,13
+BU00710,PT Mandiri Utama Pangan,PT,Industri Pengolahan,Kab. Jepara,Jawa Tengah,2015-03-18,Besar,208
+BU00711,PT Maju Abadi Jaya,PT,Transportasi & Pergudangan,Kota Semarang,Jawa Tengah,2022-03-27,Kecil,9
+BU00712,CV Bangun Agung Prima,CV,Industri Pengolahan,Kab. Kudus,Jawa Tengah,2016-03-25,Kecil,16
+BU00713,PT Indah Sejahtera Perkasa,PT,Jasa Perusahaan,Kab. Bantul,DI Yogyakarta,2024-05-23,Menengah,39
+BU00714,PT Sinar Kayu Makmur,PT,Pertanian & Perkebunan,Kab. Klaten,Jawa Tengah,2018-06-11,Menengah,58
+BU00715,PT Harapan Mandiri Niaga,PT,Transportasi & Pergudangan,Kab. Kudus,Jawa Tengah,2023-10-11,Menengah,31
+BU00716,CV Logam Mulia Sejahtera,CV,Industri Pengolahan,Kota Yogyakarta,DI Yogyakarta,2015-09-08,Kecil,18
+BU00717,PT Mulia Nusantara Lestari,PT,Konstruksi,Kab. Bantul,DI Yogyakarta,2023-03-02,Menengah,36
+BU00718,PT Mulia Lestari Harapan,PT,Konstruksi,Kab. Demak,Jawa Tengah,2015-12-27,Besar,136
+BU00719,PT Lestari Tekstil Lestari,PT,Akomodasi & Makan Minum,Kab. Jepara,Jawa Tengah,2017-03-23,Kecil,17
+BU00720,CV Mandiri Sentosa Perkasa,CV,Perdagangan,Kab. Demak,Jawa Tengah,2016-12-04,Menengah,21
+BU00721,PT Perkasa Indah Mandiri,PT,Perdagangan,Kota Surakarta,Jawa Tengah,2019-07-11,Menengah,25
+BU00722,PT Logam Tekstil Bangun,PT,Transportasi & Pergudangan,Kota Yogyakarta,DI Yogyakarta,2015-01-10,Menengah,44
+BU00723,PT Logam Garmen Nusantara,PT,Jasa Perusahaan,Kab. Bantul,DI Yogyakarta,2018-10-14,Menengah,54
+BU00724,PT Niaga Prima Sumber,PT,Industri Pengolahan,Kota Surakarta,Jawa Tengah,2014-04-30,Menengah,40
+BU00725,PT Nusantara Bersama Niaga,PT,Jasa Perusahaan,Kab. Kendal,Jawa Tengah,2023-11-07,Menengah,52
+BU00726,PT Karya Bangun Sinar,PT,Jasa Perusahaan,Kab. Banyumas,Jawa Tengah,2019-05-03,Besar,227
+BU00727,PT Bangun Sinar Bersama,PT,Pertanian & Perkebunan,Kab. Bantul,DI Yogyakarta,2016-12-10,Kecil,7
+BU00728,PT Tekstil Sentosa Mandiri,PT,Perdagangan,Kab. Cilacap,Jawa Tengah,2017-04-13,Besar,197
+BU00729,PT Bangun Sumber Sejahtera,PT,Jasa Perusahaan,Kota Semarang,Jawa Tengah,2024-07-03,Besar,126
+BU00730,PT Sentosa Utama Sejahtera,PT,Perdagangan,Kab. Klaten,Jawa Tengah,2022-12-05,Kecil,12
+BU00731,PT Karya Bangun Nusantara,PT,Perdagangan,Kab. Sleman,DI Yogyakarta,2021-09-17,Menengah,92
+BU00732,PT Karya Mulia Logam,PT,Industri Pengolahan,Kota Surakarta,Jawa Tengah,2014-09-20,Kecil,16
+BU00733,PT Lestari Utama Harapan,PT,Transportasi & Pergudangan,Kab. Cilacap,Jawa Tengah,2015-05-03,Menengah,37
+BU00734,PT Utama Jaya Sumber,PT,Industri Pengolahan,Kab. Klaten,Jawa Tengah,2024-10-24,Menengah,90
+BU00735,PT Bangun Harapan Mulia,PT,Konstruksi,Kab. Demak,Jawa Tengah,2018-08-21,Menengah,69
+BU00736,PT Niaga Sentosa Kayu,PT,Pertanian & Perkebunan,Kab. Sleman,DI Yogyakarta,2023-01-11,Kecil,10
+BU00737,PT Jaya Sumber Harapan,PT,Pertanian & Perkebunan,Kab. Bantul,DI Yogyakarta,2021-11-03,Menengah,31
+BU00738,CV Nusantara Utama Bersama,CV,Akomodasi & Makan Minum,Kab. Banyumas,Jawa Tengah,2016-01-12,Kecil,4
+BU00739,PT Niaga Sinar Sentosa,PT,Jasa Perusahaan,Kab. Demak,Jawa Tengah,2021-04-09,Menengah,83
+BU00740,PT Nusantara Perkasa Agung,PT,Jasa Perusahaan,Kab. Demak,Jawa Tengah,2022-07-01,Kecil,6
+BU00741,PT Agung Lestari Bangun,PT,Konstruksi,Kab. Cilacap,Jawa Tengah,2017-10-03,Besar,125
+BU00742,PT Bersama Lestari Sentosa,PT,Pertanian & Perkebunan,Kab. Cilacap,Jawa Tengah,2023-07-28,Menengah,55
+BU00743,CV Abadi Niaga Pangan,CV,Akomodasi & Makan Minum,Kab. Banyumas,Jawa Tengah,2020-02-05,Kecil,16
+BU00744,PT Sumber Abadi Niaga,PT,Industri Pengolahan,Kab. Banyumas,Jawa Tengah,2020-10-26,Menengah,35
+BU00745,CV Jaya Agung Makmur,CV,Jasa Perusahaan,Kab. Sleman,DI Yogyakarta,2020-06-19,Kecil,13
+BU00746,PT Karya Bersama Sinar,PT,Jasa Perusahaan,Kab. Kendal,Jawa Tengah,2015-11-28,Besar,111
+BU00747,CV Garmen Bersama Karya,CV,Industri Pengolahan,Kab. Jepara,Jawa Tengah,2022-07-06,Kecil,9
+BU00748,PT Sumber Logam Pangan,PT,Pertanian & Perkebunan,Kota Surakarta,Jawa Tengah,2018-01-13,Besar,234
+BU00749,PT Sumber Maju Pangan,PT,Industri Pengolahan,Kab. Cilacap,Jawa Tengah,2016-09-10,Menengah,83
+BU00750,PT Mulia Sejahtera Garmen,PT,Konstruksi,Kab. Demak,Jawa Tengah,2024-06-12,Menengah,41
+BU00751,PT Sumber Nusantara Prima,PT,Transportasi & Pergudangan,Kab. Banyumas,Jawa Tengah,2014-11-17,Menengah,49
+BU00752,PT Sumber Utama Agung,PT,Industri Pengolahan,Kab. Cilacap,Jawa Tengah,2021-11-01,Besar,114
+BU00753,PT Nusantara Niaga Bangun,PT,Transportasi & Pergudangan,Kab. Kendal,Jawa Tengah,2020-12-07,Kecil,18
+BU00754,PT Sentosa Nusantara Tekstil,PT,Jasa Perusahaan,Kab. Kendal,Jawa Tengah,2018-12-15,Menengah,82
+BU00755,CV Makmur Sumber Sinar,CV,Industri Pengolahan,Kab. Banyumas,Jawa Tengah,2020-09-23,Kecil,19
+BU00756,CV Sumber Perkasa Maju,CV,Perdagangan,Kota Semarang,Jawa Tengah,2019-10-11,Kecil,12
+BU00757,PT Sejahtera Perkasa Sentosa,PT,Perdagangan,Kab. Bantul,DI Yogyakarta,2016-11-11,Menengah,71
+BU00758,CV Logam Indah Perkasa,CV,Transportasi & Pergudangan,Kab. Banyumas,Jawa Tengah,2023-09-25,Kecil,5
+BU00759,PT Nusantara Tekstil Niaga,PT,Jasa Perusahaan,Kab. Kendal,Jawa Tengah,2020-04-11,Kecil,9
+BU00760,PT Maju Bangun Tekstil,PT,Industri Pengolahan,Kab. Bantul,DI Yogyakarta,2024-08-16,Menengah,65
+BU00761,PT Maju Sentosa Jaya,PT,Pertanian & Perkebunan,Kab. Bantul,DI Yogyakarta,2018-02-13,Menengah,67
+BU00762,CV Maju Niaga Jaya,CV,Konstruksi,Kota Surakarta,Jawa Tengah,2022-09-09,Kecil,18
+BU00763,PT Kayu Bersama Kayu,PT,Industri Pengolahan,Kab. Sleman,DI Yogyakarta,2024-07-25,Besar,217
+BU00764,CV Makmur Maju Maju,CV,Industri Pengolahan,Kab. Banyumas,Jawa Tengah,2014-10-14,Kecil,13
+BU00765,PT Prima Jaya Nusantara,PT,Pertanian & Perkebunan,Kab. Kudus,Jawa Tengah,2023-09-18,Menengah,28
+BU00766,PT Maju Garmen Abadi,PT,Transportasi & Pergudangan,Kota Yogyakarta,DI Yogyakarta,2022-01-22,Besar,193
+BU00767,CV Utama Nusantara Jaya,CV,Perdagangan,Kab. Sleman,DI Yogyakarta,2022-01-17,Kecil,17
+BU00768,PT Mandiri Nusantara Sinar,PT,Konstruksi,Kab. Demak,Jawa Tengah,2023-07-22,Kecil,16
+BU00769,PT Logam Makmur Prima,PT,Transportasi & Pergudangan,Kab. Bantul,DI Yogyakarta,2017-06-07,Kecil,19
+BU00770,PT Mandiri Karya Jaya,PT,Industri Pengolahan,Kab. Cilacap,Jawa Tengah,2022-03-16,Menengah,48
+BU00771,PT Indah Utama Jaya,PT,Konstruksi,Kab. Bantul,DI Yogyakarta,2022-07-14,Kecil,9
+BU00772,PT Mandiri Jaya Mulia,PT,Jasa Perusahaan,Kab. Klaten,Jawa Tengah,2020-11-20,Besar,225
+BU00773,PT Agung Agung Prima,PT,Konstruksi,Kab. Cilacap,Jawa Tengah,2022-06-12,Besar,395
+BU00774,PT Utama Niaga Agung,PT,Konstruksi,Kab. Sleman,DI Yogyakarta,2021-06-05,Kecil,16
+BU00775,PT Niaga Nusantara Abadi,PT,Industri Pengolahan,Kab. Cilacap,Jawa Tengah,2016-02-06,Kecil,17
+BU00776,PT Lestari Niaga Perkasa,PT,Perdagangan,Kab. Banyumas,Jawa Tengah,2019-08-24,Menengah,73
+BU00777,PT Sentosa Abadi Mulia,PT,Jasa Perusahaan,Kab. Bantul,DI Yogyakarta,2018-05-19,Besar,198
+BU00778,CV Perkasa Karya Indah,CV,Industri Pengolahan,Kab. Demak,Jawa Tengah,2024-09-24,Kecil,7
+BU00779,PT Sentosa Sentosa Maju,PT,Perdagangan,Kab. Demak,Jawa Tengah,2015-09-11,Menengah,53
+BU00780,PT Sejahtera Maju Karya,PT,Akomodasi & Makan Minum,Kab. Kendal,Jawa Tengah,2024-11-29,Menengah,65
+BU00781,CV Agung Karya Jaya,CV,Akomodasi & Makan Minum,Kota Surakarta,Jawa Tengah,2017-12-18,Kecil,9
+BU00782,CV Jaya Mulia Maju,CV,Jasa Perusahaan,Kab. Kudus,Jawa Tengah,2017-09-26,Kecil,11
+BU00783,CV Kayu Mandiri Maju,CV,Industri Pengolahan,Kab. Banyumas,Jawa Tengah,2022-03-26,Kecil,13
+BU00784,CV Maju Mulia Sejahtera,CV,Industri Pengolahan,Kab. Kendal,Jawa Tengah,2021-03-27,Kecil,7
+BU00785,PT Perkasa Mandiri Nusantara,PT,Perdagangan,Kab. Kendal,Jawa Tengah,2017-01-31,Menengah,46
+BU00786,PT Utama Sentosa Lestari,PT,Pertanian & Perkebunan,Kab. Banyumas,Jawa Tengah,2016-02-14,Besar,129
+BU00787,CV Prima Abadi Bersama,CV,Industri Pengolahan,Kab. Klaten,Jawa Tengah,2020-12-09,Kecil,12
+BU00788,CV Indah Sejahtera Harapan,CV,Industri Pengolahan,Kota Semarang,Jawa Tengah,2024-04-18,Kecil,11
+BU00789,PT Garmen Karya Jaya,PT,Akomodasi & Makan Minum,Kab. Sleman,DI Yogyakarta,2021-02-21,Kecil,12
+BU00790,PT Sentosa Makmur Lestari,PT,Jasa Perusahaan,Kab. Kendal,Jawa Tengah,2024-03-22,Kecil,17
+BU00791,PT Utama Jaya Agung,PT,Konstruksi,Kab. Jepara,Jawa Tengah,2015-05-26,Besar,170
+BU00792,PT Niaga Sentosa Sinar,PT,Pertanian & Perkebunan,Kab. Jepara,Jawa Tengah,2015-02-08,Menengah,33
+BU00793,CV Makmur Nusantara Logam,CV,Jasa Perusahaan,Kab. Jepara,Jawa Tengah,2015-06-25,Kecil,14
+BU00794,PT Sinar Utama Prima,PT,Jasa Perusahaan,Kab. Demak,Jawa Tengah,2024-05-12,Menengah,65
+BU00795,PT Maju Bersama Sinar,PT,Industri Pengolahan,Kab. Klaten,Jawa Tengah,2024-08-09,Kecil,6
+BU00796,CV Prima Logam Bangun,CV,Akomodasi & Makan Minum,Kab. Demak,Jawa Tengah,2018-12-18,Menengah,30
+BU00797,PT Sejahtera Garmen Niaga,PT,Konstruksi,Kab. Kendal,Jawa Tengah,2024-10-02,Kecil,15
+BU00798,CV Logam Sejahtera Mandiri,CV,Industri Pengolahan,Kota Semarang,Jawa Tengah,2021-10-06,Kecil,18
+BU00799,PT Logam Agung Sentosa,PT,Akomodasi & Makan Minum,Kota Yogyakarta,DI Yogyakarta,2022-06-28,Menengah,55
+BU00800,CV Bangun Mandiri Mandiri,CV,Konstruksi,Kab. Banyumas,Jawa Tengah,2017-08-07,Kecil,11
+BU00801,PT Prima Jaya Harapan,PT,Jasa Perusahaan,Kota Semarang,Jawa Tengah,2024-09-07,Menengah,26
+BU00802,CV Makmur Prima Pangan,CV,Akomodasi & Makan Minum,Kota Semarang,Jawa Tengah,2018-12-19,Kecil,11
+BU00803,PT Abadi Agung Lestari,PT,Perdagangan,Kab. Kudus,Jawa Tengah,2022-07-20,Menengah,27
+BU00804,PT Abadi Indah Tekstil,PT,Pertanian & Perkebunan,Kota Surakarta,Jawa Tengah,2018-04-15,Besar,159
+BU00805,PT Abadi Makmur Harapan,PT,Perdagangan,Kab. Cilacap,Jawa Tengah,2014-07-05,Menengah,82
+BU00806,PT Garmen Logam Logam,PT,Industri Pengolahan,Kota Semarang,Jawa Tengah,2022-06-04,Menengah,24
+BU00807,CV Abadi Mulia Prima,CV,Industri Pengolahan,Kab. Kudus,Jawa Tengah,2024-06-11,Menengah,26
+BU00808,CV Maju Pangan Perkasa,CV,Akomodasi & Makan Minum,Kota Surakarta,Jawa Tengah,2018-12-28,Kecil,15
+BU00809,PT Prima Harapan Bersama,PT,Konstruksi,Kab. Klaten,Jawa Tengah,2021-09-22,Menengah,26
+BU00810,PT Bersama Sumber Tekstil,PT,Industri Pengolahan,Kota Semarang,Jawa Tengah,2016-03-05,Menengah,20
+BU00811,CV Bersama Jaya Lestari,CV,Jasa Perusahaan,Kota Semarang,Jawa Tengah,2015-11-11,Kecil,9
+BU00812,PT Perkasa Karya Harapan,PT,Akomodasi & Makan Minum,Kab. Jepara,Jawa Tengah,2022-06-23,Besar,142
+BU00813,CV Bersama Abadi Perkasa,CV,Jasa Perusahaan,Kab. Banyumas,Jawa Tengah,2022-03-09,Kecil,15
+BU00814,CV Prima Lestari Sinar,CV,Jasa Perusahaan,Kab. Banyumas,Jawa Tengah,2023-04-20,Kecil,17
+BU00815,PT Harapan Agung Makmur,PT,Perdagangan,Kab. Kendal,Jawa Tengah,2015-05-12,Menengah,47
+BU00816,PT Harapan Bersama Garmen,PT,Jasa Perusahaan,Kab. Sleman,DI Yogyakarta,2022-04-06,Menengah,69
+BU00817,PT Utama Mandiri Sumber,PT,Konstruksi,Kab. Kendal,Jawa Tengah,2024-07-11,Besar,157
+BU00818,PT Tekstil Bangun Sentosa,PT,Perdagangan,Kab. Kudus,Jawa Tengah,2019-06-18,Kecil,7
+BU00819,PT Makmur Sumber Abadi,PT,Konstruksi,Kota Surakarta,Jawa Tengah,2015-08-07,Menengah,20
+BU00820,PT Utama Pangan Pangan,PT,Transportasi & Pergudangan,Kab. Jepara,Jawa Tengah,2020-07-18,Menengah,63
+BU00821,CV Niaga Sejahtera Perkasa,CV,Perdagangan,Kab. Jepara,Jawa Tengah,2018-06-06,Menengah,22
+BU00822,PT Sumber Karya Harapan,PT,Perdagangan,Kota Yogyakarta,DI Yogyakarta,2014-06-26,Menengah,57
+BU00823,PT Bangun Lestari Perkasa,PT,Perdagangan,Kota Semarang,Jawa Tengah,2024-09-30,Kecil,14
+BU00824,PT Sinar Makmur Agung,PT,Industri Pengolahan,Kab. Cilacap,Jawa Tengah,2015-03-05,Kecil,10
+BU00825,CV Sinar Sejahtera Garmen,CV,Perdagangan,Kab. Demak,Jawa Tengah,2015-08-15,Kecil,5
+BU00826,PT Maju Pangan Logam,PT,Akomodasi & Makan Minum,Kota Semarang,Jawa Tengah,2023-06-20,Menengah,92
+BU00827,PT Sinar Sejahtera Maju,PT,Perdagangan,Kota Yogyakarta,DI Yogyakarta,2023-07-29,Kecil,10
+BU00828,PT Agung Bangun Niaga,PT,Industri Pengolahan,Kota Yogyakarta,DI Yogyakarta,2014-08-11,Menengah,63
+BU00829,PT Makmur Niaga Bangun,PT,Industri Pengolahan,Kab. Kendal,Jawa Tengah,2022-11-13,Menengah,72
+BU00830,PT Mulia Makmur Kayu,PT,Akomodasi & Makan Minum,Kab. Sleman,DI Yogyakarta,2024-06-11,Menengah,21
+BU00831,CV Makmur Maju Bangun,CV,Industri Pengolahan,Kab. Klaten,Jawa Tengah,2019-12-04,Kecil,14
+BU00832,PT Mulia Makmur Perkasa,PT,Industri Pengolahan,Kota Yogyakarta,DI Yogyakarta,2014-06-02,Besar,217
+BU00833,CV Sejahtera Agung Karya,CV,Konstruksi,Kota Surakarta,Jawa Tengah,2024-10-29,Kecil,10
+BU00834,PT Utama Niaga Maju,PT,Industri Pengolahan,Kab. Jepara,Jawa Tengah,2015-12-01,Menengah,70
+BU00835,PT Sinar Pangan Sinar,PT,Pertanian & Perkebunan,Kab. Kudus,Jawa Tengah,2014-05-07,Kecil,5
+BU00836,PT Logam Kayu Niaga,PT,Industri Pengolahan,Kab. Banyumas,Jawa Tengah,2016-08-19,Kecil,12
+BU00837,PT Indah Jaya Perkasa,PT,Jasa Perusahaan,Kota Semarang,Jawa Tengah,2016-12-13,Menengah,88
+BU00838,CV Jaya Kayu Abadi,CV,Jasa Perusahaan,Kab. Bantul,DI Yogyakarta,2018-03-22,Kecil,11
+BU00839,PT Tekstil Agung Garmen,PT,Pertanian & Perkebunan,Kab. Klaten,Jawa Tengah,2018-04-13,Besar,210
+BU00840,PT Pangan Tekstil Utama,PT,Jasa Perusahaan,Kab. Demak,Jawa Tengah,2016-06-25,Menengah,50
+BU00841,PT Maju Mulia Abadi,PT,Akomodasi & Makan Minum,Kab. Demak,Jawa Tengah,2016-03-06,Besar,124
+BU00842,PT Bersama Abadi Utama,PT,Perdagangan,Kab. Banyumas,Jawa Tengah,2018-10-24,Kecil,10
+BU00843,PT Tekstil Jaya Harapan,PT,Akomodasi & Makan Minum,Kab. Kudus,Jawa Tengah,2015-03-17,Menengah,20
+BU00844,PT Abadi Karya Karya,PT,Industri Pengolahan,Kab. Banyumas,Jawa Tengah,2023-07-19,Besar,112
+BU00845,CV Bangun Kayu Makmur,CV,Industri Pengolahan,Kab. Sleman,DI Yogyakarta,2023-01-29,Kecil,6
+BU00846,CV Bersama Sejahtera Perkasa,CV,Perdagangan,Kab. Banyumas,Jawa Tengah,2015-07-11,Kecil,10
+BU00847,PT Garmen Indah Bangun,PT,Akomodasi & Makan Minum,Kab. Bantul,DI Yogyakarta,2016-02-06,Kecil,6
+BU00848,PT Lestari Bangun Mandiri,PT,Industri Pengolahan,Kab. Cilacap,Jawa Tengah,2018-03-14,Menengah,38
+BU00849,PT Kayu Prima Agung,PT,Industri Pengolahan,Kota Surakarta,Jawa Tengah,2020-06-27,Besar,100
+BU00850,PT Harapan Sinar Makmur,PT,Jasa Perusahaan,Kab. Klaten,Jawa Tengah,2019-12-17,Menengah,20
+BU00851,CV Utama Perkasa Niaga,CV,Jasa Perusahaan,Kota Semarang,Jawa Tengah,2015-11-26,Kecil,17
+BU00852,PT Jaya Kayu Agung,PT,Jasa Perusahaan,Kab. Banyumas,Jawa Tengah,2018-09-22,Kecil,4
+BU00853,CV Makmur Abadi Niaga,CV,Konstruksi,Kab. Kudus,Jawa Tengah,2020-05-19,Kecil,9
+BU00854,PT Garmen Perkasa Kayu,PT,Perdagangan,Kab. Demak,Jawa Tengah,2023-11-09,Menengah,90
+BU00855,CV Abadi Sejahtera Abadi,CV,Pertanian & Perkebunan,Kota Semarang,Jawa Tengah,2017-03-21,Kecil,9
+BU00856,PT Mandiri Agung Indah,PT,Industri Pengolahan,Kab. Kendal,Jawa Tengah,2014-02-27,Menengah,88
+BU00857,PT Perkasa Jaya Utama,PT,Jasa Perusahaan,Kab. Banyumas,Jawa Tengah,2023-05-21,Menengah,84
+BU00858,CV Jaya Maju Sejahtera,CV,Industri Pengolahan,Kab. Klaten,Jawa Tengah,2024-08-05,Kecil,6
+BU00859,PT Makmur Mandiri Tekstil,PT,Transportasi & Pergudangan,Kab. Kudus,Jawa Tengah,2024-01-18,Kecil,11
+BU00860,PT Perkasa Nusantara Niaga,PT,Akomodasi & Makan Minum,Kota Yogyakarta,DI Yogyakarta,2016-02-10,Menengah,84
+BU00861,CV Garmen Perkasa Logam,CV,Industri Pengolahan,Kab. Bantul,DI Yogyakarta,2017-04-10,Kecil,5
+BU00862,CV Bersama Mandiri Sumber,CV,Industri Pengolahan,Kab. Jepara,Jawa Tengah,2019-02-09,Kecil,10
+BU00863,PT Karya Makmur Prima,PT,Konstruksi,Kab. Kudus,Jawa Tengah,2023-03-27,Menengah,97
+BU00864,CV Mulia Nusantara Perkasa,CV,Industri Pengolahan,Kab. Banyumas,Jawa Tengah,2015-11-05,Kecil,11
+BU00865,PT Bersama Bersama Jaya,PT,Industri Pengolahan,Kab. Kendal,Jawa Tengah,2023-04-04,Menengah,38
+BU00866,CV Sentosa Mandiri Bangun,CV,Transportasi & Pergudangan,Kab. Jepara,Jawa Tengah,2020-04-09,Kecil,13
+BU00867,PT Indah Abadi Jaya,PT,Perdagangan,Kab. Demak,Jawa Tengah,2023-05-28,Menengah,33
+BU00868,PT Bangun Niaga Sinar,PT,Perdagangan,Kab. Kudus,Jawa Tengah,2019-01-03,Menengah,32
+BU00869,PT Jaya Lestari Mandiri,PT,Akomodasi & Makan Minum,Kab. Klaten,Jawa Tengah,2014-05-25,Kecil,10
+BU00870,PT Bangun Prima Sentosa,PT,Jasa Perusahaan,Kab. Jepara,Jawa Tengah,2022-04-29,Menengah,65
+BU00871,PT Bangun Niaga Nusantara,PT,Industri Pengolahan,Kota Yogyakarta,DI Yogyakarta,2019-10-04,Besar,118
+BU00872,PT Prima Sentosa Kayu,PT,Perdagangan,Kab. Demak,Jawa Tengah,2017-04-16,Menengah,32
+BU00873,PT Abadi Sejahtera Nusantara,PT,Jasa Perusahaan,Kab. Banyumas,Jawa Tengah,2022-02-11,Menengah,60
+BU00874,PT Sumber Karya Karya,PT,Pertanian & Perkebunan,Kab. Bantul,DI Yogyakarta,2015-09-13,Kecil,17
+BU00875,PT Kayu Indah Sentosa,PT,Pertanian & Perkebunan,Kab. Sleman,DI Yogyakarta,2018-04-30,Besar,253
+BU00876,PT Lestari Bersama Tekstil,PT,Industri Pengolahan,Kab. Demak,Jawa Tengah,2015-07-20,Menengah,92
+BU00877,PT Indah Jaya Logam,PT,Industri Pengolahan,Kab. Banyumas,Jawa Tengah,2020-05-27,Menengah,74
+BU00878,PT Tekstil Kayu Lestari,PT,Industri Pengolahan,Kab. Sleman,DI Yogyakarta,2020-11-23,Menengah,42
+BU00879,CV Tekstil Maju Nusantara,CV,Industri Pengolahan,Kab. Sleman,DI Yogyakarta,2016-07-12,Kecil,15
+BU00880,CV Abadi Bersama Sumber,CV,Jasa Perusahaan,Kota Yogyakarta,DI Yogyakarta,2015-10-14,Kecil,16
+BU00881,CV Mandiri Abadi Perkasa,CV,Perdagangan,Kab. Bantul,DI Yogyakarta,2020-08-15,Menengah,24
+BU00882,PT Sentosa Jaya Mandiri,PT,Industri Pengolahan,Kab. Cilacap,Jawa Tengah,2017-11-20,Menengah,79
+BU00883,PT Kayu Maju Makmur,PT,Industri Pengolahan,Kab. Klaten,Jawa Tengah,2023-07-04,Menengah,57
+BU00884,CV Sejahtera Indah Maju,CV,Perdagangan,Kota Surakarta,Jawa Tengah,2022-12-22,Kecil,11
+BU00885,PT Sejahtera Abadi Indah,PT,Jasa Perusahaan,Kota Semarang,Jawa Tengah,2018-03-19,Menengah,38
+BU00886,PT Harapan Sejahtera Maju,PT,Perdagangan,Kab. Banyumas,Jawa Tengah,2021-11-08,Kecil,12
+BU00887,PT Indah Niaga Abadi,PT,Industri Pengolahan,Kab. Jepara,Jawa Tengah,2023-05-05,Besar,107
+BU00888,PT Sentosa Sumber Tekstil,PT,Jasa Perusahaan,Kota Yogyakarta,DI Yogyakarta,2023-02-25,Menengah,77
+BU00889,CV Makmur Logam Kayu,CV,Industri Pengolahan,Kab. Klaten,Jawa Tengah,2014-11-25,Kecil,5
+BU00890,PT Sumber Harapan Abadi,PT,Konstruksi,Kab. Kudus,Jawa Tengah,2024-06-19,Kecil,4
+BU00891,PT Sinar Agung Mandiri,PT,Industri Pengolahan,Kab. Kudus,Jawa Tengah,2022-11-03,Menengah,79
+BU00892,PT Mulia Abadi Garmen,PT,Jasa Perusahaan,Kab. Kendal,Jawa Tengah,2021-12-01,Kecil,11
+BU00893,PT Maju Agung Makmur,PT,Transportasi & Pergudangan,Kab. Cilacap,Jawa Tengah,2016-07-03,Besar,102
+BU00894,CV Sinar Mandiri Agung,CV,Jasa Perusahaan,Kab. Demak,Jawa Tengah,2022-06-12,Kecil,5
+BU00895,PT Perkasa Bangun Kayu,PT,Industri Pengolahan,Kab. Sleman,DI Yogyakarta,2022-02-05,Menengah,67
+BU00896,CV Sentosa Harapan Karya,CV,Perdagangan,Kab. Kendal,Jawa Tengah,2019-02-22,Kecil,13
+BU00897,PT Indah Sinar Makmur,PT,Jasa Perusahaan,Kab. Banyumas,Jawa Tengah,2017-05-03,Kecil,10
+BU00898,PT Bangun Abadi Bangun,PT,Perdagangan,Kab. Kendal,Jawa Tengah,2014-02-08,Menengah,42
+BU00899,PT Makmur Sejahtera Sejahtera,PT,Akomodasi & Makan Minum,Kota Yogyakarta,DI Yogyakarta,2024-08-31,Besar,107
+BU00900,PT Mandiri Niaga Sinar,PT,Transportasi & Pergudangan,Kab. Cilacap,Jawa Tengah,2020-08-13,Menengah,78
+BU00901,CV Sinar Agung Pangan,CV,Transportasi & Pergudangan,Kab. Banyumas,Jawa Tengah,2017-04-12,Kecil,13
+BU00902,PT Niaga Perkasa Mandiri,PT,Jasa Perusahaan,Kota Surakarta,Jawa Tengah,2016-08-23,Besar,163
+BU00903,PT Prima Sinar Sinar,PT,Akomodasi & Makan Minum,Kab. Bantul,DI Yogyakarta,2015-09-18,Besar,141
+BU00904,CV Tekstil Utama Prima,CV,Industri Pengolahan,Kota Semarang,Jawa Tengah,2015-09-17,Kecil,13
+BU00905,CV Perkasa Jaya Mulia,CV,Konstruksi,Kab. Jepara,Jawa Tengah,2019-01-07,Kecil,8
+BU00906,PT Niaga Maju Indah,PT,Akomodasi & Makan Minum,Kab. Banyumas,Jawa Tengah,2020-12-03,Menengah,74
+BU00907,PT Mulia Sejahtera Mulia,PT,Industri Pengolahan,Kab. Sleman,DI Yogyakarta,2023-03-13,Menengah,65
+BU00908,PT Harapan Perkasa Agung,PT,Konstruksi,Kab. Bantul,DI Yogyakarta,2017-07-08,Menengah,83
+BU00909,PT Niaga Bersama Mulia,PT,Industri Pengolahan,Kab. Jepara,Jawa Tengah,2024-07-02,Kecil,10
+BU00910,PT Pangan Makmur Sumber,PT,Akomodasi & Makan Minum,Kab. Demak,Jawa Tengah,2015-04-18,Menengah,69
+BU00911,CV Makmur Nusantara Utama,CV,Akomodasi & Makan Minum,Kab. Klaten,Jawa Tengah,2024-10-05,Kecil,5
+BU00912,PT Lestari Sumber Harapan,PT,Industri Pengolahan,Kab. Klaten,Jawa Tengah,2016-09-19,Kecil,16
+BU00913,CV Sentosa Kayu Niaga,CV,Industri Pengolahan,Kab. Sleman,DI Yogyakarta,2022-02-15,Kecil,14
+BU00914,CV Sejahtera Logam Sinar,CV,Industri Pengolahan,Kab. Klaten,Jawa Tengah,2019-04-14,Kecil,11
+BU00915,PT Kayu Prima Mulia,PT,Transportasi & Pergudangan,Kab. Kudus,Jawa Tengah,2022-08-31,Menengah,53
+BU00916,PT Sumber Bangun Kayu,PT,Perdagangan,Kab. Banyumas,Jawa Tengah,2014-01-06,Kecil,12
+BU00917,CV Utama Perkasa Perkasa,CV,Perdagangan,Kota Surakarta,Jawa Tengah,2017-08-08,Kecil,4
+BU00918,PT Jaya Sumber Harapan,PT,Industri Pengolahan,Kab. Cilacap,Jawa Tengah,2019-01-24,Menengah,64
+BU00919,CV Bangun Utama Sentosa,CV,Konstruksi,Kab. Cilacap,Jawa Tengah,2020-11-09,Kecil,6
+BU00920,PT Karya Logam Karya,PT,Transportasi & Pergudangan,Kab. Bantul,DI Yogyakarta,2014-09-08,Menengah,71
+BU00921,PT Perkasa Bangun Jaya,PT,Perdagangan,Kab. Demak,Jawa Tengah,2022-02-21,Menengah,59
+BU00922,CV Pangan Indah Bersama,CV,Industri Pengolahan,Kab. Kendal,Jawa Tengah,2014-09-30,Kecil,16
+BU00923,PT Maju Mulia Garmen,PT,Industri Pengolahan,Kab. Cilacap,Jawa Tengah,2023-11-15,Kecil,15
+BU00924,CV Perkasa Indah Utama,CV,Perdagangan,Kab. Bantul,DI Yogyakarta,2017-07-05,Menengah,20
+BU00925,PT Maju Garmen Lestari,PT,Akomodasi & Makan Minum,Kab. Klaten,Jawa Tengah,2019-12-25,Besar,190
+BU00926,PT Jaya Bersama Lestari,PT,Konstruksi,Kab. Kudus,Jawa Tengah,2024-03-28,Menengah,27
+BU00927,PT Sumber Niaga Karya,PT,Pertanian & Perkebunan,Kab. Cilacap,Jawa Tengah,2019-09-29,Kecil,18
+BU00928,PT Karya Mandiri Agung,PT,Jasa Perusahaan,Kab. Sleman,DI Yogyakarta,2023-11-16,Menengah,44
+BU00929,PT Utama Sinar Pangan,PT,Pertanian & Perkebunan,Kab. Demak,Jawa Tengah,2015-10-03,Menengah,65
+BU00930,PT Logam Sejahtera Perkasa,PT,Industri Pengolahan,Kota Yogyakarta,DI Yogyakarta,2020-10-20,Menengah,96
+BU00931,PT Tekstil Prima Utama,PT,Pertanian & Perkebunan,Kota Yogyakarta,DI Yogyakarta,2022-06-28,Besar,191
+BU00932,PT Abadi Maju Logam,PT,Akomodasi & Makan Minum,Kab. Jepara,Jawa Tengah,2016-01-01,Kecil,12
+BU00933,PT Nusantara Logam Perkasa,PT,Jasa Perusahaan,Kab. Kendal,Jawa Tengah,2024-03-26,Besar,335
+BU00934,CV Mulia Sumber Mulia,CV,Transportasi & Pergudangan,Kab. Bantul,DI Yogyakarta,2018-10-28,Kecil,16
+BU00935,CV Perkasa Harapan Logam,CV,Perdagangan,Kab. Demak,Jawa Tengah,2022-07-26,Kecil,4
+BU00936,PT Mulia Sinar Harapan,PT,Industri Pengolahan,Kota Semarang,Jawa Tengah,2023-08-28,Menengah,25
+BU00937,PT Jaya Karya Utama,PT,Akomodasi & Makan Minum,Kab. Demak,Jawa Tengah,2015-05-01,Kecil,12
+BU00938,CV Sejahtera Maju Bersama,CV,Jasa Perusahaan,Kab. Cilacap,Jawa Tengah,2019-11-17,Kecil,13
+BU00939,PT Lestari Tekstil Karya,PT,Transportasi & Pergudangan,Kab. Bantul,DI Yogyakarta,2021-09-02,Menengah,44
+BU00940,PT Harapan Makmur Harapan,PT,Industri Pengolahan,Kota Semarang,Jawa Tengah,2022-03-13,Besar,263
+BU00941,PT Lestari Perkasa Pangan,PT,Akomodasi & Makan Minum,Kab. Klaten,Jawa Tengah,2018-05-17,Kecil,16
+BU00942,PT Maju Prima Bersama,PT,Industri Pengolahan,Kota Semarang,Jawa Tengah,2015-06-15,Menengah,55
+BU00943,PT Perkasa Agung Garmen,PT,Pertanian & Perkebunan,Kab. Banyumas,Jawa Tengah,2015-11-29,Kecil,8
+BU00944,PT Perkasa Indah Sentosa,PT,Jasa Perusahaan,Kota Yogyakarta,DI Yogyakarta,2022-08-15,Kecil,4
+BU00945,CV Lestari Bangun Mulia,CV,Pertanian & Perkebunan,Kab. Demak,Jawa Tengah,2017-04-24,Kecil,13
+BU00946,PT Tekstil Jaya Prima,PT,Transportasi & Pergudangan,Kab. Banyumas,Jawa Tengah,2017-07-07,Menengah,72
+BU00947,PT Tekstil Agung Sejahtera,PT,Industri Pengolahan,Kab. Kendal,Jawa Tengah,2024-07-21,Menengah,55
+BU00948,PT Jaya Pangan Karya,PT,Industri Pengolahan,Kab. Kendal,Jawa Tengah,2019-05-17,Kecil,4
+BU00949,PT Garmen Lestari Sejahtera,PT,Perdagangan,Kab. Jepara,Jawa Tengah,2019-06-24,Kecil,17
+BU00950,CV Sinar Sejahtera Jaya,CV,Jasa Perusahaan,Kab. Kendal,Jawa Tengah,2016-08-30,Kecil,7
+BU00951,PT Garmen Kayu Tekstil,PT,Konstruksi,Kab. Jepara,Jawa Tengah,2014-10-11,Menengah,25
+BU00952,PT Utama Lestari Garmen,PT,Transportasi & Pergudangan,Kab. Kendal,Jawa Tengah,2022-04-22,Menengah,82
+BU00953,CV Bersama Karya Bangun,CV,Konstruksi,Kab. Kendal,Jawa Tengah,2017-12-11,Menengah,24
+BU00954,PT Niaga Logam Prima,PT,Industri Pengolahan,Kab. Jepara,Jawa Tengah,2017-02-24,Menengah,84
+BU00955,CV Sentosa Abadi Maju,CV,Transportasi & Pergudangan,Kota Semarang,Jawa Tengah,2019-08-16,Kecil,13
+BU00956,PT Maju Nusantara Garmen,PT,Akomodasi & Makan Minum,Kab. Sleman,DI Yogyakarta,2019-10-08,Kecil,7
+BU00957,PT Agung Logam Sinar,PT,Industri Pengolahan,Kab. Bantul,DI Yogyakarta,2020-04-21,Menengah,63
+BU00958,PT Prima Lestari Pangan,PT,Perdagangan,Kab. Banyumas,Jawa Tengah,2024-02-08,Kecil,12
+BU00959,PT Maju Maju Sejahtera,PT,Perdagangan,Kab. Kudus,Jawa Tengah,2024-07-04,Kecil,18
+BU00960,PT Nusantara Agung Sinar,PT,Industri Pengolahan,Kab. Jepara,Jawa Tengah,2022-02-03,Menengah,48
+BU00961,PT Makmur Sejahtera Maju,PT,Industri Pengolahan,Kab. Jepara,Jawa Tengah,2018-03-25,Kecil,6
+BU00962,PT Prima Maju Sentosa,PT,Jasa Perusahaan,Kab. Klaten,Jawa Tengah,2017-08-07,Kecil,11
+BU00963,PT Kayu Sinar Lestari,PT,Akomodasi & Makan Minum,Kab. Kudus,Jawa Tengah,2023-03-19,Kecil,10
+BU00964,PT Logam Makmur Logam,PT,Akomodasi & Makan Minum,Kab. Kudus,Jawa Tengah,2020-06-22,Menengah,65
+BU00965,PT Agung Sumber Mulia,PT,Pertanian & Perkebunan,Kab. Cilacap,Jawa Tengah,2016-05-02,Kecil,15
+BU00966,CV Sejahtera Prima Agung,CV,Konstruksi,Kab. Sleman,DI Yogyakarta,2015-05-07,Kecil,9
+BU00967,CV Makmur Jaya Niaga,CV,Pertanian & Perkebunan,Kab. Cilacap,Jawa Tengah,2015-03-16,Kecil,9
+BU00968,PT Perkasa Bangun Sinar,PT,Konstruksi,Kab. Kudus,Jawa Tengah,2018-01-31,Menengah,99
+BU00969,PT Makmur Sumber Sumber,PT,Transportasi & Pergudangan,Kota Surakarta,Jawa Tengah,2015-01-11,Menengah,57
+BU00970,CV Mandiri Sentosa Utama,CV,Industri Pengolahan,Kab. Bantul,DI Yogyakarta,2020-03-31,Kecil,4
+BU00971,PT Nusantara Utama Sumber,PT,Jasa Perusahaan,Kab. Demak,Jawa Tengah,2017-06-20,Besar,166
+BU00972,PT Lestari Sinar Perkasa,PT,Industri Pengolahan,Kab. Bantul,DI Yogyakarta,2021-11-01,Menengah,65
+BU00973,PT Sumber Mandiri Sejahtera,PT,Perdagangan,Kab. Kudus,Jawa Tengah,2021-07-22,Menengah,36
+BU00974,PT Kayu Mandiri Abadi,PT,Perdagangan,Kab. Klaten,Jawa Tengah,2021-09-29,Menengah,81
+BU00975,PT Lestari Niaga Prima,PT,Industri Pengolahan,Kab. Kendal,Jawa Tengah,2020-06-14,Menengah,65
+BU00976,PT Utama Utama Logam,PT,Industri Pengolahan,Kab. Jepara,Jawa Tengah,2014-01-03,Menengah,90
+BU00977,PT Sejahtera Sentosa Mulia,PT,Konstruksi,Kota Surakarta,Jawa Tengah,2022-01-26,Besar,129
+BU00978,PT Sentosa Niaga Indah,PT,Akomodasi & Makan Minum,Kab. Jepara,Jawa Tengah,2017-04-12,Besar,245
+BU00979,PT Harapan Mandiri Nusantara,PT,Industri Pengolahan,Kab. Demak,Jawa Tengah,2015-08-27,Besar,181
+BU00980,PT Mulia Mulia Utama,PT,Jasa Perusahaan,Kab. Klaten,Jawa Tengah,2014-09-17,Menengah,30
+BU00981,CV Kayu Sinar Logam,CV,Konstruksi,Kota Semarang,Jawa Tengah,2015-06-22,Kecil,14
+BU00982,PT Pangan Perkasa Utama,PT,Perdagangan,Kab. Jepara,Jawa Tengah,2018-03-29,Besar,131
+BU00983,PT Makmur Kayu Indah,PT,Jasa Perusahaan,Kab. Banyumas,Jawa Tengah,2019-03-08,Kecil,17
+BU00984,PT Sejahtera Sentosa Tekstil,PT,Industri Pengolahan,Kab. Cilacap,Jawa Tengah,2022-06-20,Kecil,15
+BU00985,PT Garmen Garmen Jaya,PT,Industri Pengolahan,Kab. Demak,Jawa Tengah,2022-04-19,Besar,187
+BU00986,PT Sinar Mandiri Mandiri,PT,Industri Pengolahan,Kab. Klaten,Jawa Tengah,2017-09-27,Besar,110
+BU00987,PT Sejahtera Sentosa Makmur,PT,Akomodasi & Makan Minum,Kab. Bantul,DI Yogyakarta,2016-03-10,Menengah,21
+BU00988,PT Bangun Lestari Niaga,PT,Akomodasi & Makan Minum,Kab. Sleman,DI Yogyakarta,2018-10-24,Kecil,15
+BU00989,PT Perkasa Agung Lestari,PT,Industri Pengolahan,Kab. Jepara,Jawa Tengah,2017-07-08,Besar,272
+BU00990,PT Garmen Sejahtera Sejahtera,PT,Pertanian & Perkebunan,Kab. Klaten,Jawa Tengah,2021-11-10,Menengah,69
+BU00991,PT Utama Harapan Sentosa,PT,Perdagangan,Kota Semarang,Jawa Tengah,2021-10-11,Kecil,10
+BU00992,PT Karya Agung Mandiri,PT,Perdagangan,Kab. Demak,Jawa Tengah,2022-12-21,Kecil,15
+BU00993,PT Nusantara Abadi Sejahtera,PT,Industri Pengolahan,Kab. Sleman,DI Yogyakarta,2023-01-06,Kecil,10
+BU00994,CV Garmen Sumber Bangun,CV,Industri Pengolahan,Kota Yogyakarta,DI Yogyakarta,2020-09-12,Kecil,10
+BU00995,PT Prima Sentosa Indah,PT,Industri Pengolahan,Kab. Cilacap,Jawa Tengah,2014-12-22,Kecil,17
+BU00996,PT Pangan Maju Pangan,PT,Konstruksi,Kab. Demak,Jawa Tengah,2021-07-10,Besar,230
+BU00997,PT Makmur Kayu Bangun,PT,Industri Pengolahan,Kab. Bantul,DI Yogyakarta,2023-03-22,Kecil,15
+BU00998,CV Nusantara Logam Indah,CV,Industri Pengolahan,Kota Yogyakarta,DI Yogyakarta,2019-02-15,Kecil,11
+BU00999,CV Makmur Logam Sejahtera,CV,Industri Pengolahan,Kab. Sleman,DI Yogyakarta,2020-11-04,Kecil,9
+BU01000,PT Jaya Prima Mulia,PT,Akomodasi & Makan Minum,Kab. Kudus,Jawa Tengah,2022-05-29,Menengah,21
+BU01001,PT Sejahtera Bersama Perkasa,PT,Industri Pengolahan,Kota Semarang,Jawa Tengah,2023-05-07,Kecil,17
+BU01002,PT Bersama Prima Garmen,PT,Industri Pengolahan,Kab. Kudus,Jawa Tengah,2022-08-30,Menengah,37
+BU01003,CV Agung Mandiri Prima,CV,Konstruksi,Kab. Klaten,Jawa Tengah,2016-11-08,Kecil,16
+BU01004,PT Abadi Prima Niaga,PT,Perdagangan,Kab. Jepara,Jawa Tengah,2019-06-16,Menengah,85
+BU01005,CV Perkasa Mandiri Mulia,CV,Transportasi & Pergudangan,Kab. Kudus,Jawa Tengah,2018-04-19,Kecil,13
+BU01006,CV Bersama Makmur Lestari,CV,Pertanian & Perkebunan,Kota Yogyakarta,DI Yogyakarta,2024-01-12,Kecil,6
+BU01007,PT Sinar Jaya Niaga,PT,Pertanian & Perkebunan,Kab. Kendal,Jawa Tengah,2014-04-29,Kecil,5
+BU01008,PT Lestari Bangun Sumber,PT,Perdagangan,Kab. Banyumas,Jawa Tengah,2015-07-11,Menengah,28
+BU01009,PT Bersama Maju Sentosa,PT,Konstruksi,Kab. Klaten,Jawa Tengah,2016-04-27,Besar,110
+BU01010,CV Sentosa Mulia Indah,CV,Jasa Perusahaan,Kab. Klaten,Jawa Tengah,2023-04-19,Kecil,6
+BU01011,CV Logam Nusantara Mulia,CV,Industri Pengolahan,Kab. Kudus,Jawa Tengah,2022-06-11,Kecil,17
+BU01012,CV Lestari Jaya Harapan,CV,Industri Pengolahan,Kab. Kendal,Jawa Tengah,2020-07-20,Kecil,15
+BU01013,CV Garmen Lestari Indah,CV,Industri Pengolahan,Kab. Jepara,Jawa Tengah,2021-04-17,Kecil,10
+BU01014,PT Harapan Kayu Tekstil,PT,Perdagangan,Kab. Sleman,DI Yogyakarta,2023-09-10,Menengah,27
+BU01015,PT Mulia Bersama Bangun,PT,Akomodasi & Makan Minum,Kota Surakarta,Jawa Tengah,2015-03-06,Besar,144
+BU01016,PT Nusantara Jaya Maju,PT,Industri Pengolahan,Kab. Klaten,Jawa Tengah,2024-06-23,Menengah,83
+BU01017,CV Utama Kayu Sumber,CV,Transportasi & Pergudangan,Kab. Jepara,Jawa Tengah,2022-05-16,Kecil,5
+BU01018,CV Niaga Agung Bersama,CV,Transportasi & Pergudangan,Kab. Sleman,DI Yogyakarta,2016-12-20,Kecil,9
+BU01019,PT Abadi Mulia Tekstil,PT,Pertanian & Perkebunan,Kab. Klaten,Jawa Tengah,2018-07-11,Menengah,53
+BU01020,PT Abadi Maju Abadi,PT,Jasa Perusahaan,Kota Surakarta,Jawa Tengah,2022-08-19,Besar,226
+BU01021,PT Mandiri Sinar Karya,PT,Jasa Perusahaan,Kab. Kudus,Jawa Tengah,2018-10-25,Besar,245
+BU01022,CV Sentosa Sinar Sinar,CV,Perdagangan,Kab. Klaten,Jawa Tengah,2021-10-23,Kecil,5
+BU01023,PT Indah Lestari Jaya,PT,Industri Pengolahan,Kota Yogyakarta,DI Yogyakarta,2021-03-29,Menengah,34
+BU01024,CV Sumber Nusantara Pangan,CV,Perdagangan,Kab. Kendal,Jawa Tengah,2015-06-30,Kecil,6
+BU01025,PT Maju Tekstil Niaga,PT,Pertanian & Perkebunan,Kab. Jepara,Jawa Tengah,2022-01-27,Kecil,10
+BU01026,CV Harapan Mandiri Utama,CV,Industri Pengolahan,Kab. Bantul,DI Yogyakarta,2018-04-17,Kecil,10
+BU01027,CV Agung Bangun Sentosa,CV,Konstruksi,Kab. Kendal,Jawa Tengah,2022-02-08,Kecil,6
+BU01028,PT Logam Bersama Harapan,PT,Transportasi & Pergudangan,Kota Yogyakarta,DI Yogyakarta,2015-08-17,Menengah,26
+BU01029,PT Kayu Nusantara Niaga,PT,Industri Pengolahan,Kab. Jepara,Jawa Tengah,2024-12-19,Menengah,69
+BU01030,PT Logam Lestari Sentosa,PT,Industri Pengolahan,Kota Surakarta,Jawa Tengah,2023-03-31,Menengah,60
+BU01031,PT Maju Sentosa Jaya,PT,Perdagangan,Kab. Jepara,Jawa Tengah,2017-04-24,Besar,161
+BU01032,CV Abadi Garmen Niaga,CV,Transportasi & Pergudangan,Kab. Jepara,Jawa Tengah,2024-10-11,Kecil,9
+BU01033,PT Harapan Bersama Niaga,PT,Akomodasi & Makan Minum,Kota Yogyakarta,DI Yogyakarta,2017-08-18,Menengah,32
+BU01034,CV Mulia Sumber Mulia,CV,Industri Pengolahan,Kab. Bantul,DI Yogyakarta,2018-09-28,Kecil,3
+BU01035,PT Perkasa Sentosa Indah,PT,Industri Pengolahan,Kab. Bantul,DI Yogyakarta,2020-04-06,Besar,106
+BU01036,PT Abadi Indah Prima,PT,Jasa Perusahaan,Kab. Jepara,Jawa Tengah,2019-03-05,Kecil,10
+BU01037,PT Indah Bangun Pangan,PT,Industri Pengolahan,Kab. Bantul,DI Yogyakarta,2018-11-05,Kecil,6
+BU01038,CV Karya Logam Kayu,CV,Perdagangan,Kab. Kudus,Jawa Tengah,2016-08-13,Menengah,31
+BU01039,CV Kayu Makmur Nusantara,CV,Industri Pengolahan,Kab. Kendal,Jawa Tengah,2016-02-21,Kecil,6
+BU01040,CV Sentosa Jaya Pangan,CV,Industri Pengolahan,Kota Surakarta,Jawa Tengah,2021-11-18,Kecil,11
+BU01041,PT Sejahtera Indah Mulia,PT,Akomodasi & Makan Minum,Kab. Bantul,DI Yogyakarta,2022-10-10,Menengah,81
+BU01042,CV Garmen Bangun Jaya,CV,Pertanian & Perkebunan,Kab. Demak,Jawa Tengah,2018-02-19,Kecil,10
+BU01043,CV Kayu Logam Sinar,CV,Pertanian & Perkebunan,Kab. Kudus,Jawa Tengah,2014-02-16,Kecil,4
+BU01044,CV Harapan Sejahtera Kayu,CV,Jasa Perusahaan,Kab. Kendal,Jawa Tengah,2019-02-19,Kecil,6
+BU01045,CV Harapan Sentosa Tekstil,CV,Industri Pengolahan,Kab. Kudus,Jawa Tengah,2015-01-14,Kecil,13
+BU01046,CV Kayu Agung Logam,CV,Perdagangan,Kab. Kudus,Jawa Tengah,2024-01-23,Menengah,20
+BU01047,PT Harapan Bangun Jaya,PT,Perdagangan,Kab. Bantul,DI Yogyakarta,2015-03-26,Kecil,15
+BU01048,PT Mulia Garmen Logam,PT,Industri Pengolahan,Kab. Kudus,Jawa Tengah,2018-09-20,Menengah,46
+BU01049,CV Bersama Karya Sentosa,CV,Konstruksi,Kab. Kudus,Jawa Tengah,2016-06-17,Menengah,25
+BU01050,PT Sinar Mulia Sejahtera,PT,Jasa Perusahaan,Kab. Jepara,Jawa Tengah,2022-05-16,Kecil,17
+BU01051,PT Karya Prima Kayu,PT,Konstruksi,Kota Surakarta,Jawa Tengah,2018-10-11,Kecil,9
+BU01052,PT Karya Mandiri Kayu,PT,Perdagangan,Kab. Jepara,Jawa Tengah,2024-12-12,Menengah,31
+BU01053,PT Perkasa Kayu Garmen,PT,Konstruksi,Kab. Banyumas,Jawa Tengah,2015-07-05,Kecil,11
+BU01054,PT Nusantara Utama Garmen,PT,Konstruksi,Kab. Kudus,Jawa Tengah,2019-07-09,Menengah,56
+BU01055,PT Bersama Abadi Lestari,PT,Transportasi & Pergudangan,Kab. Kudus,Jawa Tengah,2019-02-25,Menengah,46
+BU01056,PT Agung Bersama Mulia,PT,Perdagangan,Kab. Sleman,DI Yogyakarta,2018-07-17,Kecil,8
+BU01057,PT Makmur Sumber Utama,PT,Perdagangan,Kab. Kendal,Jawa Tengah,2024-11-13,Kecil,9
+BU01058,PT Mulia Sumber Bangun,PT,Akomodasi & Makan Minum,Kab. Klaten,Jawa Tengah,2019-08-13,Menengah,50
+BU01059,PT Agung Maju Bersama,PT,Akomodasi & Makan Minum,Kab. Jepara,Jawa Tengah,2023-06-13,Kecil,12
+BU01060,PT Garmen Sumber Logam,PT,Perdagangan,Kota Surakarta,Jawa Tengah,2014-09-21,Kecil,15
+BU01061,PT Agung Jaya Bangun,PT,Akomodasi & Makan Minum,Kab. Sleman,DI Yogyakarta,2019-10-30,Menengah,87
+BU01062,PT Perkasa Indah Indah,PT,Pertanian & Perkebunan,Kab. Klaten,Jawa Tengah,2015-04-13,Menengah,35
+BU01063,PT Agung Indah Lestari,PT,Akomodasi & Makan Minum,Kab. Klaten,Jawa Tengah,2023-07-03,Kecil,19
+BU01064,PT Bangun Sinar Nusantara,PT,Industri Pengolahan,Kota Semarang,Jawa Tengah,2015-02-18,Menengah,67
+BU01065,PT Makmur Nusantara Bersama,PT,Perdagangan,Kab. Jepara,Jawa Tengah,2024-12-22,Menengah,56
+BU01066,PT Sejahtera Tekstil Sumber,PT,Industri Pengolahan,Kab. Bantul,DI Yogyakarta,2021-12-09,Kecil,15
+BU01067,PT Bersama Nusantara Lestari,PT,Konstruksi,Kota Semarang,Jawa Tengah,2022-08-15,Besar,111
+BU01068,PT Sentosa Agung Sinar,PT,Akomodasi & Makan Minum,Kota Semarang,Jawa Tengah,2018-07-19,Kecil,6
+BU01069,PT Lestari Niaga Mandiri,PT,Industri Pengolahan,Kab. Kudus,Jawa Tengah,2016-03-05,Kecil,17
+BU01070,PT Sumber Maju Kayu,PT,Perdagangan,Kab. Cilacap,Jawa Tengah,2016-08-24,Kecil,13
+BU01071,CV Indah Perkasa Sentosa,CV,Industri Pengolahan,Kab. Banyumas,Jawa Tengah,2017-01-11,Kecil,14
+BU01072,CV Mandiri Indah Prima,CV,Perdagangan,Kota Surakarta,Jawa Tengah,2022-08-17,Kecil,4
+BU01073,PT Sinar Indah Maju,PT,Konstruksi,Kota Surakarta,Jawa Tengah,2017-01-17,Besar,341
+BU01074,PT Lestari Garmen Niaga,PT,Industri Pengolahan,Kab. Demak,Jawa Tengah,2018-09-11,Kecil,18
+BU01075,CV Mulia Sejahtera Lestari,CV,Industri Pengolahan,Kab. Kendal,Jawa Tengah,2022-11-23,Kecil,5
+BU01076,PT Kayu Perkasa Kayu,PT,Jasa Perusahaan,Kota Semarang,Jawa Tengah,2019-10-05,Menengah,20
+BU01077,PT Logam Tekstil Pangan,PT,Industri Pengolahan,Kab. Bantul,DI Yogyakarta,2018-05-10,Besar,239
+BU01078,PT Abadi Kayu Mulia,PT,Pertanian & Perkebunan,Kab. Banyumas,Jawa Tengah,2016-09-20,Kecil,19
+BU01079,PT Pangan Mandiri Karya,PT,Jasa Perusahaan,Kota Yogyakarta,DI Yogyakarta,2022-10-31,Kecil,11
+BU01080,PT Sentosa Utama Logam,PT,Perdagangan,Kota Surakarta,Jawa Tengah,2023-05-09,Kecil,18
+BU01081,CV Sentosa Sumber Karya,CV,Akomodasi & Makan Minum,Kab. Klaten,Jawa Tengah,2024-06-23,Kecil,12
+BU01082,PT Niaga Maju Prima,PT,Jasa Perusahaan,Kab. Cilacap,Jawa Tengah,2017-03-02,Kecil,12
+BU01083,CV Sumber Utama Utama,CV,Perdagangan,Kab. Jepara,Jawa Tengah,2022-03-27,Kecil,11
+BU01084,CV Utama Perkasa Mandiri,CV,Pertanian & Perkebunan,Kab. Klaten,Jawa Tengah,2021-06-30,Kecil,10
+BU01085,PT Pangan Sinar Tekstil,PT,Pertanian & Perkebunan,Kab. Banyumas,Jawa Tengah,2021-09-13,Menengah,50
+BU01086,PT Agung Kayu Perkasa,PT,Pertanian & Perkebunan,Kab. Bantul,DI Yogyakarta,2014-08-18,Kecil,17
+BU01087,PT Kayu Garmen Sentosa,PT,Konstruksi,Kota Semarang,Jawa Tengah,2018-04-20,Menengah,61
+BU01088,PT Tekstil Maju Mulia,PT,Industri Pengolahan,Kab. Kudus,Jawa Tengah,2023-07-15,Kecil,11
+BU01089,PT Bangun Sinar Niaga,PT,Akomodasi & Makan Minum,Kab. Bantul,DI Yogyakarta,2022-10-13,Menengah,61
+BU01090,PT Sumber Sentosa Agung,PT,Jasa Perusahaan,Kota Yogyakarta,DI Yogyakarta,2017-08-13,Kecil,6
+BU01091,PT Lestari Harapan Sentosa,PT,Akomodasi & Makan Minum,Kota Yogyakarta,DI Yogyakarta,2017-04-01,Menengah,27
+BU01092,PT Harapan Karya Kayu,PT,Pertanian & Perkebunan,Kab. Jepara,Jawa Tengah,2023-01-17,Kecil,11
+BU01093,CV Kayu Sumber Jaya,CV,Pertanian & Perkebunan,Kab. Kendal,Jawa Tengah,2014-04-13,Menengah,20
+BU01094,PT Harapan Lestari Logam,PT,Perdagangan,Kota Semarang,Jawa Tengah,2015-02-15,Menengah,65
+BU01095,CV Kayu Bersama Lestari,CV,Industri Pengolahan,Kab. Demak,Jawa Tengah,2014-12-03,Kecil,16
+BU01096,PT Karya Abadi Sumber,PT,Industri Pengolahan,Kab. Kudus,Jawa Tengah,2014-05-18,Kecil,9
+BU01097,PT Mandiri Harapan Garmen,PT,Akomodasi & Makan Minum,Kab. Bantul,DI Yogyakarta,2018-06-12,Menengah,42
+BU01098,PT Pangan Harapan Indah,PT,Pertanian & Perkebunan,Kota Yogyakarta,DI Yogyakarta,2016-08-05,Besar,193
+BU01099,PT Sumber Bangun Perkasa,PT,Akomodasi & Makan Minum,Kab. Bantul,DI Yogyakarta,2022-12-29,Menengah,79
+BU01100,PT Nusantara Abadi Agung,PT,Transportasi & Pergudangan,Kota Semarang,Jawa Tengah,2019-10-06,Menengah,43
+BU01101,PT Jaya Bangun Utama,PT,Industri Pengolahan,Kab. Banyumas,Jawa Tengah,2014-02-02,Menengah,58
+BU01102,CV Nusantara Indah Perkasa,CV,Pertanian & Perkebunan,Kab. Banyumas,Jawa Tengah,2022-03-25,Kecil,12
+BU01103,PT Utama Tekstil Abadi,PT,Akomodasi & Makan Minum,Kab. Sleman,DI Yogyakarta,2017-03-19,Menengah,77
+BU01104,PT Prima Makmur Niaga,PT,Transportasi & Pergudangan,Kab. Klaten,Jawa Tengah,2016-07-20,Menengah,54
+BU01105,PT Sumber Niaga Perkasa,PT,Perdagangan,Kab. Banyumas,Jawa Tengah,2024-10-29,Menengah,49
+BU01106,PT Perkasa Mulia Sentosa,PT,Perdagangan,Kota Yogyakarta,DI Yogyakarta,2018-10-06,Menengah,37
+BU01107,PT Sejahtera Makmur Maju,PT,Pertanian & Perkebunan,Kab. Sleman,DI Yogyakarta,2016-12-26,Menengah,47
+BU01108,PT Sejahtera Agung Harapan,PT,Perdagangan,Kab. Sleman,DI Yogyakarta,2016-02-22,Menengah,26
+BU01109,CV Sumber Tekstil Bersama,CV,Pertanian & Perkebunan,Kab. Cilacap,Jawa Tengah,2018-12-11,Kecil,12
+BU01110,PT Makmur Pangan Bersama,PT,Akomodasi & Makan Minum,Kab. Kudus,Jawa Tengah,2021-02-17,Menengah,31
+BU01111,CV Harapan Tekstil Maju,CV,Industri Pengolahan,Kab. Sleman,DI Yogyakarta,2023-01-18,Menengah,20
+BU01112,CV Sinar Sejahtera Pangan,CV,Akomodasi & Makan Minum,Kab. Sleman,DI Yogyakarta,2014-05-08,Kecil,17
+BU01113,PT Indah Kayu Utama,PT,Pertanian & Perkebunan,Kota Yogyakarta,DI Yogyakarta,2016-06-08,Menengah,32
+BU01114,PT Nusantara Logam Sinar,PT,Konstruksi,Kab. Sleman,DI Yogyakarta,2019-05-05,Kecil,11
+BU01115,PT Pangan Utama Tekstil,PT,Industri Pengolahan,Kab. Kendal,Jawa Tengah,2017-04-02,Besar,225
+BU01116,PT Sentosa Harapan Prima,PT,Industri Pengolahan,Kab. Klaten,Jawa Tengah,2018-01-12,Kecil,18
+BU01117,PT Perkasa Agung Agung,PT,Akomodasi & Makan Minum,Kab. Kudus,Jawa Tengah,2020-10-11,Menengah,47
+BU01118,CV Prima Agung Sumber,CV,Jasa Perusahaan,Kab. Kudus,Jawa Tengah,2021-07-18,Kecil,13
+BU01119,PT Garmen Garmen Garmen,PT,Transportasi & Pergudangan,Kab. Cilacap,Jawa Tengah,2023-07-21,Besar,292
+BU01120,PT Perkasa Nusantara Pangan,PT,Industri Pengolahan,Kab. Klaten,Jawa Tengah,2023-01-21,Menengah,69
+BU01121,PT Abadi Prima Logam,PT,Jasa Perusahaan,Kota Yogyakarta,DI Yogyakarta,2024-06-28,Menengah,98
+BU01122,PT Utama Tekstil Kayu,PT,Industri Pengolahan,Kab. Cilacap,Jawa Tengah,2017-12-08,Kecil,9
+BU01123,PT Indah Bersama Prima,PT,Industri Pengolahan,Kab. Sleman,DI Yogyakarta,2024-07-24,Menengah,50
+BU01124,PT Bersama Lestari Lestari,PT,Pertanian & Perkebunan,Kab. Cilacap,Jawa Tengah,2022-10-01,Besar,365
+BU01125,PT Maju Bangun Indah,PT,Industri Pengolahan,Kab. Demak,Jawa Tengah,2016-08-08,Menengah,42
+BU01126,PT Indah Nusantara Mulia,PT,Akomodasi & Makan Minum,Kab. Cilacap,Jawa Tengah,2023-09-27,Menengah,99
+BU01127,PT Kayu Agung Mandiri,PT,Akomodasi & Makan Minum,Kab. Bantul,DI Yogyakarta,2018-12-28,Menengah,86
+BU01128,CV Bangun Pangan Niaga,CV,Konstruksi,Kab. Kendal,Jawa Tengah,2021-07-11,Kecil,7
+BU01129,PT Pangan Niaga Bangun,PT,Jasa Perusahaan,Kab. Banyumas,Jawa Tengah,2014-01-16,Menengah,28
+BU01130,PT Niaga Kayu Lestari,PT,Pertanian & Perkebunan,Kab. Jepara,Jawa Tengah,2015-09-15,Kecil,10
+BU01131,PT Prima Jaya Tekstil,PT,Pertanian & Perkebunan,Kab. Jepara,Jawa Tengah,2018-09-01,Menengah,85
+BU01132,PT Tekstil Bangun Prima,PT,Transportasi & Pergudangan,Kab. Kudus,Jawa Tengah,2020-06-14,Menengah,66
+BU01133,PT Agung Bersama Mandiri,PT,Perdagangan,Kab. Kudus,Jawa Tengah,2024-09-11,Menengah,35
+BU01134,CV Sentosa Perkasa Sejahtera,CV,Industri Pengolahan,Kab. Kendal,Jawa Tengah,2024-08-25,Kecil,6
+BU01135,PT Sumber Nusantara Mulia,PT,Konstruksi,Kab. Bantul,DI Yogyakarta,2020-01-09,Menengah,66
+BU01136,PT Agung Utama Sentosa,PT,Jasa Perusahaan,Kab. Cilacap,Jawa Tengah,2014-09-24,Kecil,18
+BU01137,CV Prima Utama Sumber,CV,Pertanian & Perkebunan,Kota Yogyakarta,DI Yogyakarta,2014-12-26,Kecil,12
+BU01138,PT Agung Mandiri Lestari,PT,Jasa Perusahaan,Kab. Jepara,Jawa Tengah,2021-03-26,Kecil,9
+BU01139,CV Kayu Sumber Jaya,CV,Jasa Perusahaan,Kab. Demak,Jawa Tengah,2023-04-17,Kecil,12
+BU01140,CV Harapan Mandiri Makmur,CV,Perdagangan,Kota Semarang,Jawa Tengah,2021-08-07,Kecil,10
+BU01141,PT Maju Sentosa Garmen,PT,Pertanian & Perkebunan,Kab. Kendal,Jawa Tengah,2018-10-01,Menengah,94
+BU01142,CV Sentosa Utama Sejahtera,CV,Akomodasi & Makan Minum,Kab. Sleman,DI Yogyakarta,2014-01-24,Kecil,15
+BU01143,PT Harapan Makmur Logam,PT,Industri Pengolahan,Kab. Bantul,DI Yogyakarta,2016-01-08,Kecil,7
+BU01144,PT Jaya Mandiri Nusantara,PT,Industri Pengolahan,Kota Semarang,Jawa Tengah,2019-11-18,Menengah,42
+BU01145,PT Bersama Utama Bersama,PT,Industri Pengolahan,Kab. Sleman,DI Yogyakarta,2017-11-28,Kecil,19
+BU01146,PT Jaya Bersama Agung,PT,Transportasi & Pergudangan,Kab. Banyumas,Jawa Tengah,2024-03-02,Kecil,16
+BU01147,PT Jaya Prima Harapan,PT,Pertanian & Perkebunan,Kota Yogyakarta,DI Yogyakarta,2016-02-22,Menengah,81
+BU01148,CV Prima Utama Agung,CV,Industri Pengolahan,Kota Semarang,Jawa Tengah,2024-01-28,Kecil,11
+BU01149,CV Sinar Bersama Niaga,CV,Perdagangan,Kota Yogyakarta,DI Yogyakarta,2019-09-24,Kecil,8
+BU01150,PT Mulia Indah Prima,PT,Perdagangan,Kab. Bantul,DI Yogyakarta,2019-04-15,Kecil,13
+BU01151,PT Garmen Sentosa Maju,PT,Perdagangan,Kab. Banyumas,Jawa Tengah,2014-10-16,Kecil,14
+BU01152,PT Abadi Perkasa Garmen,PT,Industri Pengolahan,Kab. Banyumas,Jawa Tengah,2024-09-12,Besar,111
+BU01153,PT Garmen Sejahtera Logam,PT,Transportasi & Pergudangan,Kab. Sleman,DI Yogyakarta,2014-07-29,Kecil,19
+BU01154,PT Mandiri Bangun Bangun,PT,Perdagangan,Kab. Klaten,Jawa Tengah,2020-03-02,Menengah,48
+BU01155,PT Agung Mandiri Makmur,PT,Perdagangan,Kota Surakarta,Jawa Tengah,2017-04-12,Menengah,34
+BU01156,PT Utama Sentosa Prima,PT,Industri Pengolahan,Kab. Klaten,Jawa Tengah,2020-11-21,Menengah,20
+BU01157,CV Sumber Bersama Nusantara,CV,Industri Pengolahan,Kab. Bantul,DI Yogyakarta,2017-01-05,Kecil,6
+BU01158,PT Abadi Bangun Sumber,PT,Jasa Perusahaan,Kota Surakarta,Jawa Tengah,2014-04-27,Kecil,16
+BU01159,PT Mandiri Bersama Abadi,PT,Industri Pengolahan,Kota Yogyakarta,DI Yogyakarta,2022-04-14,Menengah,74
+BU01160,PT Abadi Bersama Garmen,PT,Perdagangan,Kab. Demak,Jawa Tengah,2014-02-01,Menengah,37
+BU01161,PT Mandiri Prima Kayu,PT,Perdagangan,Kab. Jepara,Jawa Tengah,2015-02-08,Menengah,53
+BU01162,PT Agung Utama Mandiri,PT,Industri Pengolahan,Kab. Demak,Jawa Tengah,2020-12-24,Menengah,35
+BU01163,CV Perkasa Perkasa Prima,CV,Industri Pengolahan,Kab. Jepara,Jawa Tengah,2018-09-24,Menengah,31
+BU01164,PT Nusantara Sinar Sinar,PT,Industri Pengolahan,Kab. Demak,Jawa Tengah,2017-02-23,Kecil,8
+BU01165,PT Niaga Mulia Prima,PT,Industri Pengolahan,Kab. Banyumas,Jawa Tengah,2022-03-28,Kecil,8
+BU01166,PT Sentosa Mulia Utama,PT,Perdagangan,Kab. Klaten,Jawa Tengah,2024-10-21,Menengah,71
+BU01167,PT Mandiri Makmur Karya,PT,Industri Pengolahan,Kota Yogyakarta,DI Yogyakarta,2023-11-19,Kecil,9
+BU01168,PT Sentosa Sejahtera Nusantara,PT,Jasa Perusahaan,Kab. Kudus,Jawa Tengah,2024-03-12,Kecil,10
+BU01169,CV Sumber Indah Makmur,CV,Industri Pengolahan,Kab. Klaten,Jawa Tengah,2020-06-04,Kecil,10
+BU01170,PT Nusantara Tekstil Prima,PT,Konstruksi,Kota Semarang,Jawa Tengah,2021-03-07,Menengah,64
+BU01171,PT Prima Abadi Karya,PT,Konstruksi,Kota Surakarta,Jawa Tengah,2021-01-31,Menengah,21
+BU01172,CV Sejahtera Bangun Utama,CV,Industri Pengolahan,Kab. Kudus,Jawa Tengah,2014-04-19,Kecil,18
+BU01173,PT Sumber Sumber Sinar,PT,Jasa Perusahaan,Kota Semarang,Jawa Tengah,2021-01-14,Kecil,8
+BU01174,CV Maju Mulia Karya,CV,Industri Pengolahan,Kab. Cilacap,Jawa Tengah,2024-04-02,Kecil,8
+BU01175,PT Harapan Jaya Garmen,PT,Jasa Perusahaan,Kab. Sleman,DI Yogyakarta,2022-05-10,Besar,295
+BU01176,PT Nusantara Lestari Sumber,PT,Konstruksi,Kab. Sleman,DI Yogyakarta,2021-05-26,Menengah,41
+BU01177,PT Sejahtera Agung Sejahtera,PT,Pertanian & Perkebunan,Kab. Kendal,Jawa Tengah,2021-03-07,Menengah,70
+BU01178,PT Mulia Harapan Mandiri,PT,Pertanian & Perkebunan,Kota Yogyakarta,DI Yogyakarta,2015-07-13,Kecil,10
+BU01179,CV Harapan Abadi Mulia,CV,Transportasi & Pergudangan,Kota Semarang,Jawa Tengah,2015-08-01,Kecil,11
+BU01180,PT Harapan Mandiri Mandiri,PT,Industri Pengolahan,Kab. Sleman,DI Yogyakarta,2021-11-17,Menengah,59
+BU01181,PT Bersama Garmen Sentosa,PT,Pertanian & Perkebunan,Kab. Demak,Jawa Tengah,2018-07-20,Besar,250
+BU01182,CV Sinar Agung Nusantara,CV,Industri Pengolahan,Kab. Kudus,Jawa Tengah,2019-09-15,Kecil,11
+BU01183,CV Mandiri Agung Abadi,CV,Transportasi & Pergudangan,Kota Surakarta,Jawa Tengah,2022-12-06,Kecil,16
+BU01184,CV Kayu Mulia Niaga,CV,Perdagangan,Kota Semarang,Jawa Tengah,2019-10-15,Menengah,21
+BU01185,PT Logam Bersama Sinar,PT,Industri Pengolahan,Kab. Cilacap,Jawa Tengah,2020-02-15,Kecil,5
+BU01186,PT Prima Mulia Nusantara,PT,Industri Pengolahan,Kab. Kendal,Jawa Tengah,2015-03-31,Menengah,37
+BU01187,CV Mulia Sentosa Sinar,CV,Konstruksi,Kab. Klaten,Jawa Tengah,2016-06-18,Kecil,14
+BU01188,PT Sinar Bersama Tekstil,PT,Perdagangan,Kab. Cilacap,Jawa Tengah,2017-11-26,Menengah,39
+BU01189,PT Perkasa Perkasa Sejahtera,PT,Transportasi & Pergudangan,Kab. Jepara,Jawa Tengah,2015-07-21,Kecil,14
+BU01190,PT Kayu Prima Sentosa,PT,Perdagangan,Kab. Cilacap,Jawa Tengah,2021-11-14,Menengah,73
+BU01191,PT Makmur Indah Niaga,PT,Perdagangan,Kab. Banyumas,Jawa Tengah,2014-07-05,Besar,142
+BU01192,PT Makmur Maju Sinar,PT,Jasa Perusahaan,Kota Yogyakarta,DI Yogyakarta,2021-09-02,Kecil,5
+BU01193,PT Bangun Niaga Mulia,PT,Industri Pengolahan,Kab. Bantul,DI Yogyakarta,2014-03-03,Menengah,88
+BU01194,CV Kayu Makmur Perkasa,CV,Industri Pengolahan,Kota Yogyakarta,DI Yogyakarta,2021-10-28,Kecil,6
+BU01195,PT Indah Sentosa Sentosa,PT,Perdagangan,Kab. Sleman,DI Yogyakarta,2014-12-06,Menengah,31
+BU01196,PT Harapan Pangan Pangan,PT,Pertanian & Perkebunan,Kab. Kudus,Jawa Tengah,2019-09-09,Kecil,9
+BU01197,PT Sinar Niaga Perkasa,PT,Pertanian & Perkebunan,Kab. Kudus,Jawa Tengah,2014-05-12,Menengah,42
+BU01198,PT Sejahtera Perkasa Harapan,PT,Industri Pengolahan,Kab. Klaten,Jawa Tengah,2016-07-16,Menengah,33
+BU01199,PT Logam Bersama Tekstil,PT,Transportasi & Pergudangan,Kab. Kudus,Jawa Tengah,2016-02-05,Besar,129
+BU01200,PT Karya Indah Bangun,PT,Perdagangan,Kota Yogyakarta,DI Yogyakarta,2015-05-17,Menengah,73

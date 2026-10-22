@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Data Sintetis RADAR</title>
+<meta name="description" content="Data sintetis prototype RADAR: 1.200 badan usaha fiktif, tabel internal dan eksternal, kunci jawaban, dan hasil model. Tim SMILE, Healthkathon 2026.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Source+Sans+3:wght@400;600;700&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+:root{--bg:#F4F7F6;--surface:#FFFFFF;--sunk:#EAF0EE;--ink:#172440;--muted:#596A7D;--line:#D6DFDC;--accent:#1E9A57;--accent-soft:#DDF1E6;--navy:#172440;--on-navy:#FFFFFF;--ext:#2E6FB0;--ext-soft:#E2ECF5;--key:#C4453B;--key-soft:#F8E1DE;
+  --f-display:"Noto Serif",Georgia,serif;--f-body:"Source Sans 3","Segoe UI",system-ui,sans-serif;--f-mono:"JetBrains Mono",ui-monospace,Consolas,monospace}
+@media (prefers-color-scheme:dark){:root{--bg:#0F1828;--surface:#172338;--sunk:#1D2B44;--ink:#E7EDF5;--muted:#9DAEC2;--line:#2B3B57;--accent:#3CC27A;--accent-soft:#18392C;--navy:#0B1220;--on-navy:#E7EDF5;--ext:#6AA6E8;--ext-soft:#1F2F40;--key:#EF6F63;--key-soft:#3A2024;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.55}
+.wrap{max-width:1100px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--f-display);margin:0;line-height:1.2;text-wrap:balance}
+a{color:var(--accent)}
+.hero{background:var(--navy);color:var(--on-navy)}
+.hero .wrap{padding-block:22px 34px;display:grid;gap:16px}
+.hero h1{font-size:clamp(30px,4.4vw,44px)}
+.hero p{margin:0;max-width:70ch;opacity:.9;font-size:17px}
+.hero a{color:#3CC27A}
+.sitenav{display:flex;flex-wrap:wrap;gap:6px;font-size:14px;font-weight:600}
+.sitenav a{color:#E7EDF5;text-decoration:none;padding:5px 12px;border-radius:99px;border:1px solid rgba(255,255,255,.28)}
+.sitenav a[aria-current]{background:#1E9A57;border-color:#1E9A57}
+.warn{display:inline-block;background:#D08E22;color:#1B1405;font-weight:700;font-size:13px;padding:4px 10px;border-radius:99px;justify-self:start}
+main .wrap{display:grid;grid-template-columns:minmax(0,1fr);gap:28px;padding-block:28px 56px}
+.eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--accent);margin:0 0 6px}
+.grid{display:grid;gap:14px;grid-template-columns:minmax(0,1fr)}
+main .wrap>*{min-width:0}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px 20px;display:grid;gap:6px;min-width:0;align-content:start}
+.card p{margin:0}
+.ch{display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap}
+.ch h3{font-family:var(--f-mono);font-size:16px;font-weight:500}
+.meta{color:var(--muted);font-size:13.5px}
+.src{font-size:12px;font-weight:700;padding:2px 9px;border-radius:99px;background:var(--accent-soft);color:var(--accent)}
+.src.ext{background:var(--ext-soft);color:var(--ext)} .src.key{background:var(--key-soft);color:var(--key)}
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:8px;margin-top:6px}
+table{border-collapse:collapse;font-size:12.5px;font-family:var(--f-mono);white-space:nowrap;width:100%}
+th,td{padding:5px 9px;border-bottom:1px solid var(--line);text-align:left}
+th{background:var(--sunk);font-weight:500;color:var(--muted)}
+tr:last-child td{border-bottom:0}
+.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+@media (max-width:760px){.two{grid-template-columns:1fr}}
+ul.files{margin:0;padding-left:18px;display:grid;gap:10px;overflow-wrap:anywhere}
+pre{background:var(--navy);color:#E7EDF5;padding:14px 16px;border-radius:10px;overflow-x:auto;font-family:var(--f-mono);font-size:13.5px;margin:0}
+footer .wrap{padding-block:0 36px;font-size:13px;color:var(--muted)}
+</style>
+</head>
+<body>
+<header class="hero">
+ <div class="wrap">
+  <nav class="sitenav" aria-label="Halaman"><a href="index.html">Dasbor RADAR</a><a href="jejak.html">Jejak Skor</a><a href="data.html" aria-current="page">Data sintetis</a></nav>
+  <h1>Data Sintetis RADAR</h1>
+  <p>Seluruh data di prototype ini dibuat oleh skrip, bukan diambil dari data peserta JKN atau perusahaan mana pun. Generator lebih dulu membuat <b>kenyataan</b> (pekerja dan upah riil) untuk 1.200 badan usaha fiktif, lalu membuat <b>laporan ke JKN</b> yang pada 17,7% usaha sengaja dimanipulasi dengan empat modus. Sumber eksternal disimulasikan dari kenyataan dengan sedikit gangguan acak. Cara data diolah sampai menjadi skor bisa diikuti di <a href="jejak.html">Jejak Skor</a>.</p>
+  <span class="warn">Data fiktif · seed 2026 · hasil selalu sama setiap dijalankan</span>
+ </div>
+</header>
+<main><div class="wrap">
+ <section>
+  <p class="eyebrow">Tabel data sintetis</p>
+  <h2 style="font-size:26px;margin-bottom:12px">Delapan tabel, satu klik untuk mengunduh</h2>
+  <div class="grid">
+__CARDS__
+  </div>
+ </section>
+ <section class="two">
+  <div class="card">
+   <p class="eyebrow">Hasil model</p>
+   <ul class="files">__HASIL__</ul>
+  </div>
+  <div class="card">
+   <p class="eyebrow">Versi Excel</p>
+   <ul class="files">__XLSX__</ul>
+   <p class="meta" style="margin-top:8px">Versi Excel dibuat dari data yang sama (seed 2026). Bila skrip diubah, file CSV di atas adalah versi terbaru.</p>
+  </div>
+ </section>
+ <section class="card">
+  <p class="eyebrow">Membangun ulang</p>
+  <p>Data, skor, dan ketiga halaman situs ini dibangun ulang dengan satu perintah dari folder repositori:</p>
+  <pre>pip install -r model/requirements.txt
+python model/build_web.py</pre>
+  <p class="meta">Skrip: <span style="font-family:var(--f-mono)">model/generate_data_sintetis.py</span> (data), <span style="font-family:var(--f-mono)">model/radar_model.py</span> (indikator, aturan, Isolation Forest, skor), <span style="font-family:var(--f-mono)">model/build_web.py</span> (situs).</p>
+ </section>
+</div></main>
+<footer><div class="wrap">RADAR · Tim SMILE · Healthkathon 2026 · Kategori Efisiensi Risiko pada Pemberi Kerja · UMK yang dipakai bersifat ilustratif.</div></footer>
+</body>
+</html>
