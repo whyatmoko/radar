@@ -1,8 +1,8 @@
 Metrik,Mode internal saja,Mode internal + eksternal
-AUC-ROC,0.7998,0.9708
-Average Precision,0.6126,0.9339
-Presisi@50,0.92,1.0
-Presisi@100,0.84,1.0
-Presisi@200,0.57,0.915
-Recall di 20% teratas,0.5802,0.9151
-Baseline acak (proporsi fraud),0.1767,0.1767
+AUC-ROC,0.8271,0.9845
+Average Precision,0.6501,0.9605
+Presisi@50,0.88,1.0
+Presisi@100,0.8,1.0
+Presisi@200,0.645,0.94
+Recall di 20% teratas,0.6355,0.9439
+Baseline acak (proporsi fraud),0.1783,0.1783

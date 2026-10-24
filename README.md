@@ -67,3 +67,15 @@ Setelah build ulang, commit dan push. GitHub Pages akan memperbarui situs otomat
 - **AI:** Isolation Forest (300 pohon, random_state 2026) pada 10 indikator, tanpa label → persentil anomali.
 - **Skor:** 100 × (0,5 × skor aturan + 0,5 × persentil AI). Rendah ≤ 50 · Sedang 50–70 · Tinggi > 70.
 - **Evaluasi:** kunci jawaban (`99_kunci_jawaban.csv`) hanya dipakai di akhir. Hasilnya presisi 200 teratas 91,5% vs acak 17,7%, dengan AUC 0,971. Karena datanya sintetis, angka ini dianggap batas atas.
+
+## Pembaruan melalui halaman Data sintetis
+
+Jalankan `node server.cjs`, lalu buka http://127.0.0.1:8781/data.html.
+
+- **Simulasikan snapshot data baru** menjalankan generator dengan seed pilihan, dilanjutkan indikator, scoring, evaluasi, dan build halaman. Seed 2026 mereproduksi data awal; seed berbeda menghasilkan populasi sintetis berbeda, bukan pembaruan transaksi perusahaan yang sama.
+- **Hitung ulang dari CSV yang tersedia** membaca delapan tabel `data/csv` tanpa menjalankan generator. Perbarui tabel-tabel tersebut secara konsisten sebelum menjalankannya. Kunci jawaban harus cocok untuk evaluasi. Nilai kebenaran upah/TK aktif tidak tersedia pada Jejak Skor dalam mode ini.
+- Periode observasi tetap Oktober 2025–September 2026. Waktu pembaruan adalah waktu snapshot diproses, bukan periode observasi baru atau sinkronisasi data nyata.
+- Proses berjalan di `.runs/<versi>/stage`, dengan cadangan hasil aktif di `.runs/<versi>/backup`. Hasil baru disalin setelah build sukses. Proses yang gagal tidak memublikasikan hasil build sebagian.
+- Metadata ada di `data/update-meta.json`. CSV, skor, dan halaman diperbarui; Excel tetap arsip awal. Action plan browser tetap tersimpan dan perlu ditinjau jika mengganti populasi sintetis.
+
+Server memakai Python runtime Codex secara default. Untuk Python lain, set `RADAR_PYTHON` ke executable yang memiliki dependensi `model/requirements.txt`. Paket lokal tambahan berada di `.runtime-packages`. Fitur pembaruan memerlukan server Node ini dan tidak berjalan di GitHub Pages/hosting statis.

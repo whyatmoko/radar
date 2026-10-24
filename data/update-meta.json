@@ -1,0 +1,9 @@
+{
+  "updatedAt": "2026-10-22T09:02:50.732962+00:00",
+  "seed": 2027,
+  "kind": "generate",
+  "companies": 1200,
+  "observationStart": "2025-10-01",
+  "observationEnd": "2026-09-30",
+  "synthetic": true
+}

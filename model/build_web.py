@@ -25,9 +25,14 @@ os.chdir(DATA)                      # skrip model membaca/menulis folder "csv" r
 import numpy as np, pandas as pd
 
 # ---------- 1. Data sintetis ----------
-import generate_data_sintetis as G
-for name, df in G.TABLES.items():
-    df.to_csv(DATA / "csv" / f"{name}.csv", index=False)
+SKIP_GENERATE = os.environ.get("RADAR_SKIP_GENERATE") == "1"
+if SKIP_GENERATE:
+    from types import SimpleNamespace
+    G = SimpleNamespace(TABLES={p.stem: pd.read_csv(p) for p in (DATA / "csv").glob("*.csv")}, truth_rows=[])
+else:
+    import generate_data_sintetis as G
+    for name, df in G.TABLES.items():
+        df.to_csv(DATA / "csv" / f"{name}.csv", index=False)
 print("[1] data sintetis:", {k: len(v) for k, v in G.TABLES.items()})
 
 # ---------- 2. Model ----------
@@ -74,6 +79,7 @@ for _, o in out.iterrows():
         "al": [a for a in (o.alasan_1, o.alasan_2, o.alasan_3) if a],
         "ru": [RULE_LABEL[c] for c in rc if R.iloc[i][c]],
         "n": int(f.n_ppu_aktif),
+        "y": int(kunci.set_index("id_bu").loc[o.id_bu, "is_fraud"]),
         "ind": {k: [nz(f[c], DP[k]), nz(PM[c].iloc[i], DP[k])] for k, c in IND.items()},
         "nm": f.nama_bu})
 ev = M.ev.set_index("Metrik")
@@ -81,11 +87,12 @@ EV = {k: [round(float(ev.loc[k].iloc[0]), 3), round(float(ev.loc[k].iloc[1]), 3)
 dash = {"rows": rows, "ev": EV}
 
 # ---------- 4b. Data Jejak Skor ----------
-tr = pd.DataFrame(G.truth_rows)
+tr = pd.DataFrame(G.truth_rows, columns=["id_bu", "upah_riil", "start", "end"])
 akt = tr[tr.end.isna()]
 upah_riil = akt.groupby("id_bu").upah_riil.mean()
 n_riil = akt.groupby("id_bu").size()
-EX = ["BU00365", "BU00849", "BU00986", "BU00610"]
+EX = [b for b in ["BU00365", "BU00849", "BU00986", "BU00610"] if b in idx]
+if not EX: EX = list(idx)[:4]
 grp = F.set_index("id_bu").loc[EX[0], "kelompok_sejenis"]
 gid = F[F.kelompok_sejenis == grp].id_bu.tolist()
 osr = out.set_index("id_bu"); ku = kunci.set_index("id_bu")
@@ -97,7 +104,7 @@ ex = {}
 for b in EX:
     i = idx[b]; r = F.iloc[i]
     ex[b] = dict(nm=r.nama_bu, kab=r.kab_kota, sek=r.sektor, sk=r.skala_usaha_oss,
-        label=ku.loc[b, "jenis_fraud"], H=int(ku.loc[b, "jumlah_tk_riil"]), H_aktif=int(n_riil.get(b, 0)),
+        label=ku.loc[b, "jenis_fraud"], H=int(ku.loc[b, "jumlah_tk_riil"]), H_aktif=None if SKIP_GENERATE else int(n_riil.get(b, 0)),
         upah_riil=nz(upah_riil.get(b, np.nan), 1), umk=int(r.umk_ilustratif), n_ppu=int(r.n_ppu_aktif),
         upah_lapor=nz(r.rata_upah_lapor, 1), pph_n=int(r.jumlah_tk_pelaporan_pph21),
         pph_upah=int(r.rata2_penghasilan_bruto_pph21), oss=int(r.estimasi_tk_oss),
@@ -121,7 +128,13 @@ def js(o):
 
 T = ROOT / "templates"
 (ROOT / "index.html").write_text((T / "dashboard.template.html").read_text(encoding="utf-8").replace("__DATA__", js(dash)), encoding="utf-8")
+for name in ("tindak-lanjut", "log-harian"):
+    (ROOT / f"{name}.html").write_text((T / f"{name}.template.html").read_text(encoding="utf-8").replace("__DATA__", js(dash)), encoding="utf-8")
 (ROOT / "jejak.html").write_text((T / "jejak.template.html").read_text(encoding="utf-8").replace("__DATA__", js(flow)), encoding="utf-8")
+
+from export_trace import export_trace
+export_trace(M, ROOT)
+(ROOT / "jejak-ringkas.html").write_text((T / "jejak-ringkas.template.html").read_text(encoding="utf-8"), encoding="utf-8")
 
 # ---------- 4c. Halaman data ----------
 DESC = {
@@ -159,5 +172,11 @@ hasil = "".join(f'<li><a href="data/hasil/{f}" download>{f}</a> <span class="met
 xl = "".join(f'<li><a href="data/{f}" download>{f}</a> <span class="meta">· {kb(DATA / f)}</span></li>' for f in sorted(os.listdir(DATA)) if f.endswith(".xlsx"))
 page = (T / "data.template.html").read_text(encoding="utf-8")
 page = page.replace("__CARDS__", "\n".join(cards)).replace("__HASIL__", hasil).replace("__XLSX__", xl or "<li>(tidak ada)</li>")
+page = page.replace("__FRAUD_PCT__", f"{kunci.is_fraud.mean()*100:.1f}".replace(".", ","))
 (ROOT / "data.html").write_text(page, encoding="utf-8")
 print("[4] index.html, jejak.html, data.html ditulis ulang")
+
+# Metadata snapshot aktif; hanya ditulis setelah build selesai.
+from datetime import datetime, timezone
+meta = {"updatedAt": datetime.now(timezone.utc).isoformat(), "seed": int(os.environ.get("RADAR_SEED", "2026")), "kind": "rescore" if SKIP_GENERATE else "generate", "companies": len(F), "observationStart": "2025-10-01", "observationEnd": "2026-09-30", "synthetic": True}
+(DATA / "update-meta.json").write_text(json.dumps(meta, indent=2), encoding="utf-8")

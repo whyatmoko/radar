@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="id">
-<head>
+<head><script src="auth.js"></script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="description" content="Jejak Skor RADAR: dari data sintetis sampai skor risiko, langkah demi langkah. Tim SMILE, Healthkathon 2026.">
@@ -206,13 +206,14 @@ main .wrap{display:grid;gap:22px;padding-block:26px 60px}
 footer .wrap{padding-block:0 40px;font-size:13px;color:var(--muted)}
 </style>
 <style>[hidden]{display:none!important}body{margin:0}img{max-width:100%}</style>
+<link rel="stylesheet" href="navigation.css">
 </head>
 <body>
 
 
 <header class="hero">
   <div class="wrap">
-    <nav class="sitenav" aria-label="Halaman"><a href="index.html">Dasbor RADAR</a><a href="jejak.html" aria-current="page">Jejak Skor</a><a href="data.html">Data sintetis</a></nav>
+    <nav class="sitenav" aria-label="Halaman"><a class="app-icon" href="index.html" aria-label="RADAR — beranda"><svg width="32" height="32" viewBox="0 0 52 52" aria-hidden="true"><circle cx="26" cy="26" r="24" fill="none" stroke="#2BB673" stroke-opacity=".6" stroke-width="2"/><circle cx="26" cy="26" r="15" fill="none" stroke="#2BB673" stroke-opacity=".4" stroke-width="2"/><path d="M26 26 L26 2 A24 24 0 0 1 43 9 Z" fill="#2BB673" fill-opacity=".35"/><circle cx="36" cy="13" r="3.5" fill="#F29F4B"/><circle cx="26" cy="26" r="3" fill="#2BB673"/></svg></a><a href="index.html">Dasbor RADAR</a><details class="nav-group"><summary>Tindak Lanjut</summary><div class="nav-submenu"><a href="tindak-lanjut.html">Action Plan</a><a href="log-harian.html">Log Harian</a></div></details><details class="nav-group" data-active="true"><summary>Analisis Data</summary><div class="nav-submenu"><a href="jejak-ringkas.html">Alur Scoring</a><a href="jejak.html" aria-current="page">Jejak Skor</a><a href="data.html">Data Sintetis</a></div></details><div class="nav-account"><span class="profile-avatar" title="Petugas" aria-label="Profil petugas"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 22v-3a8 8 0 0 1 16 0v3"/></svg></span><span class="profile-name">Petugas</span><button class="logout-button" type="button" data-logout title="Keluar dari RADAR"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M10 4H4v16h6m4-13 5 5-5 5m-6-5h13"/></svg><span>Logout</span></button></div></nav>
     <div class="eyebrow" style="color:#3CC27A">RADAR · Tim SMILE · Healthkathon 2026</div>
     <h1>Jejak Skor RADAR</h1>
     <p>Satu halaman yang menelusuri bagaimana data sintetis dibuat, diolah menjadi indikator, dibandingkan dengan usaha sejenis, lalu dihitung menjadi skor risiko. Pilih satu badan usaha di bawah dan ikuti angkanya dari awal sampai akhir.</p>
@@ -395,7 +396,7 @@ const D = __DATA__;
 const EX = ["BU00365","BU00849","BU00986","BU00610"];
 const nf = (v,d=0)=> v==null||isNaN(v) ? "–" : Number(v).toLocaleString("id-ID",{minimumFractionDigits:d,maximumFractionDigits:d});
 const pc = (v,d=0)=> v==null ? "–" : nf(v*100,d)+"%";
-const rp = v => "Rp" + nf(Math.round(v/1000)*1000);
+const rp = v => v == null ? "–" : "Rp" + nf(Math.round(v/1000)*1000);
 const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
 const $ = s=>document.querySelector(s);
 let cur = EX[0], active = 0;
@@ -456,7 +457,7 @@ function r1(anim){
   $("#s1sub").textContent = `${e.sek} · skala ${e.sk} · ${e.kab} · UMK ilustratif ${rp(e.umk)}`;
   $("#layers").innerHTML = `
    <div class="layer truth"><h3>Kenyataan (disembunyikan)</h3><span class="tiny">dibuat generator lebih dulu</span>
-     <div><div class="big" data-c="${e.H_aktif}">${nf(e.H_aktif)}</div><span class="tiny">pekerja aktif riil</span></div>
+     <div><div class="big" ${e.H_aktif == null ? "" : `data-c="${e.H_aktif}"`}>${nf(e.H_aktif)}</div><span class="tiny">pekerja aktif riil</span></div>
      <div class="row"><span>Rata-rata upah riil</span><b class="mono">${rp(e.upah_riil)}</b></div></div>
    <div class="layer"><h3>Laporan ke JKN</h3><span class="tiny">yang dilihat data internal</span>
      <div><div class="big" data-c="${e.n_ppu}">${nf(e.n_ppu)}</div><span class="tiny">pekerja PPU aktif</span></div>
@@ -468,6 +469,7 @@ function r1(anim){
   $("#gapnote").innerHTML = fr
    ? `<div class="gapnote">Generator menyisipkan modus <b>${e.label.split("|").map(x=>MLABEL[x]).join(" + ")}</b> pada usaha ini. Hasilnya, ${nf(gapN)} pekerja tidak muncul sebagai PPU dan rata-rata upah dilaporkan ${rp(Math.max(0,gapU))} lebih rendah dari kenyataan. Data eksternal masih "melihat" kenyataan, dan selisih inilah yang nanti dicari RADAR.</div>`
    : `<div class="gapnote ok">Usaha ini <b>normal</b> menurut kunci jawaban. Laporan ke JKN hampir sama dengan kenyataan; selisih ${nf(Math.max(0,gapN))} pekerja berasal dari noise wajar (pekerja baru, belum sempat didaftarkan).</div>`;
+  if (e.H_aktif == null) { $("#gapnote").textContent = "Snapshot ini dihitung ulang dari CSV. Nilai kebenaran TK aktif dan upah riil tidak tersedia, sehingga selisih terhadap kenyataan tidak dihitung."; document.querySelector(".layer.truth .tiny").textContent = "Tidak tersedia pada hitung ulang CSV"; }
   $("#modi").innerHTML = MODI.map(([k,t,d])=>`<div class="modus ${e.label.includes(k)?"hit":""}"><span class="cnt">${nf(D.modus[k])}</span><b>${t}</b><span class="muted">${d}</span></div>`).join("");
   $("#tbls").innerHTML = `<tr><th>Tabel</th><th>Isi</th><th>Sumber</th><th style="text-align:right">Baris</th></tr>` +
     TBL.map(([k,d,s])=>`<tr><td class="mono">${k}</td><td>${d}</td><td>${tag(s)}</td><td class="r mono">${nf(D.tables[k][0])}</td></tr>`).join("");
@@ -629,5 +631,6 @@ renderAll(false); $("#prev").disabled=true;
 document.fonts?.ready.then(()=>{drawScatter(false);drawHist()});
 </script>
 
+<script src="navigation.js"></script>
 </body>
 </html>

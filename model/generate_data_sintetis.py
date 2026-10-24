@@ -4,10 +4,10 @@ Kategori: Efisiensi Risiko pada Pemberi Kerja
 Seluruh data FIKTIF (dummy). Tidak berasal dari data peserta JKN riil.
 Periode observasi: Okt 2025 - Sep 2026 (12 bulan)
 """
-import numpy as np, pandas as pd, random
+import numpy as np, pandas as pd, random, os
 from datetime import date, timedelta
 
-SEED = 2026
+SEED = int(os.environ.get("RADAR_SEED", "2026"))
 rng = np.random.default_rng(SEED); random.seed(SEED)
 N_BU = 1200
 P_START, P_END = date(2025, 10, 1), date(2026, 9, 30)
